@@ -1,10 +1,10 @@
-# Título do Projeto
+# Vividly
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-endA`
 
-`SEMESTRE`
+`1º semestre/2024`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
