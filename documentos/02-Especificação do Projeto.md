@@ -15,8 +15,8 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>Por meio rápido e fácil, ter acesso a métodos para controlar crises de ansiedade.
-    Utilizar ambiente digital para conhecer pessoas e suas experiências em relação ao transtorno.
+<td>Por meio rápido e fácil, ter acesso a métodos para controlar crises de ansiedade. <br>
+    Utilizar ambiente digital para conhecer pessoas e suas experiências em relação ao transtorno.<br>
     Conteúdos sobre autocuidado.
 </td>
 </tr>
@@ -34,7 +34,7 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>Possibilidade de se informar e conhecer mais sobre o assunto.
+<td>Possibilidade de se informar e conhecer mais sobre o assunto.<br>
     Recomendação profissional na área da saúde mental.
 </td>
 </tr>
@@ -68,8 +68,8 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>Por meio rápido e fácil, ter acesso a métodos para controlar crises de ansiedade.
-    Utilizar ambiente digital para conhecer pessoas e suas experiências em relação ao transtorno.
+<td>Por meio rápido e fácil, ter acesso a métodos para controlar crises de ansiedade.<br>
+    Utilizar ambiente digital para conhecer pessoas e suas experiências em relação ao transtorno.<br>
     Conteúdos sobre autocuidado.
 </td>
 </tr>
@@ -87,7 +87,7 @@
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>Possibilidade de se informar e conhecer mais sobre o assunto.
+<td>Possibilidade de se informar e conhecer mais sobre o assunto.<br>
     Recomendação profissional na área da saúde mental.
 </td>
 </tr>
