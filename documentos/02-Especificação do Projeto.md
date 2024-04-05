@@ -174,8 +174,14 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+| RNF-01 |  A aplicação deve ser publicada em um ambiente acessível público na Internet.                               | ALTA   | 
+| RNF-02 |  A aplicação deverá ser responsiva permitindo a visualização em dispositivos diversos de forma adequada.    |  ALTA  | 
+| RNF-03 |  A aplicação deve ter bom nível de contraste entre os elementos da tela                                     | MÉDIA  | 
+| RNF-04 |  A aplicação deve ser compatível com os principais navegadores do mercado: Google Chrome, Firefox e Microsoft Edge.                        | ALTA   | 
+| RNF-05 |  A aplicação deve garantir que todas as informações dos usuários, como dados pessoais e registros de atividades, sejam protegidas contra acessos não autorizados. Isso inclui o uso de protocolos de segurança como HTTPS, criptografia de dados e proteção contra-ataques de hackers.                     | MÉDIA  | 
+| RNF-06 |  A aplicação deve utilizar no site somente matérias vindas de fontes confiáveis, associadas à área da saúde.                       | MÉDIA  | 
+| RNF-07 |  A aplicação deve tratar com confidencialidade as informações pessoais dos usuários conforme as leis de proteção de dados aplicáveis. Isso pode incluir consentimento explícito para o uso de dados e opções para os usuários controlarem suas informações                  | ALTA   | 
+| RNF-08 |  A aplicação deve ter uma linguagem simples e de fácil compreensão para o público geral.                    | MÉDIA  | 
 
 **Prioridade: Alta / Média / Baixa. 
 
