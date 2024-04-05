@@ -145,16 +145,26 @@
 
 ## Requisitos do Projeto
 
-[Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.]
+<!-- [Com base nas Histórias de Usuários, enumere os requisitos da solução. Lembre-se que cada requisito deve corresponder a uma, e somente uma, característica alvo da solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.] -->
 
 ### Requisitos Funcionais
 
-[Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais]
+<!-- [Utilize o modelo de tabela abaixo para apresentar os requisitos funcionais] -->
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
-|  ...  |  ...                    | ...   |
+| RF-01 |  A aplicação deve permitir ao usuário cadastrar uma conta.                                                 | ALTA  | 
+| RF-02 |  A aplicação deve permitir notificações aos usuários.                                                      | MÉDIA |
+| RF-03 |  A aplicação deve permitir ao usuário fazer o login da sua conta.                                          | ALTA  | 
+| RF-04 |  A aplicação deve conter sugestões de atividades de autocuidado e relaxamento.                             | ALTA  |
+| RF-05 |  A aplicação deve conter um fórum para discussões e compartilhamento de experiências e informações entre os usuários.                    | MÉDIA   | 
+| RF-06 |  A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar informações úteis.                       | MÉDIA   |
+| RF-07 |  A aplicação deve fornecer informações úteis e precisas sobre ansiedade, bem como estratégias eficazes para lidar com ela.                         | ALTA    | 
+| RF-08 |  A aplicação deve oferecer um espaço onde os usuários possam registrar suas emoções diárias.               | MÉDIA |
+| RF-09 |  A aplicação deve oferecer um bloco de notas para cada usuário, no qual, somente ele tenha acesso.         | MÉDIA | 
+| RF-10 |  A aplicação deve apresentar um campo para recomendações de filmes, livros, séries, documentários e aplicativos relacionados à saúde mental.                      | MÉDIA   |
+| RF-11 |  A aplicação deve permitir que os questionários apresentados disponibilizem uma função que o possibilite ser utilizado em outros meios.                       | MÉDIA   | 
+| RF-12 |  A aplicação deve disponibilizar uma aba sobre questionários para recolher dados gerais relacionados à saúde mental                       | ALTA    |
 
 **Prioridade: Alta / Média / Baixa. 
 
