@@ -6,7 +6,7 @@
 
 `1º semestre/2024`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+O objetivo geral deste projeto é a criação de uma aplicação web que, de forma simples, consiga compartilhar informações sobre saúde mental através de debates, notícias e outras formas criativas.
 
 ## Integrantes
 
@@ -36,7 +36,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href="Link_Destino">aqui</a> para acessá-lo.
 
 # Código-Fonte
 
