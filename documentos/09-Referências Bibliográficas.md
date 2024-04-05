@@ -4,7 +4,7 @@
 
  DEPRESSION and Other Common Mental Disorders: Global Health Estimates. **World Health Organization**, 2017. Disponível em: http://apps.who.int/iris/bitstream/10665/254610/1/WHO- MSDMER-2017. Acesso em: 05/04/2024.
 
- ALMEIDA, W. R. S. *et al*. Sintomas de ansiedade em adultos jovens:a atuação do profissional de psicologia na atenção básica. Revistardp, 2022. Disponível em https://revistardp.org.br/revista/article/view/314/348.
+ ALMEIDA, W. R. S. *et al*. Sintomas de ansiedade em adultos jovens:a atuação do profissional de psicologia na atenção básica. **Revistardp.org**, 2022. Disponível em https://revistardp.org.br/revista/article/view/314/348. Acesso em: 05/04/2024.
 
  OMS destaca necessidade urgente de transformar saúde mental e atenção. **PAHO: Pan American Health Organization**, 17 jun. 2022. Disponível em: https://www.paho.org/pt/noticias/17-6-2022-oms-destaca-necessidade-urgente-transformar-saude-mental-e-atencao. Acesso em: 05/04/2024.
 
