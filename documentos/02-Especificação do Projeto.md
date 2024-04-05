@@ -7,15 +7,18 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 01 Estudante </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Estudante diagnosticado com ansiedade</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Por meio rápido e fácil, ter acesso a métodos para controlar crises de ansiedade.
+    Utilizar ambiente digital para conhecer pessoas e suas experiências em relação ao transtorno.
+    Conteúdos sobre autocuidado.
+</td>
 </tr>
 </tbody>
 </table>
@@ -23,15 +26,17 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 02 Estudante </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Estudante não diagnosticado com ansiedade</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Possibilidade de se informar e conhecer mais sobre o assunto.
+    Recomendação profissional na área da saúde mental.
+</td>
 </tr>
 </tbody>
 </table>
@@ -39,15 +44,15 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 03 Orientador educacional </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Orientador educacional da escola</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Levantar dados estatísticos sobre o nível de ansiedade dos alunos.</td>
 </tr>
 </tbody>
 </table>
@@ -55,15 +60,18 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 01 Funcionário </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Funcionário diagnosticado</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Por meio rápido e fácil, ter acesso a métodos para controlar crises de ansiedade.
+    Utilizar ambiente digital para conhecer pessoas e suas experiências em relação ao transtorno.
+    Conteúdos sobre autocuidado.
+</td>
 </tr>
 </tbody>
 </table>
@@ -71,15 +79,17 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 02 Funcionário </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Funcionário não diagnosticado</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Possibilidade de se informar e conhecer mais sobre o assunto.
+    Recomendação profissional na área da saúde mental.
+</td>
 </tr>
 </tbody>
 </table>
@@ -87,15 +97,15 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 03 Funcionário do Setor RH </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Setor de Recursos Humanos</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Levantar dados estatísticos sobre ansiedade dos funcionários, com o intuito de evitar transtornos de ansiedade e consequentemente burnout.</td>
 </tr>
 </tbody>
 </table>
