@@ -22,13 +22,13 @@ O desafio que se apresenta neste projeto é a carência de compreensão e suport
 
 O propósito central deste projeto consiste em criar uma página de fácil compreensão que propicie a troca de informações sobre transtornos de ansiedade, bem como a recepção e orientação de profissionais especializados.
 
-⦁ Criar uma área para compartilhar experiências pessoais;
-⦁ Dicas de autocuidado;
-⦁ Disponibilização de técnicas para auxílio nas crises;
-⦁ Direcionamento para profissionais;
-⦁ Compartilhar informações claras e objetivas sobre ansiedade;
-⦁ Promover a conscientização sobre a importância de cuidar da saúde metal;
-⦁ Coletar dados para um levantamento estatístico do nível de ansiedade dos clientes/usuarios;
+* Criar uma área para compartilhar experiências pessoais;
+* Dicas de autocuidado;
+* Disponibilização de técnicas para auxílio nas crises;
+* Direcionamento para profissionais;
+* Compartilhar informações claras e objetivas sobre ansiedade;
+* Promover a conscientização sobre a importância de cuidar da saúde metal;
+* Coletar dados para um levantamento estatístico do nível de ansiedade dos clientes/usuarios;
 
 ## Justificativa
 
@@ -43,7 +43,7 @@ divulgação de artigos e debates para que este tema seja cada vez mais discutid
 
 O público-alvo deste projeto é amplo e variado, uma vez que a ansiedade é uma condição que afeta pessoas de todas as idades, gêneros, origens e ocupações. No entanto, o foco será:
 
-⦁ Jovens e Adultos entre 18 e 50 anos: Considerando que a ansiedade é prevalente entre jovens e adultos;
-⦁ Pessoas com acessoà Internet: O público-alvo deve ter acesso à Internet.
-⦁ Pessoas que buscam ajuda para a ansiedade: Indivíduos que estão ativamente buscando recursos e estratégias para lidar com a ansiedade
+* Jovens e Adultos entre 18 e 50 anos: Considerando que a ansiedade é prevalente entre jovens e adultos;
+* Pessoas com acessoà Internet: O público-alvo deve ter acesso à Internet.
+* Pessoas que buscam ajuda para a ansiedade: Indivíduos que estão ativamente buscando recursos e estratégias para lidar com a ansiedade
 
