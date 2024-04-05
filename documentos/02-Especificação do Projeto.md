@@ -128,20 +128,20 @@
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| Estudante                | Recomendação de profissionais qualificados da área da saúde mental.                       | Adquirir diagnóstico e possível tratamento.                              |
-| Estudante                | ...                       | ...                              |
-| Estudante                | ...                       | ...                              |
-| Orientador Educacional   | ...                       | ...                              |
-| Estudante                | ...                       | ...                              |
-| Estudante                | ...                       | ...                              |
-| Estudante                | ...                       | ...                              |
-| Estudante                | ...                       | ...                              |
-| Funcionário              | ...                       | ...                              |
-| Funcionário              | ...                       | ...                              |
-| Funcionário              | ...                       | ...                              |
-| Funcionário do setor RH  | ...                       | ...                              |
-| Funcionário              | ...                       | ...                              |
-| Funcionário              | ...                       | ...                              |
+| Estudante              | recomendação de profissionais qualificados da área da saúde mental | adquirir diagnóstico e possível tratamento.
+| Estudante              | informar-me melhor sobre o transtorno de ansiedade                 | para estar por dentro do assunto e ajudar amigos que passam pelo problema.                 |
+| Estudante              | encontrar pessoas que passam pelo mesmo problema que eu            | compartilhar e adquirir conhecimentos e experiências de outros.  |
+| Orientador Educacional | conseguir dados estatísticos sobre o nível de ansiedade dos alunos | ter noção da proporção do problema, dessa forma, criando mecanismos para combatê-lo.       |
+| Estudante              | dicas de autocuidado                                               | criar uma rotina saudável para diminuir a ansiedade                |
+| Estudante              | de forma rápida e prática ter acesso a meditação guiada e exercícios de respiração | que durante minhas crises eu tenha um meio de ajuda para me acalmar no ambiente escolar.                                   |
+| Estudante              | por meio de uma recomendação, encontrar um novo psiquiatra         | dar continuidade ao meu tratamento psicológico.             |
+| Estudante              | discutir informações a respeito da ansiedade                       | para conhecer diferentes pontos de vista.                   |
+| Funcionário            | recomendação de profissionais qualificados da área da saúde mental | adquirir diagnóstico e possível tratamento               |
+| Funcionário            | por meio de uma recomendação, encontrar um novo psiquiatra         | dar continuidade ao meu tratamento psicológico.             |
+| Funcionário            | discutir informações a respeito da ansiedade                       | para conhecer diferentes pontos de vista.                   |
+| Funcionário do setor RH| conseguir dados estatísticos sobre o nível de ansiedade dos colaboradores| ter noção da proporção do problema, dessa forma, criando mecanismos para evitar o burnout.                                        |
+| Funcionário            | dicas de autocuidado                                               | criar uma rotina saudável para diminuir a ansiedade.               |
+| Funcionário            | encontrar pessoas que passam pelo mesmo problema que eu            | compartilhar e adquirir conhecimentos e experiências de outros.  |
 
 ## Requisitos do Projeto
 
