@@ -2,7 +2,9 @@
 
 ## Perfis de Usuários
 
-[Enumere e faça o detalhamento dos perfis de usuários. Utilize o modelo de tabela abaixo para sintetizá-los.]
+<!-- [Enumere e faça o detalhamento dos perfis de usuários. Utilize o modelo de tabela abaixo para sintetizá-los.] -->
+
+### Perfis escolares
 
 <table>
 <tbody>
@@ -56,6 +58,10 @@
 </tr>
 </tbody>
 </table>
+
+<br>
+
+### Perfis corporativos 
 
 <table>
 <tbody>
