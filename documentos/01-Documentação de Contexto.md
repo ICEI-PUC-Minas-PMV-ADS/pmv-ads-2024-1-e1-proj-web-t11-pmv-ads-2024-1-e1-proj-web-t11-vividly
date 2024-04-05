@@ -1,9 +1,12 @@
 # Introdução
 
 Ansiedade é um sentimento vago e desagradável de medo, apreensão, caracterizado pela tensão ou desconforto que surge de uma antecipação de perigo, de algo desconhecido ou estranho.
+
 A ansiedade é, atualmente, considerada o mal do século XXI, afetando todos os grupos sociais, especialmente os jovens e adultos. Os estudantes enfrentam obstáculos como a pressão acadêmica, a busca pelo primeiro emprego e a incerteza em relação ao seu futuro, enquanto os adultos lidam com responsabilidades financeiras, profissionais e familiares. Fatores como esses podem gerar estresse persistente e desencadear quadros de ansiedade.
 Os dados de 2017 da Organização Mundial de Saúde (OMS) mostram que a prevalência de transtornos de ansiedade no Brasil é de 9,3%, sendo este o maior índice entre todos os países do mundo. A taxa de prevalência global é de 3,6%, enquanto a taxa de prevalência nos Estados Unidos é de 5,6%.
+
 Devido ao sentimento natural do ser humano, muitas vezes os sinais de distúrbios podem ser negligenciados e ser normalizados, ao passo que o tratamento deveria estar presente. A carência de recursos especializados e a inabilidade em buscar assistência tendem a agravar a situação, o que torna imprescindível a conscientização sobre a relevância de cuidar da saúde mental e buscar a assistência de um especialista em saúde mental.
+
 Com o progresso da tecnologia e a ampliação da digitalização em nossas vidas, tornou-se mais evidente a necessidade de recursos digitais que ajudem a gerenciar e tratar a ansiedade. Este projeto vai abordar esse tema, fornecendo dados e recursos para auxiliar no enfrentamento das crises de ansiedade no cotidiano.
 
 ## Problema
