@@ -2,7 +2,7 @@
 
 `Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-`Desenvolvimento de aplicação web front-endA`
+`Desenvolvimento de aplicação web front-end`
 
 `1º semestre/2024`
 
