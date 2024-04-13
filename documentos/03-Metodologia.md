@@ -9,24 +9,19 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 Desta forma, a equipe está organizada da seguinte maneira:
-- Scrum Master: 
-- Product Owner: 
+- Scrum Master: Ana Livia Villaça
+- Product Owner: Grazielle Araújo 
 - Equipe de Desenvolvimento: Ana Livia Villaça, Charles Gonçalves, Deuslano Veloso, Eduardo Soares e Grazielle Araújo 
 - Equipe de Design: Deuslano Veloso
 
 ### Processo
 
-- Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
-- To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
-- Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
-- Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub, estruturado com as seguintes listas:
 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
-
+Product Backlog: recebe as tarefas a serem trabalhadas e representa o Backlog do produto. Todas as atividades identificadas no decorrer do projeto são incorporadas a esta lista.
+To Do: esta lista representa o Sprint Backlog que está sendo trabalhado.
+In progress: lista das tarefas iniciadas.
+Done: nesta lista são colocadas as tarefas finalizadas, e prontas para serem entregues.
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
@@ -44,7 +39,10 @@ Desta forma, a equipe está organizada da seguinte maneira:
   <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
-  
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164579007/7d2679a8-2ad9-4482-bfbd-f1718482e088)
+Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
+
 ### Ferramentas
 
 [Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
