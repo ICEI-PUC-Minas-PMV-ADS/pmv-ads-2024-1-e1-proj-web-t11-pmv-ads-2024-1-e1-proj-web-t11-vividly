@@ -35,6 +35,44 @@ A tela home page apresenta...
 >> - [MarvelApp](https://marvelapp.com/)
 >> - [Figma](https://www.figma.com/) -->
 
+<img src="img/inicio.png" height= "500px">
+
+## Tela - Login
+
+A tela Login apresenta...
+
+<img src="img/login.png" height= "500px">
+
+## Tela - Cadastro
+
+A tela cadastro apresenta...
+
+<img src="img/cadastro.png" height= "500px">
+
+## Tela - Dashboard
+
+A tela dashboard apresenta...
+
+<img src="img/dashboard.png" height= "500px">
+
+## Tela - Exercício 
+
+A tela exercício apresenta...
+
+<img src="img/exercicios.png" height= "500px">
+
+## Tela - Diário
+
+A tela diário apresenta...
+
+<img src="img/diario.png" height= "500px">
+
+## Tela - Fórum 
+
+A tela fórum apresenta....
+
+<img src="img/forum.png" height= "500px">
+
 
 ![Tela inicio](img/inicio.png)
 ![Tela login](img/login.png)
@@ -44,5 +82,9 @@ A tela home page apresenta...
 ![Tela diario](img/diario.png)
 ![Tela forum](img/forum.png)
 
-<img src="img/inicio.png" height= "500px">
+## Tela - home page
+
+
+
+
 
