@@ -49,7 +49,14 @@ Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
 
 ### Ferramentas
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+As ferramentas empregadas no projeto são:
+
+-Editor de código.
+
+-Ferramentas de comunicação.
+
+Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Figma, apresentadas com seu propósito na tabela que se segue.
+
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
