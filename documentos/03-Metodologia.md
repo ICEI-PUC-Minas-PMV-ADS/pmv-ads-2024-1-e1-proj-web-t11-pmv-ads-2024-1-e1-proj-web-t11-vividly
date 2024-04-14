@@ -25,6 +25,9 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
  <li>Done: nesta lista são colocadas as tarefas finalizadas, e prontas para serem entregues.</li>
 </ul>
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164579007/7d2679a8-2ad9-4482-bfbd-f1718482e088)
+Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
+
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
@@ -38,12 +41,9 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 </ul>
 
 <figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
+  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png">
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
-
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164579007/7d2679a8-2ad9-4482-bfbd-f1718482e088)
-Figura 2 - Tela do kanban no GitHub utilizada pelo grupo
 
 ### Ferramentas
 
