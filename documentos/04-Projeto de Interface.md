@@ -34,55 +34,72 @@ A tela home page apresenta...
 >> - [Pencil](https://pencil.evolus.vn/)
 >> - [MarvelApp](https://marvelapp.com/)
 >> - [Figma](https://www.figma.com/) -->
-
-<img src="img/inicio.png" height= "500px">
+<figure>
+    <img src="img/inicio.png" height= "500px">
+    <figcaption>Imagem 1 - Tela de início
+    </figcaption>
+</figure>
 
 ## Tela - Login
 
 A tela Login apresenta...
-
-<img src="img/login.png" height= "500px">
+<figure>
+    <img src="img/login.png" height= "500px">
+    <figcaption>Imagem 2 - Tela de login
+    </figcaption>
+</figure>
 
 ## Tela - Cadastro
 
 A tela cadastro apresenta...
 
-<img src="img/cadastro.png" height= "500px">
+<figure>
+    <img src="img/cadastro.png" height= "500px">
+    <figcaption>Imagem 3 - Tela de cadastro
+    </figcaption>
+</figure>
 
 ## Tela - Dashboard
 
 A tela dashboard apresenta...
 
-<img src="img/dashboard.png" height= "500px">
+<figure>
+    <img src="img/dashboard.png" height= "500px">
+    <figcaption>Imagem 4 - Tela de dashboard
+    </figcaption>
+</figure>
 
 ## Tela - Exercício 
 
 A tela exercício apresenta...
 
-<img src="img/exercicios.png" height= "500px">
+<figure>
+    <img src="img/exercicios.png" height= "500px">
+    <figcaption>Imagem 5 - Tela de exercícios
+    </figcaption>
+</figure>
 
 ## Tela - Diário
 
 A tela diário apresenta...
 
-<img src="img/diario.png" height= "500px">
+<figure>
+    <img src="img/diario.png" height= "500px">
+    <figcaption>Imagem 6 - Tela de diário
+    </figcaption>
+</figure>
 
 ## Tela - Fórum 
 
 A tela fórum apresenta....
 
-<img src="img/forum.png" height= "500px">
+<figure>
+    <img src="img/forum.png" height= "500px">
+    <figcaption>Imagem 7 - Tela do fórum
+    </figcaption>
+</figure>
 
 
-![Tela inicio](img/inicio.png)
-![Tela login](img/login.png)
-![Tela cadastro](img/cadastro.png)
-![Tela dashboard](img/dashboard.png)
-![Tela exercicio](img/exercicios.png)
-![Tela diario](img/diario.png)
-![Tela forum](img/forum.png)
-
-## Tela - home page
 
 
 
