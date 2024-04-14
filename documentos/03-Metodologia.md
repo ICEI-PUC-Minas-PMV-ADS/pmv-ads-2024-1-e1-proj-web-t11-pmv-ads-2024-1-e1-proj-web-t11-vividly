@@ -52,10 +52,10 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             |           |
-| Documentos do projeto               | GitHub                             |https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly                             |
-| Projeto de Interface                | Figma                              |https://www.figma.com/file/3E3RdEkp7qVjHPZTD71GJH/Untitled?type=design&node-id=2-80&mode=design&t=EqM66xu0PWARFHQk-0                        |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly                             |
+| Projeto de Interface                | Figma                              | https://www.figma.com/file/3E3RdEkp7qVjHPZTD71GJH/Untitled?type=design&node-id=2-80&mode=design&t=EqM66xu0PWARFHQk-0                        |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1010                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| Hospedagem                          | GitHub Pages                       | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly    |
 
 
 ### Estratégia de Organização de Codificação 
