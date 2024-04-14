@@ -22,7 +22,7 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 ## Tela - Home page
 
-A tela home page apresenta...
+A tela home page é o primeiro contato do usuário com o site. Apresenta também infromações sobre o site, e direciona para o login ou cadastro.
 
 <!-- [Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
 
@@ -42,7 +42,7 @@ A tela home page apresenta...
 
 ## Tela - Login
 
-A tela Login apresenta...
+A tela de Login apresenta campos para serem preenchidos, com email e senha, com a finalidade de conceder acesso ao usuário à sua respectiva conta. Ademais, contém uma ferramenta que mantém salvo o login da pessoa.
 <figure>
     <img src="img/login.png" height= "500px">
     <figcaption>Imagem 2 - Tela de login
@@ -51,7 +51,7 @@ A tela Login apresenta...
 
 ## Tela - Cadastro
 
-A tela cadastro apresenta...
+A tela de cadastro apresenta um formulário, para a inserção de informações do usuário, com o intuito de criar um login para o acesso a plataforma. Sendo as informções: Nome Completo, Nome de Usuário, Email, Telefone e Senha.
 
 <figure>
     <img src="img/cadastro.png" height= "500px">
@@ -61,7 +61,7 @@ A tela cadastro apresenta...
 
 ## Tela - Dashboard
 
-A tela dashboard apresenta...
+A tela dashboard apresenta as recomendações e anotações do usuário na plataforma. Além disso, a partir dela, ele consegue acessar as demais páginas pelos ícones na sidebar à esquerda.
 
 <figure>
     <img src="img/dashboard.png" height= "500px">
@@ -71,7 +71,7 @@ A tela dashboard apresenta...
 
 ## Tela - Exercício 
 
-A tela exercício apresenta...
+A tela de exercício apresenta os exercícios a serem utilizados.
 
 <figure>
     <img src="img/exercicios.png" height= "500px">
@@ -81,7 +81,7 @@ A tela exercício apresenta...
 
 ## Tela - Diário
 
-A tela diário apresenta...
+A tela diário apresenta um caléndario e três perguntas referentes ao dia do usuário.
 
 <figure>
     <img src="img/diario.png" height= "500px">
@@ -91,7 +91,7 @@ A tela diário apresenta...
 
 ## Tela - Fórum 
 
-A tela fórum apresenta....
+A tela fórum apresenta um chat de bate-papo online entre os users.
 
 <figure>
     <img src="img/forum.png" height= "500px">
