@@ -18,8 +18,10 @@ O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário p
 
 ### Protótipo de baixa fidelidade
 
-Conteúdo - apresenta o conteúdo da tela em questão; <br>
-Barra de tarefas - usuários podem fornecer comandos, acessar recursos
+<ul>
+    <li> <b> Conteúdo</b> - apresenta o conteúdo da tela em questão; </li> <br>
+    <Li> <b> Barra de tarefas </b> - usuários podem fornecer comandos, acessar recursos </li>
+</ul>
 
 <figure>
     <img src="img/conteudo.png" height= "500px">
