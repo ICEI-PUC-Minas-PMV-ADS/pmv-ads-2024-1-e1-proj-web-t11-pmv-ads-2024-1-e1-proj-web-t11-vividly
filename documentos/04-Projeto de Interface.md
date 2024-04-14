@@ -34,6 +34,6 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 ![Tela incicio](img/tela_inicio.jpg)
 
-<img src= "img/tela_inicio.jpg"/>
+<img src= "img/tela_inicio.jpg" height="200px"/>
 
 
