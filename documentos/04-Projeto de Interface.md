@@ -3,7 +3,7 @@
 
 ## User Flow
 
-O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o (https://www.figma.com/proto/3E3RdEkp7qVjHPZTD71GJH/VIVIDYL?type=design&node-id=79-29&t=sXQJMFWmlQKd118i-0&scaling=min-zoom&page-id=79%3A4)
+O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, clique <a href="https://www.figma.com/proto/3E3RdEkp7qVjHPZTD71GJH/VIVIDYL?type=design&node-id=79-29&t=sXQJMFWmlQKd118i-0&scaling=min-zoom&page-id=79%3A4">aqui</a>. 
 
 <figure>
     <img src="img/fluxograma.png" height= "500px">
