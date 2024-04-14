@@ -22,7 +22,7 @@ Barra de Tarefas: Nela estam os ícones que dão acesso as ferramentas do siet.
 
 <figure>
     <img src="img/conteudo.png" height= "500px">
-    <figcaption>Imagem - Tela de início
+    <figcaption>Imagem 8 - Tela de início
     </figcaption>
 </figure> 
 
