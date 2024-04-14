@@ -7,7 +7,7 @@ O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário p
 
 <figure>
     <img src="img/fluxograma.png" height= "500px">
-    <figcaption>Imagem - Tela de início
+    <figcaption>Imagem 1 - Fluxograma
     </figcaption>
 </figure> 
 
@@ -25,7 +25,7 @@ O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário p
 
 <figure>
     <img src="img/conteudo.png" height= "500px">
-    <figcaption>Imagem 8 - Tela de início
+    <figcaption>Imagem 2 - Protótipo de baixa fidelidade
     </figcaption>
 </figure> 
 
@@ -45,7 +45,7 @@ A tela home page é o primeiro contato do usuário com o site. Apresenta também
 >> - [Figma](https://www.figma.com/) -->
 <figure>
     <img src="img/inicio.png" height= "500px">
-    <figcaption>Imagem 1 - Tela de início
+    <figcaption>Imagem 3 - Tela de início
     </figcaption>
 </figure>
 
@@ -54,7 +54,7 @@ A tela home page é o primeiro contato do usuário com o site. Apresenta também
 A tela de Login apresenta campos para serem preenchidos, com email e senha, com a finalidade de conceder acesso ao usuário à sua respectiva conta. Ademais, contém uma ferramenta que mantém salvo o login da pessoa.
 <figure>
     <img src="img/login.png" height= "500px">
-    <figcaption>Imagem 2 - Tela de login
+    <figcaption>Imagem 4 - Tela de login
     </figcaption>
 </figure>
 
@@ -64,7 +64,7 @@ A tela de cadastro apresenta um formulário, para a inserção de informações 
 
 <figure>
     <img src="img/cadastro.png" height= "500px">
-    <figcaption>Imagem 3 - Tela de cadastro
+    <figcaption>Imagem 5 - Tela de cadastro
     </figcaption>
 </figure>
 
@@ -74,7 +74,7 @@ A tela dashboard apresenta as recomendações e anotações do usuário na plata
 
 <figure>
     <img src="img/dashboard.png" height= "500px">
-    <figcaption>Imagem 4 - Tela de dashboard
+    <figcaption>Imagem 6 - Tela de dashboard
     </figcaption>
 </figure>
 
@@ -84,7 +84,7 @@ A tela de exercício apresenta os exercícios a serem utilizados.
 
 <figure>
     <img src="img/exercicios.png" height= "500px">
-    <figcaption>Imagem 5 - Tela de exercícios
+    <figcaption>Imagem 7 - Tela de exercícios
     </figcaption>
 </figure>
 
@@ -94,7 +94,7 @@ A tela diário apresenta um caléndario e três perguntas referentes ao dia do u
 
 <figure>
     <img src="img/diario.png" height= "500px">
-    <figcaption>Imagem 6 - Tela de diário
+    <figcaption>Imagem 8 - Tela de diário
     </figcaption>
 </figure>
 
@@ -104,7 +104,7 @@ A tela fórum apresenta um chat de bate-papo online entre os users.
 
 <figure>
     <img src="img/forum.png" height= "500px">
-    <figcaption>Imagem 7 - Tela do fórum
+    <figcaption>Imagem 9 - Tela do fórum
     </figcaption>
 </figure>
 
