@@ -1,11 +1,64 @@
 /* Página Index */
 
-
-/* Página Login */
-body {
+.body-index{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #1e81b0, #063970);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-index {
+    text-align: right;
+    background-color: blue;
+    height: 10vh;
+    width: 100vw;
+    text-shadow: 2px 1px black;
+    display: flex;
+    justify-content: right;
+}
+
+.header-index > a {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+}
+
+.header-index > a:hover{
+    color: rgb(131, 131, 131);
+}
+
+.container-index{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-index > img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 791px;
+    height: 366px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-index{
+    height: 5vh;
+    width: 100vw;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+/* Página Login */
+.body-login {
+    margin: 0;
+    padding: 0;
 }
 
 .main-login{
