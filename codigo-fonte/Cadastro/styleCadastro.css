@@ -1,0 +1,140 @@
+.body-cadastro {
+    background: linear-gradient(to right, #1e81b0, #063970);
+    margin-top: 10vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-cadastro {
+    background: white;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    border-radius: 10px;
+}
+
+/* Left */
+
+.left-cadastro {
+    background: #063970;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    margin-left: 0.5vw;
+    border-style: solid;
+}
+
+.left-cadastro > img {
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-bottom: 3vh;
+}
+
+.left-cadastro > h1 {
+    color: white;
+    margin: 0;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    padding: 0px;
+}
+
+/* Right */
+
+.right-cadastro {
+    width: 50%;
+}
+
+.container-cadastro {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.return-login {
+    text-align: right;
+    margin-right: 3vw;
+    margin-top: 2%;
+}
+
+.return-login > a {
+    text-decoration: none;
+    color: blue;
+    border-style: solid;
+    border-radius: 10px;
+    font-weight: 800;
+    border-width: 1px;
+    padding: 5px 4px;
+    box-sizing: border-box;
+}
+
+.return-login > a:hover {
+    background: blue;
+    color: white;
+    border: blue;
+    border-style: solid;
+    box-sizing: border-box;
+    border-width: 1px;
+}
+
+.card-cadastro {
+    align-items: center;
+}
+
+.card-cadastro > h1 {
+    margin-left: 3vw;
+    font-weight: 800;
+}
+
+.textfield {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textfield > input {
+    width: 70%;
+    border-color: blue;
+    border-radius: 25px;
+    padding: 10px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.btn-cadastro {
+    width: 30%;
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:white;
+    background: blue;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-cadastro > a {
+    text-decoration: none;
+}
+
+.btn-cadastro:hover {
+    background: white;
+    color:blue;
+}
+
+
+
