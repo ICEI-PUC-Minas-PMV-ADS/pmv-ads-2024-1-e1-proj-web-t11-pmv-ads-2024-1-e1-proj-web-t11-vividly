@@ -1,4 +1,5 @@
 /* Página Index */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 .body-index{
     margin: 0;
@@ -9,22 +10,29 @@
 
 .header-index {
     text-align: right;
-    background-color: blue;
+    background-color: #056BC9;
     height: 10vh;
     width: 100vw;
-    text-shadow: 2px 1px black;
     display: flex;
     justify-content: right;
+    gap: 30px;
 }
 
 .header-index > a {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 800;
     text-decoration: none;
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 10px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.header-index > a:last-child{
+    margin-right: 70px;
 }
 
 .header-index > a:hover{
@@ -45,12 +53,18 @@
     height: 366px;
     margin-top: auto;
     margin-bottom: auto;
+
+}
+
+#ondas-home {
+    width: 100%;
+
 }
 
 .footer-index{
     height: 5vh;
     width: 100vw;
-    background-color: blue;
+    background-color: #056BC9;
     text-align: center;
     color: white;
 }
