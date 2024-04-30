@@ -127,6 +127,10 @@
     margin-right: auto;
 }
 
+.card-cadastro > a {
+    text-decoration: none;
+}
+
 .btn-cadastro:hover {
     background: white;
     color:blue;
