@@ -6,6 +6,9 @@
     padding: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
 }
 
 .header-index {
@@ -40,31 +43,17 @@
 }
 
 .container-index{
-    height: 85vh;
     width: 100vw;
     display: flex;
     justify-content: space-around;
+    align-items: end;
 }
 
 .container-index > img {
-    margin-left: auto;
-    margin-right: auto;
-    width: 791px;
-    height: 366px;
-    margin-top: auto;
-    margin-bottom: auto;
-
+    width: 60vw;
 }
 
 #ondas-home {
-    width: 100%;
-
-}
-
-.footer-index{
-    height: 5vh;
     width: 100vw;
-    background-color: #056BC9;
-    text-align: center;
-    color: white;
+    margin-top: auto;
 }
