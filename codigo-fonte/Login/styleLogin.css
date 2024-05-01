@@ -1,6 +1,7 @@
 .body-login {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .main-login{
@@ -27,12 +28,14 @@
 .left-login > h1 {
     color: rgb(56, 56, 209);
     margin: 0;
+    font-size: 3vw;
     margin-top: auto;
+    padding-top: 10vh;
 }
 
 .left-login-image {
     width: 35vw;
-    margin-bottom: 5vh;
+    margin-bottom: auto;
 }
 
 .right-login {
@@ -152,3 +155,17 @@
     color: blue;
 }
 
+@media only screen and (max-width:600px) {
+    .main-login {
+        flex-direction: column;
+        background-color: none;
+    }
+
+    .left-login > img {
+        display: none;
+    }
+
+    .continuar-logado {
+        display: none;
+    }
+}
