@@ -1,0 +1,111 @@
+/*Página diário */
+#body{
+    display: flex;
+    width: 100%;
+}
+#fieldset{
+    background-color:royalblue;
+
+}
+.cor-azul{
+    width: 60%;
+}
+
+input{
+    align-items: center;
+}
+.side{
+    background: linear-gradient(to right, #1e81b0, #063970);
+    width: 15%;
+   
+}
+.content{
+    background: white;
+    padding-left: 30%;
+    padding-bottom: 100%;
+    padding-top: 7%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    height: 670px;
+    padding: 40px;
+}
+.tittle {
+    font-size: 40pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    padding: 20px;
+}
+.quiz {
+    font-size: 25pt;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.question{
+    text-align: -webkit-center;
+    width: 600px;
+    height: 63px;
+    flex-shrink: 0;
+}
+.link-history{
+    font-size: 15pt;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}                                                   
+.menu-lateral{
+    width: 100px;
+    height: 100%;
+    background-color: #0A6DC9;
+    padding: 35px 0 35px 1%;
+    box-shadow: 3px 0 0 #063970;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.menu-lateral:hover{
+    width: 300px;
+
+}
+.btn-expandir{
+    width: 100%;
+    padding: 10px;
+}
+.btn-expandir > i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.itens-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+ul li.itens-menu:hover{
+    background: #063970;
+    
+}
+ul li.itens-menu{
+    transition: .2s;
+}
+.txt-link{
+    margin-left: 40px;
+}
+.icon{
+    font-size: 30px;
+    margin-left: 10px;
+}
+img{
+    width: 25%;
+    text-align: center;
+}
