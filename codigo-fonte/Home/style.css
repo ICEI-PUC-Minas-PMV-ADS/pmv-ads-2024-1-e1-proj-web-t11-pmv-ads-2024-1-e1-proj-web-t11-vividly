@@ -38,7 +38,7 @@
     margin-right: 70px;
 }
 
-.header-index > a:hover {
+.header-index > a:hover{
     color: rgb(131, 131, 131);
 }
 
@@ -47,7 +47,6 @@
     display: flex;
     justify-content: space-around;
     align-items: end;
-    margin-top: 100px;
 }
 
 .container-index > img {
@@ -57,31 +56,4 @@
 #ondas-home {
     width: 100vw;
     margin-top: auto;
-}
-
-#vetor1-tela-home {
-    width: 700px;
-
-}
-
-.content-index {
-    
-}
-
-.content-index > h2 {
-    font-family: 'Inria Sans';
-    font-size: 60px;
-    font-weight: 600;
-    color: black;
-    margin: 0;
-}
-
-.content-index > h1 {
-    font-family: 'Inria Sans';
-    font-size: 100px;
-    font-weight:500;
-    color: #0A6DC9;
-    margin: 0;
-    line-height: 0.9;
-
 }
