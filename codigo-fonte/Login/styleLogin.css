@@ -171,20 +171,24 @@
     }
 
     .left-login {
-        width: 100%;
+        width: 97%;
+        background-color: #063970;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: black;
+        margin-top: 0.5vh;
+        margin-left: 0.5vw;
     }
 
     .left-login > img {
         display: none;
     }
 
-<<<<<<< Updated upstream
+
     .right-login {
         width: 100%;
     }
-<<<<<<< Updated upstream
-=======
-=======
+
     .left-login > h1 {
         font-size: 5vw;
         color: white;
@@ -193,14 +197,13 @@
     .right-login {
         width: 100%;
     }
->>>>>>> Stashed changes
+
 
     .btn-login {
         margin-left: auto;
         margin-right: auto;
         padding: 16px 32px;
     }
->>>>>>> Stashed changes
 
     .continuar-logado {
         display: none;
