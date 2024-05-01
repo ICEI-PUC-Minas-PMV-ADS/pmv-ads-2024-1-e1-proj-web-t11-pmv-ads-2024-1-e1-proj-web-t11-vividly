@@ -181,6 +181,15 @@
     .right-login {
         width: 100%;
     }
+<<<<<<< Updated upstream
+=======
+
+    .btn-login {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 16px 32px;
+    }
+>>>>>>> Stashed changes
 
     .continuar-logado {
         display: none;
