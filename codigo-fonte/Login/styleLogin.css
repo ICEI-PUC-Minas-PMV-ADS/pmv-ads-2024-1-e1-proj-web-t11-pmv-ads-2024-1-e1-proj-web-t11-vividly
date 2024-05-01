@@ -178,11 +178,22 @@
         display: none;
     }
 
+<<<<<<< Updated upstream
     .right-login {
         width: 100%;
     }
 <<<<<<< Updated upstream
 =======
+=======
+    .left-login > h1 {
+        font-size: 5vw;
+        color: white;
+    }
+
+    .right-login {
+        width: 100%;
+    }
+>>>>>>> Stashed changes
 
     .btn-login {
         margin-left: auto;
