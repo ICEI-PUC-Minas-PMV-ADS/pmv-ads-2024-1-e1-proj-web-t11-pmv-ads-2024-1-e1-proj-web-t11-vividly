@@ -1,17 +1,20 @@
 /*Página diário */
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 #body{
     display: flex;
     width: 100%;
 }
 #fieldset{
     background-color:royalblue;
+    margin: 8px;
 
 }
 .cor-azul{
     width: 80%;
     height: 30px;
     border: 3px solid #0A6DC9;
-    border-radius: 15px
+    border-radius: 20px
 }
 
 input{
@@ -28,19 +31,23 @@ input{
     display: flex;
     flex-direction: row-reverse;
     height: 500px;
-    padding: 100px;
+    padding: 12px;
 }
 .tittle {
     font-size: 40pt;
     text-align: left;
-    font-family: Inria sans-serif;
     flex: 1;
-    padding: 20px;
+    padding: 5px;
+    font-family: Inria Sans , sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 .quiz {
-    font-size: 25pt;
+    font-size: 20pt;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inria Sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 .question{
     text-align: -webkit-center;
@@ -49,9 +56,13 @@ input{
     flex-shrink: 0;
 }
 .link-history{
-    font-size: 15pt;
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #056BC9;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }                                                   
 .menu-lateral{
     width: 100px;
@@ -112,5 +123,5 @@ img{
 }
 .logo-azul{
     width: 20%;
-    text-align: right
+    text-align: right;
 }
