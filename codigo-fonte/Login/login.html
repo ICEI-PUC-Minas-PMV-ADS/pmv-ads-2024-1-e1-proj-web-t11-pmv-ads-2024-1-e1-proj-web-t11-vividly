@@ -31,7 +31,7 @@
                     <br>
                     <input type="password" placeholder="Digite sua senha" id="senha">
                 </div>
-                <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/">RECUPERAR SENHA</a>
+                <a href="../Home/home.html">RECUPERAR SENHA</a>
                 <br>
                 <div class="btn-container">
                 <input class="btn-login" type="submit" onclick="logar(); return false">
@@ -75,6 +75,9 @@
                         usuario: item.usuario,
                         senha: item.senha,
                     }
+                    alert('sucesso');
+                    location.href = "../Home/home.html";
+
                 }
                 
             })
