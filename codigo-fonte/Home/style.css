@@ -58,6 +58,7 @@
 
 #ondas-home {
     width: 100vw;
+    height: auto;
     margin-top: auto;
     
 }
@@ -97,4 +98,45 @@
 
 #IMPORTA {
     padding-left: 180px;
+}
+
+.vetores {
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+
+#vetor-mais2 {
+    position: absolute;
+    right: 340%;
+    top: 260%;
+}
+
+#vetor-mais1 {
+    position: relative;
+    top: 10%;
+    right: 80%;
+    
+}
+
+#vetor-igual {
+    position: relative;
+    bottom: 10%;
+
+}
+
+.quem-somos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: auto;
+    font-family: 'Inria Sans';
+    padding-top: 80px;
+
+}
+
+.quem-somos h1 {
+    text-transform: uppercase;
+    font-size: 70px;
 }
