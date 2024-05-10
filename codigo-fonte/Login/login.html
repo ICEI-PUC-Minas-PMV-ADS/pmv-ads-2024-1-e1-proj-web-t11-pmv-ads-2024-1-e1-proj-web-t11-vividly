@@ -23,7 +23,7 @@
                 <h1>LOGIN</h1>
                 <div class="textfield">
                     <label for="login"></label>
-                    <input type="text" placeholder="Digite seu login" id="login">
+                    <input type="text" placeholder="Digite seu usuário" id="login">
                 </div>
                 <br>
                 <div class="textfield">
@@ -75,9 +75,12 @@
                         usuario: item.usuario,
                         senha: item.senha,
                     }
-                    alert('sucesso');
+                    alert('login realizado com sucesso');
                     location.href = "../Template/template.html";
 
+                }
+                else {
+                    alert('Usuário ou senha incorretos')
                 }
                 
             })
