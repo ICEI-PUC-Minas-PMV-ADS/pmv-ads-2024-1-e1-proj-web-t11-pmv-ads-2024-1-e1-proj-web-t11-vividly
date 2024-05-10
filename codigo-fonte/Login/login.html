@@ -42,7 +42,9 @@
     </div>
 
     <script>
-        function logar () {
+
+        /*function logar () {
+
             var login = document.getElementById('login').value;
             var senha = document.getElementById('senha').value;
 
@@ -53,8 +55,27 @@
             else {
                 alert('Login ou senha incorretos')
             }
-        }
+        }*/
 
+        function logar () {
+
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+
+            let listaUser = []
+
+            let userValid = {
+                usuario: '',
+                senha:'',
+            }
+
+            listaUser = JSON.parse(localStorage.getItem('usuarios'))
+
+            console.log (listaUser)
+
+
+        }
     </script>
 </body>
 </html>
