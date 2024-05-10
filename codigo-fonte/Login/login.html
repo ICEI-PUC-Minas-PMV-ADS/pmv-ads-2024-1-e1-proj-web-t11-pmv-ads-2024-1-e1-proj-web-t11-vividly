@@ -22,23 +22,39 @@
             <div class="card-login">
                 <h1>LOGIN</h1>
                 <div class="textfield">
-                    <label for="email"></label>
-                    <input type="text" name="email" placeholder="Digite seu e-mail">
+                    <label for="login"></label>
+                    <input type="text" placeholder="Digite seu login" id="login">
                 </div>
                 <br>
                 <div class="textfield">
                     <label for="senha"></label>
                     <br>
-                    <input type="password" name="senha" placeholder="Digite sua senha">
+                    <input type="password" placeholder="Digite sua senha" id="senha">
                 </div>
                 <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/">RECUPERAR SENHA</a>
                 <br>
                 <div class="btn-container">
-                <input class="btn-login" type="submit" value="ENTRAR">
+                <input class="btn-login" type="submit" onclick="logar(); return false">
                 <a class="continuar-logado" href=""><input type="radio" name="continuar logado"> CONTINUAR LOGADO</a>
             </div>
             </div>
         </div>        
     </div>
+
+    <script>
+        function logar () {
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "admin" && senha == "admin") {
+                alert('sucesso');
+                location.href = "../Home/home.html";
+            }
+            else {
+                alert('Login ou senha incorretos')
+            }
+        }
+
+    </script>
 </body>
 </html>
