@@ -28,8 +28,17 @@
 .left-login > h1 {
     color: rgb(56, 56, 209);
     margin: 0;
-    margin-top: 1vh;
+    margin-top: 7vh;
     padding: 0;
+    font-family: cursive, sans-serif;
+    font-size: 2.2em;
+}
+
+.left-login > p {
+    margin: 0;
+    padding: 0;
+    font-family: 'caveat', sans-serif;
+    font-size: 2em;
 }
 
 .left-login > img {
@@ -37,7 +46,6 @@
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
 }
 
 /*right-login*/
@@ -58,23 +66,25 @@
     text-align: right;
     margin-right: 3vw;
     margin-top: 2%;
+    font-size: 0.7em;
 }
 
 .sign-up > a {
     text-decoration: none;
-    color: blue;
+    color: #063970;
     border-style: solid;
     border-radius: 10px;
     font-weight: 800;
     border-width: 1px;
-    padding: 5px 4px;
+    padding: 4px 3px;
     box-sizing: border-box;
+    font-size: 1.5em;
 }
 
 .sign-up > a:hover {
-    background: blue;
+    background: #063970;
     color: white;
-    border: blue;
+    border: #063970;
     border-style: solid;
     box-sizing: border-box;
     border-width: 1px;
@@ -108,7 +118,6 @@
 
 .textfield > input {
     width: 100%;
-    border-color: blue;
     border-radius: 25px;
     padding: 15px;
     outline: none;
@@ -119,6 +128,10 @@
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+}
+
+.btn-container > input {
+    width: 35%;
 }
 
 .btn-login {
@@ -132,13 +145,13 @@
     font-weight: 800;
     letter-spacing: 2px;
     color:white;
-    background: blue;
+    background: #063970;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px grey;
 }
 
 .btn-login:hover {
-    background: rgb(0, 0, 145);
+    background: #1e81b0;
 }
 
 .card-login > a {
@@ -161,25 +174,53 @@
     font-size: 0.75em;
     text-decoration: none;
     font-weight: 800;
-    color: blue;
+    color: #063970;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:700px) {
     .main-login {
         flex-direction: column;
         height: auto;
     }
 
     .left-login {
-        width: 100%;
+        width: 97%;
+        background-color: #063970;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: black;
+        margin-top: 0.5vh;
+        margin-left: 0.5vw;
     }
 
     .left-login > img {
         display: none;
     }
 
+
     .right-login {
         width: 100%;
+    }
+
+    .left-login > h1 {
+        font-size: 2.2em;
+        color: white;
+        margin-top: 0;
+    }
+
+    .left-login > {
+        font-size: 2em;
+    }
+
+    .right-login {
+        width: 100%;
+    }
+
+
+    .btn-login {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 8px 16px;
     }
 
     .continuar-logado {

@@ -8,7 +8,7 @@
 }
 
 .main-cadastro {
-    background: aqua;
+    background: white;
     width: 80vw;
     height: 80vh;
     display: flex;
@@ -66,7 +66,7 @@
 
 .return-login > a {
     text-decoration: none;
-    color: blue;
+    color: #063970;
     border-style: solid;
     border-radius: 10px;
     font-weight: 800;
@@ -76,9 +76,9 @@
 }
 
 .return-login > a:hover {
-    background: blue;
+    background: #063970;
     color: white;
-    border: blue;
+    border: #063970;
     border-style: solid;
     box-sizing: border-box;
     border-width: 1px;
@@ -104,7 +104,6 @@
 
 .textfield > input {
     width: 70%;
-    border-color: blue;
     border-radius: 25px;
     padding: 10px;
     outline: none;
@@ -120,7 +119,7 @@
     font-weight: 800;
     letter-spacing: 2px;
     color:white;
-    background: blue;
+    background: #063970;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px grey;
     display: block;
@@ -134,10 +133,10 @@
 
 .btn-cadastro:hover {
     background: white;
-    color:blue;
+    color: #063970;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:700px) {
     .main-cadastro {
         flex-direction: column;
         height: auto;

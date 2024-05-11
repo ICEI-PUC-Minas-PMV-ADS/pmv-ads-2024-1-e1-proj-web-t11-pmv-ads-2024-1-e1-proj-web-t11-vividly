@@ -1,14 +1,20 @@
 /*Página diário */
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 #body{
     display: flex;
     width: 100%;
 }
 #fieldset{
     background-color:royalblue;
+    margin: 8px;
 
 }
 .cor-azul{
-    width: 60%;
+    width: 80%;
+    height: 30px;
+    border: 3px solid #0A6DC9;
+    border-radius: 20px
 }
 
 input{
@@ -21,26 +27,27 @@ input{
 }
 .content{
     background: white;
-    padding-left: 30%;
-    padding-bottom: 100%;
-    padding-top: 7%;
-    width: 90%;
+    width: 75%;
     display: flex;
-    flex-direction: column;
-    height: 670px;
-    padding: 40px;
+    flex-direction: row-reverse;
+    height: 500px;
+    padding: 12px;
 }
 .tittle {
     font-size: 40pt;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
     flex: 1;
-    padding: 20px;
+    padding: 5px;
+    font-family: Inria Sans , sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 .quiz {
-    font-size: 25pt;
+    font-size: 20pt;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inria Sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 .question{
     text-align: -webkit-center;
@@ -48,10 +55,21 @@ input{
     height: 63px;
     flex-shrink: 0;
 }
+input:hover,
+input:focus {
+    outline: none;
+    border-color: #056BC9;
+    box-shadow: 0 0 0 0.3125rem #021533;
+}
+
 .link-history{
-    font-size: 15pt;
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
+    color: #056BC9;
+    text-align: center;
+    font-family: Inria Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }                                                   
 .menu-lateral{
     width: 100px;
@@ -64,6 +82,7 @@ input{
     left: 0;
     overflow: hidden;
     transition: .2s;
+    margin: 1;
 }
 .menu-lateral:hover{
     width: 300px;
@@ -106,6 +125,32 @@ ul li.itens-menu{
     margin-left: 10px;
 }
 img{
-    width: 25%;
+    width: 40%;
     text-align: center;
+}
+.logo-azul{
+    width: 20%;
+    text-align: right;
+}
+.submit {
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #056BC9;
+    cursor: pointer;
+    transition: 0,3s;
+    display: block;
+    width: 50%;
+    padding: 3%;
+    font-weight: 700;
+}
+button:hover
+button:focus{
+    outline: none;
+    background: #1c70d3;
+}
+button:disabled{
+    cursor: not-allowed;
+    background: #555b69;
+
 }

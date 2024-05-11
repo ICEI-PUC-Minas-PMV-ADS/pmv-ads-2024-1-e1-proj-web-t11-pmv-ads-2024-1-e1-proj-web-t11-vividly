@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./styleLogin.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body class="body-login">
     <div class="main-login">
         <div class="left-login">
-            <h1>Vividly Saúde Mental</h1>
+            <h1>VIVIDLY</h1> <p>Saúde Mental</p>
             <img src="./Arquivos/livros.svg" alt="livro animação">
         </div>
         <div class="right-login">
@@ -21,24 +22,71 @@
             <div class="card-login">
                 <h1>LOGIN</h1>
                 <div class="textfield">
-                    <label for="email"></label>
-                    <input type="text" name="email" placeholder="Digite seu e-mail">
+                    <label for="login"></label>
+                    <input type="text" placeholder="Digite seu usuário" id="login">
                 </div>
                 <br>
                 <div class="textfield">
                     <label for="senha"></label>
                     <br>
-                    <input type="password" name="senha" placeholder="Digite sua senha">
+                    <input type="password" placeholder="Digite sua senha" id="senha">
                 </div>
-                <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/">RECUPERAR SENHA</a>
+                <a href="../Home/home.html">RECUPERAR SENHA</a>
                 <br>
                 <div class="btn-container">
-                <a href="../Main/main.html"><button class="btn-login">entrar</button></a>
-                <a class="continuar-logado" href="">CONTINUAR LOGADO</a>
+                <input class="btn-login" type="submit" onclick="logar(); return false">
+                <a class="continuar-logado" href=""><input type="radio" name="continuar logado"> CONTINUAR LOGADO</a>
             </div>
             </div>
-        </div>
-        
+        </div>        
     </div>
+
+    <script>
+
+        /*function logar () {
+
+            var login = document.getElementById('login').value;
+            var senha = document.getElementById('senha').value;
+
+            if(login == "admin" && senha == "admin") {
+                alert('sucesso');
+                location.href = "../Home/home.html";
+            }
+            else {
+                alert('Login ou senha incorretos')
+            }
+        }*/
+
+        function logar () {
+
+            let listaUser = []
+
+            let userValid = {
+                usuario: '',
+                senha:'',
+            }
+
+            listaUser = JSON.parse(localStorage.getItem('usuarios'))
+
+            listaUser.forEach((item) => {
+                if(login.value == item.usuario && senha.value == item.senha) {
+
+                    userValid = {
+                        usuario: item.usuario,
+                        senha: item.senha,
+                    }
+                    alert('login realizado com sucesso');
+                    location.href = "../Template/template.html";
+
+                }
+                else {
+                    alert('Usuário ou senha incorretos')
+                }
+                
+            })
+
+        }
+
+    </script>
 </body>
 </html>
