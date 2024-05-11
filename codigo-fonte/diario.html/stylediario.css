@@ -8,7 +8,6 @@
 #fieldset{
     background-color:royalblue;
     margin: 8px;
-    border-style: none;
 
 }
 .cor-azul{
@@ -16,20 +15,16 @@
     height: 30px;
     border: 3px solid #0A6DC9;
     border-radius: 20px
-    
 }
-#day{
-    padding: 1.25rem;
-}
+
 input{
     align-items: center;
 }
-
 .side{
     background: linear-gradient(to right, #1e81b0, #063970);
     width: 15%;
-}
    
+}
 .content{
     background: white;
     width: 75%;
@@ -37,7 +32,7 @@ input{
     flex-direction: row-reverse;
     height: 500px;
     padding: 12px;
- }
+}
 .tittle {
     font-size: 40pt;
     text-align: left;
@@ -144,6 +139,7 @@ img{
     background: #056BC9;
     cursor: pointer;
     transition: 0,3s;
+    display: block;
     width: 50%;
     padding: 3%;
     font-weight: 700;
@@ -152,13 +148,12 @@ button:hover
 button:focus{
     outline: none;
     background: #1c70d3;
-    cursor: pointer;
 }
 button:disabled{
     cursor: not-allowed;
     background: #555b69;
 
 }
-br{
-    margin-bottom: 30px;
+#day{
+    padding: 1.25rem;
 }
