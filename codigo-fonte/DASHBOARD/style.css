@@ -64,3 +64,15 @@ a {
 
 /* Página ---- */
 
+.content-topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url(../Imagens/DASHBOARD/vetor-topo-sejabemvindo.svg);
+}
+
+.img-container img {
+    width: 200px;
+    z-index: 1000;
+}
