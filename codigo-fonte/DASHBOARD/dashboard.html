@@ -7,6 +7,11 @@
     <title>Exercícios</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -19,7 +24,7 @@
                 </a>
             </li>
             <li class="itens-menu">
-                <a href="../Home/diario.html">
+                <a href="../DASHBOARD/dashboard.html">
                     <span class="icon"><i class="bi bi-house-door-fill"></i></span>
                     <span class="txt-link"><strong>Home</strong></span>
                 </a>
@@ -65,20 +70,55 @@
 <div class="container" > 
     <div class="container-recomandation" >
 
-        <div class="title">
+        <div class="title inria-sans-regular">
             <h2>Recomendações</h2>
         </div>
 
         <div class="cards">
-        <div class="card" >Exercício de Respiração</div>
-        <div class="card" >Meditação</div>
-        <div class="card" >Meditação Guiada</div>
-        <div class="card" >Áudios para Relaxar</div>
+         <a class="link-card" href="../Exercícios/exercicios.html">
+            <div class="card inria-sans-regular" >Exercício de Respiração</div>
+        </a>
+
+        <a class="link-card" href="../Exercícios/exercicios.html">
+        <div class="card inria-sans-regular" >Meditação</div>
+        </a>
+
+        <a class="link-card" href="../Exercícios/exercicios.html">
+        <div class="card inria-sans-regular" >Meditação Guiada</div>
+        </a>    
+
+        <a class="link-card" href="../Exercícios/exercicios.html">
+        <div class="card inria-sans-regular" >Áudios para Relaxar</div>
+        </a>
         </div>
-    </div>   
+    </div>
+    
+    <div class="container-annotation">
+        <div class="title inria-sans-regular">
+            <h2>Suas anotações</h2>
+        </div>
+
+        <div class="annotation-cards">
+            <div class="annotation-card" id="card-1" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deserunt mollitia culpa dolores cumque, laborum at animi perferendis quam non assumenda autem repellendus id eaque consectetur. Tempora sit nobis consequatur!</p>
+            </div>
+
+            <div class="annotation-card bg-yellow" id="card-2" >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deserunt mollitia culpa dolores cumque, laborum at animi perferendis quam non assumenda autem repellendus id eaque consectetur. Tempora sit nobis consequatur!</p>
+            </div>
+
+            <div class="annotation-card bg-purple"  id="card-3"   >
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos deserunt mollitia culpa dolores cumque, laborum at animi perferendis quam non assumenda autem repellendus id eaque consectetur. Tempora sit nobis consequatur!</p>
+            </div>
+
+        </div>
+
+    </div>
 
 </div>
 
 </body>
+
+<script src="script.js"></script>
 
 </html>
