@@ -55,6 +55,13 @@ input{
     height: 63px;
     flex-shrink: 0;
 }
+input:hover,
+input:focus {
+    outline: none;
+    border-color: #056BC9;
+    box-shadow: 0 0 0 0.3125rem #021533;
+}
+
 .link-history{
     color: #056BC9;
     text-align: center;
@@ -124,4 +131,26 @@ img{
 .logo-azul{
     width: 20%;
     text-align: right;
+}
+.submit {
+    border: none;
+    border-radius: 99px;
+    color: white;
+    background: #056BC9;
+    cursor: pointer;
+    transition: 0,3s;
+    display: block;
+    width: 50%;
+    padding: 3%;
+    font-weight: 700;
+}
+button:hover
+button:focus{
+    outline: none;
+    background: #1c70d3;
+}
+button:disabled{
+    cursor: not-allowed;
+    background: #555b69;
+
 }
