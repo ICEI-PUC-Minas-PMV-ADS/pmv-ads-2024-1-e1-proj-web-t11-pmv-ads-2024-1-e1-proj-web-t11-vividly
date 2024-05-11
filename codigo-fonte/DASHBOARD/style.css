@@ -96,14 +96,12 @@ a {
 }
 
 .container {
-    margin-left: 135px
-
+    margin-left: 135px;
+    padding-left: 3%;
 }
 
 .container-recomandation {
     margin-top: 5%;
-    padding-left: 3%;
-
 }
 
 .cards {
@@ -113,7 +111,81 @@ a {
     margin-top: 2%;
 }
 
+.title {
+    font-size: 28pt;
+    color: #0A6DC9;
+    text-transform: uppercase;
+}
+
+.link-card {
+    text-decoration: none;
+    width: 20%;
+}
+
 .card {
     border-radius: 10px;
-    border: 2px;
+    border: 2px solid #0A6DC9;
+    width: 100%;
+    height: 150px;
+    background-color: #0A6DC9;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18pt;
+    align-items: center;
+}
+
+.card:hover {
+    background-color: #9cc4e9;
+    color:#063970;
+    cursor: pointer;
+}
+
+.card:active {
+background-color: aliceblue;
+}
+
+.inria-sans-regular {
+font-family: "Inria Sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.container-annotation {
+margin-top: 5%;
+}
+
+.annotation-cards {
+    display: flex;
+    justify-content:space-between ;
+    width: 80%;
+    margin-top: 2%;
+}
+
+.annotation-card {
+    border-radius: 10px;
+    border: 2px solid #0A6DC9;
+    width: 100%;
+    height: 500px;
+    background-color: #0A6DC9;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18pt;
+    margin-right: 5%;
+    padding-left: 1%;
+    letter-spacing: 2pt;
+
+}
+
+.bg-yellow {
+    background-color: #FED528;
+    border: 2px solid #FED528;
+}
+
+.bg-purple {
+    background-color: #744FC4;
+    border: 2px solid #744FC4;
 }
