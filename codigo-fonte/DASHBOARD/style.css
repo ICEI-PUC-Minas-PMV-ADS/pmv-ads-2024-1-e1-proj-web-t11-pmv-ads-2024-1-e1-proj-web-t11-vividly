@@ -1,3 +1,8 @@
+
+body {
+    margin: 0px;
+}
+
 /* Menu lateral */
 
 .menu-lateral{
@@ -66,13 +71,49 @@ a {
 
 .content-topo {
     display: flex;
-    justify-content: center;
+
     align-items: center;
     margin: auto;
     background-image: url(../Imagens/DASHBOARD/vetor-topo-sejabemvindo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    min-height: 300px;
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: 120px;
+}
+
+.text-container {
+    padding-left: 10%;
 }
 
 .img-container img {
     width: 200px;
     z-index: 1000;
+    margin-left: 50%;
+}
+
+.container {
+    margin-left: 135px
+
+}
+
+.container-recomandation {
+    margin-top: 5%;
+    padding-left: 3%;
+
+}
+
+.cards {
+    display: flex;
+    justify-content:space-between ;
+    width: 80%;
+    margin-top: 2%;
+}
+
+.card {
+    border-radius: 10px;
+    border: 2px;
 }
