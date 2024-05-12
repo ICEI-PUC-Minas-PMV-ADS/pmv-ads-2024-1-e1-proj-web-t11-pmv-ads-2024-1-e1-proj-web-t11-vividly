@@ -63,4 +63,32 @@ a {
     color: white;
 }
 
-/* Página ---- */
+/* Página Exrecícios */
+
+.main-exercicios {
+    width: auto;
+    margin-left: 12%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-videos {
+    background-color: lightblue;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 2%;
+}
+
+iframe {
+    margin: 1%;
+    border-radius: 10px;
+    display: inline-block;
+    width: "560";
+    height: "315";
+}
+
+.descricao {
+    float: left;
+}
