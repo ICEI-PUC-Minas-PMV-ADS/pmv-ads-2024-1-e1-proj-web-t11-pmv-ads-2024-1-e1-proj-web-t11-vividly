@@ -12,6 +12,7 @@
     overflow: hidden;
     transition: .2s;
     margin: 1;
+    font-family: "Inria Sans", sans-serif;
 }
 
 .menu-lateral:hover{
