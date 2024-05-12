@@ -1,11 +1,10 @@
-
 body {
     margin: 0px;
 }
 
 /* Menu lateral */
 
-.menu-lateral{
+.menu-lateral {
     width: 100px;
     height: 90%;
     background-color: #0A6DC9;
@@ -17,36 +16,38 @@ body {
     overflow: hidden;
     transition: .2s;
     margin: 1;
+    font-family: "Inria Sans", sans-serif;
 }
 
-.menu-lateral:hover{
+.menu-lateral:hover {
     width: 300px;
 }
 
-.btn-expandir{
+.btn-expandir {
     width: 100%;
     padding: 10px;
 }
 
-.btn-expandir > i{
+.btn-expandir>i {
     color: white;
     font-size: 24px;
     cursor: pointer;
 }
 
-.icon{
+.icon {
     font-size: 30px;
     margin-left: 10px;
 }
 
-.txt-link{
+.txt-link {
     margin-left: 40px;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
-ul li.itens-menu a{
+
+ul li.itens-menu a {
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -55,11 +56,13 @@ ul li.itens-menu a{
     margin-bottom: 20px;
     line-height: 40px;
 }
-ul li.itens-menu:hover{
+
+ul li.itens-menu:hover {
     background: #063970;
-    
+
 }
-ul li.itens-menu{
+
+ul li.itens-menu {
     transition: .2s;
 }
 
@@ -83,16 +86,37 @@ a {
     margin-top: 0px;
     padding: 0px;
     margin-left: 120px;
+    gap: 40px;
 }
 
 .text-container {
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding-left: 10%;
+    color: #fff;
+    padding-top: 60px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.text-container h3 {
+    font-size: 45px;
+    margin: 0;
+    font-weight: 400;
+   
+}
+
+.text-container h1 {
+    font-size: 50px;
+    margin: 0;
 }
 
 .img-container img {
-    width: 200px;
+    width: 335px;
     z-index: 1000;
-    margin-left: 50%;
+    margin-left: -5%;
+    padding-top: 32px;
 }
 
 .container {
@@ -106,7 +130,7 @@ a {
 
 .cards {
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
     width: 80%;
     margin-top: 2%;
 }
@@ -134,33 +158,42 @@ a {
     font-weight: 700;
     font-size: 18pt;
     align-items: center;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+
 }
 
 .card:hover {
     background-color: #9cc4e9;
-    color:#063970;
+    color: #063970;
     cursor: pointer;
+    transition: 0,5s ease;
+    transform: scale(1.2)
 }
 
 .card:active {
-background-color: aliceblue;
+    background-color: aliceblue;
 }
 
 .inria-sans-regular {
-font-family: "Inria Sans", sans-serif;
-font-weight: 400;
-font-style: normal;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .container-annotation {
-margin-top: 5%;
+    margin-top: 5%;
 }
 
 .annotation-cards {
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
     width: 80%;
     margin-top: 2%;
+    font-family: "Inria Sans", sans-serif;
+    font-size: 13px;
+    padding-bottom: 100px;
+   
 }
 
 .annotation-card {
@@ -181,8 +214,8 @@ margin-top: 5%;
 }
 
 .bg-yellow {
-    background-color: #FED528;
-    border: 2px solid #FED528;
+    background-color: #fed728e3;
+    border: 2px solid #fed728cb;
 }
 
 .bg-purple {
