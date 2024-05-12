@@ -21,7 +21,7 @@ function logar () {
 
         }
         else {
-            alert('Usuário ou senha incorretos')
+            alert('Usuário ou senha incorretos');
         }
         
     })
