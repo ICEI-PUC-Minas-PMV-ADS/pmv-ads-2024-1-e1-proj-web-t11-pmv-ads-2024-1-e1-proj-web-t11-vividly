@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    font-family: "Inria Sans", sans-serif;
+}
+
 .body-login {
-    background: linear-gradient(to right, #1e81b0, #063970);
+    background: #056BC9;
     margin-top: 10vh;
     padding: 0;
     display: flex;
@@ -9,10 +15,9 @@
 
 .main-login{
     background: white;
-    width: 80vw;
+    width: 100vw;
     height: 80vh;
     display: flex;
-    border-radius: 10px;
 }
 
 /*left-login*/
@@ -26,19 +31,17 @@
 }
 
 .left-login > h1 {
-    color: rgb(56, 56, 209);
+    color: #056BC9;
     margin: 0;
     margin-top: 7vh;
     padding: 0;
-    font-family: cursive, sans-serif;
-    font-size: 2.2em;
+    font-size: 3em;
 }
 
 .left-login > p {
     margin: 0;
     padding: 0;
-    font-family: 'caveat', sans-serif;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 
 .left-login > img {
@@ -71,7 +74,7 @@
 
 .sign-up > a {
     text-decoration: none;
-    color: #063970;
+    color: #056BC9;
     border-style: solid;
     border-radius: 10px;
     font-weight: 800;
@@ -82,9 +85,9 @@
 }
 
 .sign-up > a:hover {
-    background: #063970;
+    background: #056BC9;
     color: white;
-    border: #063970;
+    border: #056BC9;
     border-style: solid;
     box-sizing: border-box;
     border-width: 1px;
@@ -145,13 +148,13 @@
     font-weight: 800;
     letter-spacing: 2px;
     color:white;
-    background: #063970;
+    background: #056BC9;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px grey;
 }
 
 .btn-login:hover {
-    background: #1e81b0;
+    background: #05549e;
 }
 
 .card-login > a {
@@ -174,7 +177,7 @@
     font-size: 0.75em;
     text-decoration: none;
     font-weight: 800;
-    color: #063970;
+    color: #056BC9;
 }
 
 @media only screen and (max-width:700px) {
@@ -185,7 +188,7 @@
 
     .left-login {
         width: 97%;
-        background-color: #063970;
+        background-color: #056BC9;
         border-style: solid;
         border-radius: 10px;
         border-color: black;

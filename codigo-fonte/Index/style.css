@@ -140,3 +140,18 @@
     text-transform: uppercase;
     font-size: 70px;
 }
+
+footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100px;
+    /*estilo*/
+
+    background-color: #0662B8;
+    color: #E7E5E7;
+    font-family: "Inria Sans";
+}

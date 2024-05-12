@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastro</title>
     <link rel="stylesheet" href="styleCadastro.css">
+    <link rel="shortcut icon" href="../Imagens/ICO/Brain.ico" type="image/x-icon">
 </head>
 <body class="body-cadastro">
     <div class="main-cadastro">
@@ -20,20 +21,24 @@
             </div>
             <div class="card-cadastro">
                 <h1>CADASTRAR</h1>
+                <br>
                 <form id="cadastra-usuario">
                     <div class="textfield">
                         <label for="nome"></label>
-                        <input type="text" placeholder="DIGITE SEU NOME COMPLETO" id="nome">
+                        <input type="text" placeholder="DIGITE SEU NOME COMPLETO" id="nome" class="required" oninput="nameValidate()">
+                        <span class="span">O nome deve possuir pelo menos 3 caracteres</span>
                     </div>
                     <br>
                     <div class="textfield">
                         <label for="usuario"></label>
-                        <input type="text" placeholder="DIGITE SEU USUÁRIO" id="usuario">
+                        <input type="text" placeholder="DIGITE SEU USUÁRIO" id="usuario" class="required" oninput="userValidate()">
+                        <span class="span">O usuário deve possuir pelo menos 3 caracteres</span>
                     </div>
                     <br>
                     <div class="textfield">
                         <label for="email"></label>
-                        <input type="text" placeholder="DIGITE SEU E-MAIL" id="email">
+                        <input type="text" placeholder="DIGITE SEU E-MAIL" id="email" class="required" oninput="emailValidate()">
+                        <span class="span">O email deve ser válido</span>
                     </div>
                     <br>
                     <div class="textfield">
@@ -43,7 +48,8 @@
                     <br>
                     <div class="textfield">
                         <label for="senha"></label>
-                        <input type="password" placeholder="DIGITE SUA SENHA" id="senha">
+                        <input type="password" placeholder="DIGITE SUA SENHA" id="senha" class="required" oninput="passwordValidate()">
+                        <span class="span">A senha deve possuir no mínimo 4 caracteres</span>
                     </div>
                     <br>
                     <input class="btn-cadastro" type="submit" value="CADASTRAR">
