@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
@@ -23,7 +23,7 @@
                 </a>
             </li>
             <li class="itens-menu">
-                <a href="../Main/main.html">
+                <a href="../DASHBOARD/dashboard.html">
                     <span class="icon"><i class="bi bi-house-door-fill"></i></span>
                     <span class="txt-link"><strong>Home</strong></span>
                 </a>
@@ -53,27 +53,35 @@
                 </a>
             </li>
     </nav>
-    <fieldset>
+
         <div class="content">
             <div>
                 <p class="link-history"><a href="history.html" autocapitalize="characters">Histórico</a></p><br><br><br>
             </div>
            <div>
-            <div style="display: flex;-items:center;">
+            <div style="display: flex;">
                  <img src="../../documentos/img/diary-animate.svg">
                 <p class="tittle">Diário</P>
 
                     <br><br>
             </div>
             <div class="question">
-                 <input class="calender" type="date" id="calender" name="calender"><br><br><br><br>
-                <label class="quiz" for="good">O que te faz bem?</label><br><br>
-                <input class="cor-azul" type="text" id="good" name="good"><br><br>
-                <label class="quiz" for="bad">O que te faz mal?</label><br><br>
-                <input class="cor-azul" type="text" id="bad" name="bad"><br><br>
-                <label class="quiz" for="learn">O que você aprendeu hoje?</label><br><br>
-                <input class="cor-azul" type="text" id="learn" name="learn"><br> <br>
-                <button type="button" class="submit">Enviar</button> <br><br><br><br>
+                <form id="formulario" onSubmit="return enviar()";>  
+                    <input class="calender" type="date" id="calender" name="calender" onchange="dataEscolhida()"><br><br><br><br>
+                    <p id="validacao"></p>
+                    <label class="quiz" for="good">O que te faz bem?</label><br><br>
+                    <input class="cor-azul" type="text" id="good" name="good"required><br><br>
+                    <label class="quiz" for="bad">O que te faz mal?</label><br><br>
+                    <input class="cor-azul" type="text" id="bad" name="bad"required><br><br>
+                    <label class="quiz" for="learn">O que você aprendeu hoje?</label><br><br>
+                    <input class="cor-azul" type="text" id="learn" name="learn"required><br> <br>
+                    <label class="quiz" for="bad">Como foi o seu dia?</label><br><br>
+                    <input class="cor-azul" type="text" id="day" name="bad" required><br><br> 
+                    <hr />
+                    <input type="submit"value="Enviar" id="submit"> <br><br><br><br> 
+                </form>
+               
+             
                
                 <img class="logo-azul" src="../Imagens/LOGO/LOGO AZUL.png">
             </div>
@@ -81,9 +89,9 @@
             
            
         </div> <br><br>
-    </fieldset>
-
+  
 
 </body>
+<script src="scriptDiario.js"></script>
 
 </html>

@@ -1,0 +1,111 @@
+
+body {
+    font-family:Inria Sans, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 1000px;
+   }
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.filter {
+    margin-bottom: 20px;
+}
+/* Menu lateral */
+
+.menu-lateral{
+    width: 100px;
+    height: 90%;
+    background-color: #0A6DC9;
+    padding: 35px 0 35px 1%;
+    box-shadow: 3px 0 0 #063970;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .2s;
+    margin: 1;
+    font-family: "Inria Sans", sans-serif;
+}
+
+.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-expandir > i{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.icon{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.txt-link{
+    margin-left: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+ul li.itens-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+ul li.itens-menu:hover{
+    background: #063970;
+    
+}
+ul li.itens-menu{
+    transition: .2s;
+}
+
+a {
+    color: white;
+}
+img{
+    width: 22%;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+thead{
+    font-size: 20px;
+    
+}

@@ -30,7 +30,7 @@ input{
     width: 75%;
     display: flex;
     flex-direction: row-reverse;
-    height: 500px;
+    height: 603px;
     padding: 12px;
 }
 .tittle {
@@ -83,6 +83,7 @@ input:focus {
     overflow: hidden;
     transition: .2s;
     margin: 1;
+    font-family: "Inria Sans", sans-serif;
 }
 .menu-lateral:hover{
     width: 300px;
@@ -131,27 +132,7 @@ img{
 .logo-azul{
     width: 20%;
     text-align: right;
-}
-.submit {
-    border: none;
-    border-radius: 99px;
-    color: white;
-    background: #056BC9;
-    cursor: pointer;
-    transition: 0,3s;
-    display: block;
-    width: 50%;
-    padding: 3%;
-    font-weight: 700;
-}
-button:hover
-button:focus{
-    outline: none;
-    background: #1c70d3;
-}
-button:disabled{
-    cursor: not-allowed;
-    background: #555b69;
+    margin: auto;
 
 }
 

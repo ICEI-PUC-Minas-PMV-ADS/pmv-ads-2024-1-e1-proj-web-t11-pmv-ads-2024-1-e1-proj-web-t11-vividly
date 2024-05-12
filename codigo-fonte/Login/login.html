@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./styleLogin.css">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../Imagens/ICO/Brain.ico" type="image/x-icon">
 </head>
 <body class="body-login">
     <div class="main-login">
@@ -23,70 +23,28 @@
                 <h1>LOGIN</h1>
                 <div class="textfield">
                     <label for="login"></label>
-                    <input type="text" placeholder="Digite seu usuário" id="login">
+                    <input type="text" placeholder="Digite seu usuário ou email" id="login">
                 </div>
-                <br>
-                <div class="textfield">
-                    <label for="senha"></label>
                     <br>
-                    <input type="password" placeholder="Digite sua senha" id="senha">
+                <div class="textfield">
+                        <label for="senha"></label>
+                        <br>
+                        <input type="password" placeholder="Digite sua senha" id="senha">
                 </div>
-                <a href="../Home/home.html">RECUPERAR SENHA</a>
-                <br>
+                        <a href="../../index.html">RECUPERAR SENHA</a>
+                        <br>
                 <div class="btn-container">
-                <input class="btn-login" type="submit" onclick="logar(); return false">
-                <a class="continuar-logado" href=""><input type="radio" name="continuar logado"> CONTINUAR LOGADO</a>
-            </div>
+                    <input class="btn-login" type="submit" onclick="logar(); return false">
+                    <a class="continuar-logado" href=""><input type="radio" name="continuar logado"> CONTINUAR LOGADO</a>
+                </div>
             </div>
         </div>        
     </div>
+    
+    <footer>
+        <p>© 2024 Vividly. Todos os direitos reservados.
+    </footer>
 
-    <script>
-
-        /*function logar () {
-
-            var login = document.getElementById('login').value;
-            var senha = document.getElementById('senha').value;
-
-            if(login == "admin" && senha == "admin") {
-                alert('sucesso');
-                location.href = "../Home/home.html";
-            }
-            else {
-                alert('Login ou senha incorretos')
-            }
-        }*/
-
-        function logar () {
-
-            let listaUser = []
-
-            let userValid = {
-                usuario: '',
-                senha:'',
-            }
-
-            listaUser = JSON.parse(localStorage.getItem('usuarios'))
-
-            listaUser.forEach((item) => {
-                if(login.value == item.usuario && senha.value == item.senha) {
-
-                    userValid = {
-                        usuario: item.usuario,
-                        senha: item.senha,
-                    }
-                    alert('login realizado com sucesso');
-                    location.href = "../Template/template.html";
-
-                }
-                else {
-                    alert('Usuário ou senha incorretos')
-                }
-                
-            })
-
-        }
-
-    </script>
+    <script src="./scriptLogin.js"></script>
 </body>
 </html>
