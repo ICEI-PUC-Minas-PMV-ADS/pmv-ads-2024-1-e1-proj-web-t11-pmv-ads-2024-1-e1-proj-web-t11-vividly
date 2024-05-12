@@ -30,7 +30,7 @@ input{
     width: 75%;
     display: flex;
     flex-direction: row-reverse;
-    height: 500px;
+    height: 603px;
     padding: 12px;
 }
 .tittle {
@@ -132,35 +132,6 @@ img{
 .logo-azul{
     width: 20%;
     text-align: right;
-}
-#submit {
-    border: none;
-    border-radius: 99px;
-    color: white;
-    background: #056BC9;
-    cursor: pointer;
-    transition: 0,3s;
-    display: block;
-    width: 50%;
-    padding: 3%;
-    font-weight: 700;
-}
-button:hover
-button:focus{
-    outline: none;
-    background: #1c70d3;
-}
-button:disabled{
-    cursor: not-allowed;
-    background: #555b69;
+    margin: auto;
 
-}
-#day{
-    padding: 1.25rem;
-}
-#validacao {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20 px;
-    color: red;
-    font-weight: bold
 }

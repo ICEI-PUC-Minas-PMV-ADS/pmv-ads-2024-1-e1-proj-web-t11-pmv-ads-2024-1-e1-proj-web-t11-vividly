@@ -53,7 +53,7 @@ html {
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 10px;
-    font-family: "Inria Sans", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-style: normal;
 }
@@ -99,7 +99,7 @@ html {
 }
 
 .content-index > h2 {
-    font-family: 'Inria Sans';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
     font-weight: 600;
     color: black;
@@ -107,7 +107,7 @@ html {
 }
 
 .content-index > h1 {
-    font-family: 'Inria Sans';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     font-weight:500;
     color: #0A6DC9;
