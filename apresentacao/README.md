@@ -2,7 +2,7 @@
 
 ## Conjunto de Slides
 
-[Apresentação - Vividly.pdf]([documentos/VIVIDLY-apresentação.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/blob/main/documentos/VIVIDLY-apresenta%C3%A7%C3%A3o.pdf))
+[Apresentação - Vividly.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/blob/main/documentos/VIVIDLY-apresenta%C3%A7%C3%A3o.pdf)
 
 ## Vídeo de apresentação
 
