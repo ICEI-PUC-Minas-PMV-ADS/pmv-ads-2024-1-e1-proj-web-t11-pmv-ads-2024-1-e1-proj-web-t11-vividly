@@ -1,31 +1,22 @@
-const messages = [
-    { text: 'Mensagem 1', date: '2024-05-10' },
-    { text: 'Mensagem 2', date: '2024-05-11' },
-    { text: 'Mensagem 3', date: '2024-05-12' }
-];
 
-function displayMessages() {
-    const messageList = document.getElementById('message-list');
-    messageList.innerHTML = '';
-    messages.forEach(message => {
-        const messageElement = document.createElement('div');
-        messageElement.classList.add('message');
-        messageElement.textContent = `${message.date}: ${message.text}`;
-        messageList.appendChild(messageElement);
-    });
-}
+    function filterTable() {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById("dateInput");
+        filter = input.value;
+        table = document.getElementById("dataTable");
+        tr = table.getElementsByTagName("tr");
+        
+        for (i = 1; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0]; // Coluna da data
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } 
+                else {      
+                    tr[i].style.display = "none";
+                }
+            }       
+        }
+    }
 
-function filterMessages() {
-    const dateFilter = document.getElementById('date-filter').value;
-    const filteredMessages = messages.filter(message => message.date === dateFilter);
-    const messageList = document.getElementById('message-list');
-    messageList.innerHTML = '';
-    filteredMessages.forEach(message => {
-        const messageElement = document.createElement('div');
-        messageElement.classList.add('message');
-        messageElement.textContent = `${message.date}: ${message.text}`;
-        messageList.appendChild(messageElement);
-    });
-}
-
-displayMessages();
