@@ -10,12 +10,6 @@ cadForm.addEventListener("submit", (e) => {
     var telefone = document.getElementById('telefone').value;
     var senha = document.getElementById('senha').value;
 
-    console.log(nome);
-    console.log(usuario);
-    console.log(email);
-    console.log(telefone);
-    console.log(senha);
-
     let usuarios = new Array();
 
     if(localStorage.hasOwnProperty("usuarios")) {
@@ -26,9 +20,7 @@ cadForm.addEventListener("submit", (e) => {
 
     localStorage.setItem("usuarios", JSON.stringify(usuarios));
 
-    alert ("CADASTRADO COM SUCESSO")
-
-    
+    alert ("CADASTRADO COM SUCESSO")    
 });
 
 
