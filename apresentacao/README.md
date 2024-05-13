@@ -2,7 +2,7 @@
 
 ## Conjunto de Slides
 
-[Apresentação - Vividly.pdf](documentos/VIVIDLY-apresentação.pdf)
+[Apresentação - Vividly.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/blob/main/documentos/VIVIDLY-apresenta%C3%A7%C3%A3o.pdf)
 
 ## Vídeo de apresentação
 
@@ -17,4 +17,4 @@ A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a a
 
 ## Hospedagem
 
-[Adicione o endereço eletrônico público onde o site encontra-se hospedado.]
+Foi utilizada a plataforma GitHub Pages como ambiente de hospedagem do site do projeto Clique <a href="https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/">aqui</a> para acessá-lo.

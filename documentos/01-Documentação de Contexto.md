@@ -25,10 +25,11 @@ O propósito central deste projeto consiste em criar uma página de fácil compr
 * Criar uma área para compartilhar experiências pessoais;
 * Dicas de autocuidado;
 * Disponibilização de técnicas para auxílio nas crises;
-* Direcionamento para profissionais;
 * Compartilhar informações claras e objetivas sobre ansiedade;
 * Promover a conscientização sobre a importância de cuidar da saúde metal;
 * Coletar dados para um levantamento estatístico do nível de ansiedade dos clientes/usuarios;
+
+Nossos objetivos, portanto, visam a contribuição para uma melhor saúde mental da sociedade, através do compartilhamento de informações, técnicas e discussões relacionadas ao tema.
 
 ## Justificativa
 
