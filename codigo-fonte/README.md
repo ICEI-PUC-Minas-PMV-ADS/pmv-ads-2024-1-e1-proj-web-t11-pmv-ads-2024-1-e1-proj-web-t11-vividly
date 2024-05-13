@@ -18,9 +18,9 @@ O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um
 
 #### Adicionado
 
-- Tela Inicial: Arquivos HTML e CSS e imagens.
-- Login: Arquivos HTML e CSS e imagens.
-- Cadastro: Arquivos HTML e CSS e imagens.
+- Tela Inicial: Arquivos HTML, CSS e imagens.
+- Login: Arquivos HTML, CSS e imagens.
+- Cadastro: Arquivos HTML, CSS e imagens.
 
 ### [0.1.1] - 30/04/2024
 
@@ -40,7 +40,7 @@ O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um
 
 #### Adicionado
 
-- Fórum: Arquivos HTML e CSS e imagens.
+- Fórum: Arquivos HTML, CSS e imagens.
 - Cadastro: arquivos JS com cadastro no LocalStorage.
 - Login: arquivos JS com validação no LocalStorage.
 
@@ -58,6 +58,7 @@ O site em HTML/CSS/JS é um projeto estático. É necessário implantá-lo em um
 - Diário: Arquivos JS e histórico de mensagens.
 - Cadastro: Informações no preenchimento dos Inputs.
 - HomePage: Arquivos JS, recomendações e Anotações.
+- Exercícios: Arquivos HTML, CSS e iframes.
 
 #### Atualizado
 
