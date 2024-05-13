@@ -15,10 +15,17 @@ As imagens e ícones utilizados no projeto estão disponíveis <a href="../codig
 
 Para a criação do logotipo do site foi utilizada a cor azul e branco , pois esta cor remete  calma, tranquilidade e comunicação clara.
 
+<h3><b>Logotipo<b><h3>
+
 <figure>
     <img src="../codigo-fonte/Imagens/LOGO/LOGO AZUL.png" height= "500px">
     <figcaption>Imagem 1 - Logotipo da Vividly
     </figcaption>
 </figure> 
+
+<hr>
+
+<h3><b><b><h3>
+
 
 
