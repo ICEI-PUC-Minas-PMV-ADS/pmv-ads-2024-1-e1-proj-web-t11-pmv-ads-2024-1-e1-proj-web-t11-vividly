@@ -21,6 +21,7 @@ Para a criação do logotipo do site foi utilizada a cor azul e branco , pois es
     <img src="../codigo-fonte/Imagens/LOGO/LOGO AZUL.png" height= "500px">
     <figcaption> Imagem 1 - Logotipo da Vividly</figcaption>
 </figure> 
+<br>
 
 ## Tela inicial
 
@@ -30,6 +31,7 @@ Nossa tela incial possui um header e um footer na cor azul #056BC9. Este padrão
     <img src="../codigo-fonte/Imagens/Telas/Tela_Inicial.png" height= "500px">
     <figcaption> Imagem 2 - Tela Inicial</figcaption>
 </figure> 
+<br>
 
 ## Telas login e cadastro
 
@@ -39,10 +41,12 @@ As telas login e cadastro seguem a mesma idéia da tela incial, com um header e 
     <img src="../codigo-fonte/Imagens/Telas/Tela_Login.png" height= "250px">
     <figcaption> Imagem 3 - Tela Login</figcaption>
 </figure> 
+<br><br>
 <figure>
     <img src="../codigo-fonte/Imagens/Telas/Tela_Cadastro.png" height= "250px">
     <figcaption> Imagem 3 - Tela cadastro</figcaption>
 </figure>
+<br>
 
 ## Navegação
 
@@ -53,17 +57,21 @@ A navegação pelo site é realizada através de um menu localizado na lateral e
     <figcaption> Imagem 4 - Tela Menu</figcaption>
 </figure> 
 
+### Navegação - Telas
+
 Quando o cursosr não está sobre, o menu é reduzido e se apresenta na forma de ícones.
 
 <figure>
     <img src="../codigo-fonte/Imagens/Telas/Tela_Home.png" height= "500px">
     <figcaption> Imagem 5 - Tela Home</figcaption>
 </figure>
+<br><br>
 
 <figure>
     <img src="../codigo-fonte/Imagens/Telas/Tela_Exercícios.png" height= "500px">
     <figcaption> Imagem 6 - Tela Exercícios</figcaption>
 </figure>
+<br><br>
 
 <figure>
     <img src="../codigo-fonte/Imagens/Telas/Tela_Diário.png" height= "500px">
