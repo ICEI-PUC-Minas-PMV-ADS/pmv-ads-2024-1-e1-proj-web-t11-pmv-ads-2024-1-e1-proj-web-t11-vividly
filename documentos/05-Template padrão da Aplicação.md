@@ -62,7 +62,7 @@ A navegação pelo site é realizada através de um menu localizado na lateral e
 Quando o cursosr não está sobre, o menu é reduzido e se apresenta na forma de ícones.
 
 <figure>
-    <img src="../codigo-fonte/Imagens/Telas/Tela_Home.png" height= "250px">
+    <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164579007/61623bae-941d-4001-bfc5-3bda08b40d5f" height= "250px">
     <figcaption> Imagem 6 - Tela Home</figcaption>
 </figure>
 <br><br>
@@ -74,7 +74,7 @@ Quando o cursosr não está sobre, o menu é reduzido e se apresenta na forma de
 <br><br>
 
 <figure>
-    <img src="../codigo-fonte/Imagens/Telas/Tela_Diário.png" height= "250px">
+    <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164579007/1cbbe814-359e-4e64-9eb6-2d4bf4668b0c" height= "250px">
     <figcaption> Imagem 8 - Tela Diário</figcaption>
 </figure>
 
