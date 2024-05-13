@@ -15,33 +15,6 @@ As imagens e ícones utilizados no projeto estão disponíveis <a href="../codig
 
 Para a criação do logotipo do site foi utilizada a cor azul e branco , pois esta cor remete  calma, tranquilidade e comunicação clara.
 
-<h3>Logotipo<h3>
-<figure>
-    <img src="../codigo-fonte/Imagens/LOGO/LOGO AZUL.png" height= "500px">
-    <figcaption> Imagem 1 - Logotipo da Vividly</figcaption>
-</figure> 
-
-<h3>Tela inicial<h3>
-
-Nossa tela incial possui um header e um footer na cor azul #056BC9. Este padrão se repetirá em outras telas.
-
-<figure>
-    <img src="../codigo-fonte/Imagens/Telas/Tela_Inicial.png" height= "500px">
-    <figcaption> Imagem 2 - Tela Inicial</figcaption>
-</figure> 
-
-<h3>Telas login e cadastro<h3>
-
-As telas login e cadastro seguem a mesma idéia da tela incial, com um header e um footer no tom azul #056BC9, que se repete em outras partes das páginas.
-
-<figure>
-    <img src="../codigo-fonte/Imagens/Telas/Tela_Login.png" height= "250px">
-    <figcaption> Imagem 3 - Tela Login</figcaption>
-</figure> 
-<figure>
-    <img src="../codigo-fonte/Imagens/Telas/Tela_Cadastro.png" height= "250px">
-    <figcaption> Imagem 3 - Tela cadastro</figcaption>
-</figure>
 
 <h3>Navegação<h3>
 
