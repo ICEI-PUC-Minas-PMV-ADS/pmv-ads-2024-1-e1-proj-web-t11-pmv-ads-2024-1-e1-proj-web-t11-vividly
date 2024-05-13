@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 /* Menu lateral */
 
 .menu-lateral{
@@ -70,16 +72,19 @@ body {
 
 .container {
     display: flex;
-    margin-left: auto;
+    margin: auto;
+    justify-content: center;
     padding: 0;
     width: 100%;
     height: auto;
+    
 }
 
 .conteudo {
     width: 90vw;
     height: 100vh;
     background: rgb(255, 255, 255);
+    
 }
 
 .conteudo {
@@ -92,6 +97,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     border-radius: 10px;
+    
 }
 
 
@@ -139,9 +145,14 @@ body {
     color: var(--white);
     border-radius: 10px 10px 0 0;
     font-size: 20px; 
-    
+    font-family: "Inria Sans", sans-serif;
+   
+   
+   
   }
 
+
+ 
   button:hover{
     cursor: pointer;
     transition: .4s;
