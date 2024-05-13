@@ -44,7 +44,7 @@ As telas login e cadastro seguem a mesma idéia da tela incial, com um header e 
 <br><br>
 <figure>
     <img src="../codigo-fonte/Imagens/Telas/Tela_Cadastro.png" height= "250px">
-    <figcaption> Imagem 3 - Tela cadastro</figcaption>
+    <figcaption> Imagem 4 - Tela cadastro</figcaption>
 </figure>
 <br>
 
@@ -54,7 +54,7 @@ A navegação pelo site é realizada através de um menu localizado na lateral e
 
 <figure>
     <img src="../codigo-fonte/Imagens/Telas/Tela_Menu.png" height= "500px">
-    <figcaption> Imagem 4 - Tela Menu</figcaption>
+    <figcaption> Imagem 5 - Tela Menu</figcaption>
 </figure> 
 
 ### Navegação - Telas
@@ -62,20 +62,20 @@ A navegação pelo site é realizada através de um menu localizado na lateral e
 Quando o cursosr não está sobre, o menu é reduzido e se apresenta na forma de ícones.
 
 <figure>
-    <img src="../codigo-fonte/Imagens/Telas/Tela_Home.png" height= "500px">
-    <figcaption> Imagem 5 - Tela Home</figcaption>
+    <img src="../codigo-fonte/Imagens/Telas/Tela_Home.png" height= "250px">
+    <figcaption> Imagem 6 - Tela Home</figcaption>
 </figure>
 <br><br>
 
 <figure>
-    <img src="../codigo-fonte/Imagens/Telas/Tela_Exercícios.png" height= "500px">
-    <figcaption> Imagem 6 - Tela Exercícios</figcaption>
+    <img src="../codigo-fonte/Imagens/Telas/Tela_Exercícios.png" height= "250px">
+    <figcaption> Imagem 7 - Tela Exercícios</figcaption>
 </figure>
 <br><br>
 
 <figure>
-    <img src="../codigo-fonte/Imagens/Telas/Tela_Diário.png" height= "500px">
-    <figcaption> Imagem 7 - Tela Diário</figcaption>
+    <img src="../codigo-fonte/Imagens/Telas/Tela_Diário.png" height= "250px">
+    <figcaption> Imagem 8 - Tela Diário</figcaption>
 </figure>
 
 
