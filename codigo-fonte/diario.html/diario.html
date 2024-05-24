@@ -47,7 +47,7 @@
                 </a>
             </li>
             <li class="itens-menu">
-                <a href="#">
+                <a href="../index.html">
                     <span class="icon"><i class="bi bi-x-square-fill"></i></span>
                     <span class="txt-link"><strong>Sair</strong></span>
                 </a>
@@ -69,8 +69,17 @@
                 <form id="formulario" onSubmit="return enviar()";>  
                     <input class="calender" type="date" id="calender" name="calender" onchange="dataEscolhida()"><br><br><br><br>
                     <p id="validacao"></p>
-                    <label class="quiz" for="good">O que te faz bem?</label><br><br>
-                    <input class="cor-azul" type="text" id="good" name="good"required><br><br>
+                    <label class="quiz" for="good">Como você está se sentindo hoje?</label><br><br>
+                    <select class="cor-azul" id="feelings" required>
+                        <option value="feliz">Feliz &#128513;</option>
+                        <option value="triste">Triste &#128554;</option>
+                        <option value="ansioso">Ansioso &#128543;</option>
+                        <option value="calmo">Calmo &#x1F60C;</option>
+                        <option value="irritado">Irritado &#128548;</option>
+                        <option value="estressada">Estressada &#128531;</option>
+                        <option value="apaixonada">Apaixonada &#128525;</option>
+                      </select>
+                    <br><br>
                     <label class="quiz" for="bad">O que te faz mal?</label><br><br>
                     <input class="cor-azul" type="text" id="bad" name="bad"required><br><br>
                     <label class="quiz" for="learn">O que você aprendeu hoje?</label><br><br>
@@ -89,7 +98,10 @@
             
            
         </div> <br><br>
-  
+       
+        
+    </div>
+  </nav>
 
 </body>
 <script src="scriptDiario.js"></script>

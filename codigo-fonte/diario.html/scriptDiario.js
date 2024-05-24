@@ -40,6 +40,6 @@ function dataEscolhida(){
     if (dataPreechida == true && maiorQueHoje == false){
         document.getElementById("validacao").textContent = ""
 
-    
-}
-}
+    }
+
+    }
