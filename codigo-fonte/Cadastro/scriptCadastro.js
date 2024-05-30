@@ -84,7 +84,8 @@ cadForm.addEventListener("submit", (e) => {
 
     localStorage.setItem("usuarios", JSON.stringify(usuarios));
 
-    alert ("CADASTRADO COM SUCESSO");
+    alert ("CADASTRADO COM SUCESSO \nVOCÊ SERÁ REDIRECIONADO PARA A PÁGINA DE LOGIN");
+    location.href = "../Login/login.html";
 
 });
 
