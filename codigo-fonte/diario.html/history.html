@@ -58,102 +58,18 @@
 <body>
     <div class="container">
         <img class="logo-azul" src="../Imagens/LOGO/LOGO AZUL.png">
-        <h1>Historico de Mensagens</h1>
+        <h1>Histórico</h1>
         <div class="filter">
-            <label for="date-filter">Filtrar por data:</label>
-            <input type="date" id="dateInput">
-            <button onclick="filterTable()">Filtrar</button>
+        <label for="filtroData">Filtrar por data:</label>
+        <input type="date" id="filtroData">
+        <button onclick="filtrarPorData()"class="buttonFiltro">Filtrar</button>
         </div>
-        <div>
-            <table id="dataTable">
-                <thead>
-                    <tr>
-                        <th>Data</th>
-                        <th>O que te faz bem?</th>
-                        <th>O que te faz mal?</th>
-                        <th>O que aprendeu hoje?</th>
-                        <th>Como foi o seu dia?</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>2024-05-01</td>
-                        <td>Passear no parque</td>
-                        <td>Comer fast food em excesso</td>
-                        <td>Aprendi a programar em JavaScript</td>
-                        <td>Foi um dia tranquilo</td>
-                    </tr>
-                    <tr>
-                        <td>2024-05-02</td>
-                        <td>Ler um livro</td>
-                        <td>Ficar muito tempo no computador</td>
-                        <td>Descobri uma nova receita de bolo</td>
-                        <td>Um dia produtivo</td>
-                    </tr>
-                    <tr>
-                        <td>2024-05-03</td>
-                        <td>Praticar exercícios físicos</td>
-                        <td>Dormir pouco</td>
-                        <td>Estudei sobre história antiga</td>
-                        <td>Um dia cansativo</td>
-                    </tr>
-                    <tr>
-                        <td>04-05-2024</td>
-                        <td>Ouvir música</td>
-                        <td>Beber café à noite</td>
-                        <td>Aprendi a tocar uma nova música no violão</td>
-                        <td>Dia produtivo e criativo</td>
-                    </tr>
-                    <tr>
-                        <td>05-05-2024</td>
-                        <td>Passar tempo com a família</td>
-                        <td>Procrastinar</td>
-                        <td>Descobri um novo método de organização</td>
-                        <td>Dia agradável</td>
-                    </tr>
-                    <tr>
-                        <td>06-05-2024</td>
-                        <td>Tomar sol</td>
-                        <td>Comer alimentos muito açucarados</td>
-                        <td>Assisti a uma palestra interessante online</td>
-                        <td>Dia relaxante</td>
-                    </tr>
-                    <tr>
-                        <td>07-05-2024</td>
-                        <td>Fazer uma caminhada ao ar livre</td>
-                        <td>Ficar em ambientes muito barulhentos</td>
-                        <td>Descobri uma nova técnica de pintura</td>
-                        <td>Dia inspirador</td>
-                    </tr>
-                    <tr>
-                        <td>08-05-2024</td>
-                        <td>Cozinhar uma refeição saudável</td>
-                        <td>Ver notícias negativas</td>
-                        <td>Pratiquei meditação pela primeira vez</td>
-                        <td>Dia calmo e positivo</td>
-                    </tr>
-                    <tr>
-                        <td>09-05-2024</td>
-                        <td>Ler notícias positivas</td>
-                        <td>Ficar preso no trânsito</td>
-                        <td>Aprendi uma nova habilidade no trabalho</td>
-                        <td>Dia desafiador, mas gratificante</td>
-                    </tr>
-                    <tr>
-                        <td>10-05-2024</td>
-                        <td>Conversar com amigos</td>
-                        <td>Passar muito tempo nas redes sociais</td>
-                        <td>Descobri um novo livro favorito</td>
-                        <td>Dia divertido e animado</td>
-                    </tr>
-                </tbody>
-            </table>
-
-        </div>
-       
-    </div>
-
-      <script src="history.js"></script>
+        <div class="content">
+            
+        
+    <ul id="historico"></ul>
+        
+         <script src="history.js"></script>
     
 </body>
 </html>

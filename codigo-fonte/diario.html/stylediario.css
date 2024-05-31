@@ -1,9 +1,21 @@
 /*Página diário */
 
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-#body{
+html, body {
+    height: 100%;
+    margin: 32px;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    margin-top: 0;
+    background: #8eccdf24;
+        
+}
+body {
     display: flex;
-    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    
 }
 #fieldset{
     background-color:royalblue;
@@ -26,12 +38,11 @@ input{
    
 }
 .content{
-    background: white;
-    width: 75%;
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
     height: 603px;
-    padding: 12px;
+    padding: 0px;
 }
 .tittle {
     font-size: 40pt;
@@ -126,8 +137,8 @@ ul li.itens-menu{
     margin-left: 10px;
 }
 img{
-    width: 40%;
-    text-align: center;
+    width: 30%;
+    
 }
 .logo-azul{
     width: 20%;
@@ -150,4 +161,23 @@ select {
     font-size: 20px;
 
     }
-  
+ 
+    
+.grafico-esquerda {
+    float: left;
+    width: 30%; 
+    margin-right: 20px; 
+}
+
+#areaGrafico {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+#grafico {
+    width: 100%;
+    height: auto;
+}
+
+
