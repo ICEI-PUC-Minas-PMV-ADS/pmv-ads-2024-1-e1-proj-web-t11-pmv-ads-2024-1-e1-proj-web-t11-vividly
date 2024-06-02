@@ -34,13 +34,13 @@
                 </a>
             </li>
             <li class="itens-menu">
-                <a href="..//diario.html/diario.html">
+                <a href="../diario.html/diario.html">
                     <span class="icon"><i class="bi bi-calendar3"></i></span>
-                    <span class="txt-link"> <strong>Diário</strong></span>
+                    <span class="txt-link"><strong>Diário</strong></span>
                 </a>
             </li>
             <li class="itens-menu">
-                <a href="..//Fórum/forum.html">
+                <a href="../Fórum/forum.html">
                     <span class="icon"><i class="bi bi-chat-square-text-fill"></i></span>
                     <span class="txt-link"><strong>Fórum</strong></span>
                 </a>
@@ -51,9 +51,10 @@
                     <span class="txt-link"><strong>Sair</strong></span>
                 </a>
             </li>
+        </ul>
     </nav>
     <div class="content">
-        <div>
+        <div class="coluna1">
             <p class="link-history"><a href="history.html" autocapitalize="characters">Histórico</a></p><br><br><br>
             <div id="areaGrafico" class="grafico-esquerda">
                 <h1>Sentimentos</h1><img src="../Imagens/diario/divertidamente.jpg" >
@@ -62,7 +63,7 @@
         </div>
         <div>
             <div style="display: flex;">
-                <img src="..//Imagens/diario/escrevendodiario.png">
+                <img src="../Imagens/diario/escrevendodiario.png">
                 <p class="tittle">Diário</p>
                 <br><br>
             </div>
@@ -72,28 +73,24 @@
                     <p id="validacao"></p>
                     <label class="quiz" for="good">Como você está se sentindo hoje?</label><br><br>
                     <select class="cor-azul" id="feelingsForm" name="feelingsForm" required>
-                        <option name="feeling" value="1">Feliz &#128513;</option>
-                        <option name="feeling" value="2">Triste &#128554;</option>
-                        <option name="feeling" value="3">Ansioso &#128543;</option>
-                        <option name="feeling" value="4">Calmo &#x1F60C;</option>
-                        <option name="feeling" value="5">Irritado &#128548;</option>
-                        <option name="feeling" value="6">Estressada (o) &#128531;</option>
-                        <option name="feeling" value="7">Apaixonada &#128525;</option>
-                        <option name="feeling" value="8">Agitado &#129327;</option>
-                        <option name="feeling" value="9">Sonolento &#128564;</option>
-                        <option name="feeling" value="10">Doente &#x1F927;</option>
+                        <option value="1">Feliz 😃</option>
+                        <option value="2">Triste 😢</option>
+                        <option value="3">Ansioso 😟</option>
+                        <option value="4">Calmo 😌</option>
+                        <option value="5">Irritado 😠</option>
+                        <option value="6">Estressada (o) 😓</option>
+                        <option value="7">Apaixonada 😍</option>
+                        <option value="8">Agitado 😇</option>
+                        <option value="9">Sonolento 😴</option>
+                        <option value="10">Doente 🤧</option>
                     </select>
-                   
                     <br><br>
                     <label class="quiz" for="learn">O que você aprendeu hoje?</label><br><br>
                     <input class="cor-azul" type="text" id="learn" name="learn" required><br><br>
-                    <label class="quiz" for="bad">Como foi o seu dia?</label><br><br>
-                    <textarea class="cor-azul" cols="30" rows="8"required></textarea>><br><br>
+                    <label class="quiz" for="day">Como foi o seu dia?</label><br><br>
+                    <textarea class="cor-azul" id="day" name="day" cols="30" rows="8" required></textarea><br><br>
                     <input type="submit" value="Enviar" id="submit"><br><br><br><br>
                 </form>
-               
-             
-               
                 <img class="logo-azul" src="../Imagens/LOGO/LOGO AZUL.png">
             </div>
         </div>

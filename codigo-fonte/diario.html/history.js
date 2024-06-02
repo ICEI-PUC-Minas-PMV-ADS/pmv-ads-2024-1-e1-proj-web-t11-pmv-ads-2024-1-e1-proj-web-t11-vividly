@@ -1,5 +1,18 @@
 let indiceEdicao = null;
 
+const numbersToWords = {
+    0: 'Feliz 😃',
+    1: 'Triste 😢',
+    2: 'Ansioso 😟',
+    3: 'Calmo 😌',
+    4: 'Irritado 😠',
+    5: 'Estressada (o) 😓',
+    6: 'Apaixonada 😍',
+    7: 'Agitado 😇',
+    8: 'Sonolento 😴',
+    9: 'Doente 🤧',
+};
+
 // Função para selecionar item do menu
 var menuItem = document.querySelectorAll('.itens-menu');
 
@@ -85,8 +98,11 @@ function exibirUltimosDados() {
             indiceEdicao = index;
             document.getElementById('formulario').style.display = 'block';
         }
-    
-        function salvarDados() {
+        function fecharEdicao() {
+            indiceEdicao = null;
+            document.getElementById('formulario').style.display = 'none';
+        }
+            function salvarDados() {
             let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
             const dataEditada = {
                 calender: document.getElementById('calender').value,

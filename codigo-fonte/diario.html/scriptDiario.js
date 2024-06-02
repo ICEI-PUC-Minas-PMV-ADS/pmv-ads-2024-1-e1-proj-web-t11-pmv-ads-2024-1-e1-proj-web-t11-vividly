@@ -1,5 +1,3 @@
-
-
 // Função para selecionar item do menu
 var menuItem = document.querySelectorAll('.itens-menu');
 
@@ -24,8 +22,7 @@ expandir.addEventListener('click', function(){
 
 function enviar() {
     var dataEscolhidaTexto = document.getElementById("calender");
-    var dataPreechida = dataEscolhidaTexto. value != "";
-   
+    var dataPreechida = dataEscolhidaTexto.value != "";
     var dataEscolhida = new Date(dataEscolhidaTexto.value);
     var hoje = new Date();
     var maiorQueHoje = dataEscolhida > hoje;
@@ -33,65 +30,67 @@ function enviar() {
     var fazBem = document.getElementById("feelingsForm").value;
     var aprendeu = document.getElementById("learn").value;
     var dia = document.getElementById("day").value;
-    if(fazBem != "" && aprendeu != "" && dia !="" && maiorQueHoje == false && dataPreechida == true){
+
+    if (fazBem != "" && aprendeu != "" && dia != "" && maiorQueHoje == false && dataPreechida == true) {
         document.getElementById("validacao").textContent = "";
-        alert("enviado com sucesso") ;
+        salvarDados(fazBem);
+        alert("Enviado com sucesso");
         return true;
-    }
-    else{
+    } else {
         return false;
     }
-    
 }
 
-function dataEscolhida(){
+function dataEscolhida() {
     var dataEscolhidaTexto = document.getElementById("calender");
-    var dataPreechida = dataEscolhidaTexto. value != "";
+    var dataPreechida = dataEscolhidaTexto.value != "";
     var dataEscolhida = new Date(dataEscolhidaTexto.value);
     var hoje = new Date();
     var maiorQueHoje = dataEscolhida > hoje;
-   
+
     if (dataPreechida == false || maiorQueHoje == true) {
         document.getElementById("validacao").textContent = "Data inválida.";
-    }
-    else{
+    } else {
         document.getElementById("validacao").textContent = "";
     }
 
-    if (dataPreechida == true && maiorQueHoje == false){
-        document.getElementById("validacao").textContent = ""
-
+    if (dataPreechida == true && maiorQueHoje == false) {
+        document.getElementById("validacao").textContent = "";
     }
+}
 
-    /*salvando dados*/
+function salvarDados(fazBem) {
+    const calender = document.getElementById('calender').value;
+    const feeling = fazBem;
+    const learn = document.getElementById('learn').value;
+    const day = document.getElementById('day').value;
 
-    function salvarDados() {
-        const calender = document.getElementById('calender').value;
-        const feeling = document.getElementById('feelingsForm').value;
-        const learn = document.getElementById('learn').value;
-        const day = document.getElementById('day').value;
-    
-       
-        const data = { calender, feeling, learn, day };
-    
-        let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
-    
-        dadosSalvos.push(data);
-    
-        localStorage.setItem('dados', JSON.stringify(dadosSalvos));
-    
-      
-        window.location.href = 'history.html';
+    const data = { calender, feeling, learn, day };
+
+    let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
+
+    dadosSalvos.push(data);
+
+    localStorage.setItem('dados', JSON.stringify(dadosSalvos));
+
+    atualizarGrafico();
+}
+
+document.getElementById('formulario').addEventListener('submit', function (event) {
+    event.preventDefault();
+    if (enviar()) {
+        salvarDados(document.getElementById("feelingsForm").value);
     }
-    
-    document.getElementById('formulario').addEventListener('submit', function(event) {
-        event.preventDefault(); 
-        salvarDados();
-    });
+});
+document.getElementById('formulario').addEventListener('submit', function (event) {
+    event.preventDefault();
+    if (enviar()) {
+        salvarDados(document.getElementById("feelingsForm").value);
+        document.getElementById('formulario').reset(); 
     }
- 
+});
+window.addEventListener('load', atualizarGrafico);
 
-// scriptDiario.js
 
 let dadosGraficos = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 let seriesGrafico = {
@@ -152,115 +151,3 @@ function atualizarGrafico() {
     chart.data.datasets[0].data = novosDados;
     chart.update();
 }
-
-function enviar() {
-    var dataEscolhidaTexto = document.getElementById("calender");
-    var dataPreechida = dataEscolhidaTexto.value != "";
-
-    var dataEscolhida = new Date(dataEscolhidaTexto.value);
-    var hoje = new Date();
-    var maiorQueHoje = dataEscolhida > hoje;
-
-    var fazBem = document.getElementById("feelingsForm").value;
-    var aprendeu = document.getElementById("learn").value;
-    var dia = document.getElementById("day").value;
-
-    if (fazBem != "" && aprendeu != "" && dia != "" && maiorQueHoje == false && dataPreechida == true) {
-        document.getElementById("validacao").textContent = "";
-        salvarDados(fazBem);
-        alert("Enviado com sucesso");
-        return true;
-    } else {
-        return false;
-    }
-}
-
-function dataEscolhida() {
-    var dataEscolhidaTexto = document.getElementById("calender");
-    var dataPreechida = dataEscolhidaTexto.value != "";
-    var dataEscolhida = new Date(dataEscolhidaTexto.value);
-    var hoje = new Date();
-    var maiorQueHoje = dataEscolhida > hoje;
-
-    if (dataPreechida == false || maiorQueHoje == true) {
-        document.getElementById("validacao").textContent = "Data inválida.";
-    } else {
-        document.getElementById("validacao").textContent = "";
-    }
-
-    if (dataPreechida == true && maiorQueHoje == false) {
-        document.getElementById("validacao").textContent = "";
-    }
-}
-
-function salvarDados(fazBem) {
-    const calender = document.getElementById('calender').value;
-    const feeling = fazBem;
-    const learn = document.getElementById('learn').value;
-    const day = document.getElementById('day').value;
-
-    const data = { calender, feeling, learn, day };
-
-    let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
-
-    dadosSalvos.push(data);
-
-    localStorage.setItem('dados', JSON.stringify(dadosSalvos));
-
-    atualizarGrafico();
-}
-
-document.getElementById('formulario').addEventListener('submit', function (event) {
-    event.preventDefault();
-    if (enviar()) {
-        salvarDados(document.getElementById("feelingsForm").value);
-    }
-});
-
-window.addEventListener('load', atualizarGrafico);
-
-
-function dataEscolhida() {
-    var dataEscolhidaTexto = document.getElementById("calender");
-    var dataPreechida = dataEscolhidaTexto.value != "";
-    var dataEscolhida = new Date(dataEscolhidaTexto.value);
-    var hoje = new Date();
-    var maiorQueHoje = dataEscolhida > hoje;
-
-    if (dataPreechida == false || maiorQueHoje == true) {
-        document.getElementById("validacao").textContent = "Data inválida.";
-    } else {
-        document.getElementById("validacao").textContent = "";
-    }
-
-    if (dataPreechida == true && maiorQueHoje == false) {
-        document.getElementById("validacao").textContent = ""
-    }
-}
-
-function salvarDados() {
-    const calender = document.getElementById('calender').value;
-    const feeling = document.getElementById('feelingsForm').value;
-    const learn = document.getElementById('learn').value;
-    const day = document.getElementById('day').value;
-
-    const data = { calender, feeling, learn, day };
-
-    let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
-
-    dadosSalvos.push(data);
-
-    localStorage.setItem('dados', JSON.stringify(dadosSalvos));
-
-    window.location.href = 'history.html';
-}
-
-document.getElementById('formulario').addEventListener('submit', function (event) {
-    event.preventDefault();
-    if (enviar()) {
-        salvarDados();
-    }
-});
-
-  
-    
