@@ -1,64 +1,14 @@
+let indiceEdicao = null;
 
-    function exibirDados() {
-              let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
+        function exibirUltimosDados() {
+            let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
+            const lista = document.getElementById('historico');
     
-               const lista = document.getElementById('historico');
+            lista.innerHTML = '';
     
-        lista.innerHTML = '';
+            let dadosParaExibir = dadosSalvos.slice(-5); // Pega os 5 últimos itens
     
-        dadosSalvos.forEach((data, index) => {
-            const item = document.createElement('li');
-            item.innerHTML = `
-                <strong>Data:</strong> ${data.calender}<br>
-                <strong>Sentimento:</strong> ${data.feeling}<br>
-                <strong>Aprendizado:</strong> ${data.learn}<br>
-                <strong>Descrição do Dia:</strong> ${data.day}<br>
-                <button onclick="editarDados(${index})">Editar</button>
-                <button onclick="excluirDados(${index})">Excluir</button>
-                <hr>
-            `;
-            lista.appendChild(item);
-        });
-    }
-       
-    function excluirDados(index) {
-        let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
-        dadosSalvos.splice(index, 1); 
-        localStorage.setItem('dados', JSON.stringify(dadosSalvos)); 
-        exibirDados(); 
-    }
-    
-    function editarDados(index) {
-        let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
-        const data = dadosSalvos[index];
-    
-        
-        document.getElementById('calender').value = data.calender;
-        document.getElementById('feelingsForm').value = data.feeling;
-        document.getElementById('learn').value = data.learn;
-        document.getElementById('day').value = data.day;
-    
-      
-        excluirDados(index);
-    }
-    
-    /* FILTRO */
-    exibirDados();
-
-
-    function filtrarPorData() {
-        const filtroData = document.getElementById('filtroData').value;
-        exibirDados(filtroData);
-    }
-    
-    function exibirDados(filtroData) {
-        let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
-        const lista = document.getElementById('historico');
-        
-        lista.innerHTML = '';
-    
-        dadosSalvos.forEach((data, index) => {
-            if (data.calender === filtroData) {
+            dadosParaExibir.forEach((data, index) => {
                 const item = document.createElement('li');
                 item.innerHTML = `
                     <strong>Data:</strong> ${data.calender}<br>
@@ -70,7 +20,126 @@
                     <hr>
                 `;
                 lista.appendChild(item);
-            }
-        });
-    }
+            });
+        }
+
+        function exibirTodosDados() {
+            let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
+            const lista = document.getElementById('historico');
+
+            lista.innerHTML = '';
+
+            dadosSalvos.forEach((data, index) => {
+                const item = document.createElement('li');
+                item.innerHTML = `
+                    <strong>Data:</strong> ${data.calender}<br>
+                    <strong>Sentimento:</strong> ${data.feeling}<br>
+                    <strong>Aprendizado:</strong> ${data.learn}<br>
+                    <strong>Descrição do Dia:</strong> ${data.day}<br>
+                    <button onclick="editarDados(${index})">Editar</button>
+                    <button onclick="excluirDados(${index})">Excluir</button>
+                    <hr>
+                `;
+                lista.appendChild(item);
+            });
+        }
     
+        function excluirDados(index) {
+            let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
+            dadosSalvos.splice(index, 1); 
+            localStorage.setItem('dados', JSON.stringify(dadosSalvos)); 
+            exibirUltimosDados(); 
+        }
+    
+        function editarDados(index) {
+            let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
+            const data = dadosSalvos[index];
+            
+            document.getElementById('calender').value = data.calender;
+            document.getElementById('feelingsForm').value = data.feeling;
+            document.getElementById('learn').value = data.learn;
+            document.getElementById('day').value = data.day;
+    
+            indiceEdicao = index;
+            document.getElementById('formulario').style.display = 'block';
+        }
+    
+        function salvarDados() {
+            let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
+            const dataEditada = {
+                calender: document.getElementById('calender').value,
+                feeling: document.getElementById('feelingsForm').value,
+                learn: document.getElementById('learn').value,
+                day: document.getElementById('day').value,
+            };
+
+            if (indiceEdicao !== null) {
+                dadosSalvos[indiceEdicao] = dataEditada;
+                indiceEdicao = null;
+            } else {
+                dadosSalvos.push(dataEditada);
+            }
+
+            localStorage.setItem('dados', JSON.stringify(dadosSalvos));
+            exibirUltimosDados();
+
+            document.getElementById('formulario').reset();
+            document.getElementById('formulario').style.display = 'none';
+        }
+
+        function filtrarPorData() {
+            const filtroData = document.getElementById('filtroData').value;
+            exibirDadosFiltrados(filtroData);
+        }
+    
+        function exibirDadosFiltrados(filtroData) {
+            let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
+            const lista = document.getElementById('historico');
+            
+            lista.innerHTML = '';
+
+            if (!filtroData) {
+                exibirTodosDados();
+                return;
+            }
+    
+            dadosSalvos.forEach((data, index) => {
+                if (data.calender === filtroData) {
+                    const item = document.createElement('li');
+                    item.innerHTML = `
+                        <strong>Data:</strong> ${data.calender}<br>
+                        <strong>Sentimento:</strong> ${data.feeling}<br>
+                        <strong>Aprendizado:</strong> ${data.learn}<br>
+                        <strong>Descrição do Dia:</strong> ${data.day}<br>
+                        <button onclick="editarDados(${index})">Editar</button>
+                        <button onclick="excluirDados(${index})">Excluir</button>
+                        <hr>
+                    `;
+                    lista.appendChild(item);
+                }
+            });
+        }
+        exibirUltimosDados();
+
+ /*msg*/
+
+        const mensagens = [
+            { texto: "“O descanso é essencial para o bom funcionamento da nossa mente e corpo. O descanso dá energia para encarar o dia a dia.”" },
+            { texto: "“Ansiedade é a insegurança pelo que está por vir.”" },
+            { texto: "“Busque a sua paz interior. Tente distanciar o que você pode fazer do que é inevitável.”" },
+            { texto: "“Não tente ser sempre forte e perfeito. Aceite que nem todos os dias são bons.”" },
+            { texto: "Seja positivo, sempre!", link: "https://www.exemplo.com/positivo" }
+        ];
+
+        let indiceAtual = 0;
+
+        function exibirMensagem() {
+            const mensagem = mensagens[indiceAtual];
+            const mensagemAtual = document.getElementById('mensagemAtual');
+            
+            mensagemAtual.innerHTML = `<a href="${mensagem.link}" target="_blank">${mensagem.texto}</a>`;
+
+            indiceAtual = (indiceAtual + 1) % mensagens.length; 
+        }
+        exibirMensagem();
+        setInterval(exibirMensagem, 10000);
