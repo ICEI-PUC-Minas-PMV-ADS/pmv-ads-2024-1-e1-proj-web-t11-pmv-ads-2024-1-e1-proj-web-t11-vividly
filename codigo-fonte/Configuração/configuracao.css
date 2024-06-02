@@ -1,0 +1,165 @@
+/* Menu lateral */
+.menu-lateral {
+    width: 60px;
+    height: 90%;
+    background-color: #0A6DC9;
+    padding: 35px 0 35px 1%;
+    box-shadow: 3px 0 0 #063970;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: width 0.5s;
+    margin: 1px; 
+}
+
+nav.menu-lateral.expandir {
+    width: 400px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-expandir > i {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.txt-link {
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li.itens-menu:hover {
+    transition: background-color 0.2s;
+}
+
+ul li.ativo {
+    background-color: #0056b3;
+}
+
+ul li.itens-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+ul li.itens-menu:hover {
+    background: #063970;
+}
+
+ul li.itens-menu {
+    transition: background-color 0.2s;
+}
+
+a {
+    color: white;
+}
+/* Página ---- */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #8eccdf24; 
+}
+
+.container {
+    background-color: #8eccdf24; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.avatar-section, .update-section, .password-section {
+    margin-bottom: 30px;
+}
+
+.avatar-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+.selected-avatar img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+}
+input#avatar {
+    width: 15%;
+}
+.avatar-options{
+    width: 16%;
+}
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 40%;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 25%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

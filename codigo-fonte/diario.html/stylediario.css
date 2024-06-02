@@ -81,10 +81,12 @@ input:focus {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-}                                                   
-.menu-lateral{
-    width: 100px;
-    height: 100%;
+    
+    }
+/* Menu lateral */
+.menu-lateral {
+    width: 60px;
+    height: 90%;
     background-color: #0A6DC9;
     padding: 35px 0 35px 1%;
     box-shadow: 3px 0 0 #063970;
@@ -92,43 +94,71 @@ input:focus {
     top: 0;
     left: 0;
     overflow: hidden;
-    transition: .2s;
-    margin: 1;
-    font-family: "Inria Sans", sans-serif;
+    transition: width 0.5s;
+    margin: 1px; 
 }
-.menu-lateral:hover{
-    width: 300px;
 
+nav.menu-lateral.expandir {
+    width: 400px;
 }
-.btn-expandir{
+
+.btn-expandir {
     width: 100%;
     padding: 10px;
 }
-.btn-expandir > i{
+
+.btn-expandir > i {
     color: white;
     font-size: 24px;
     cursor: pointer;
 }
-ul{
-    height: 100%;
-    list-style-type: none;
+
+.icon {
+    font-size: 30px;
+    margin-left: 10px;
 }
-ul li.itens-menu a{
+
+.txt-link {
+    margin-left: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li.itens-menu:hover {
+    transition: background-color 0.2s;
+}
+
+ul li.ativo {
+    background-color: #0056b3;
+}
+
+ul li.itens-menu a {
     color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 4%;
     display: flex;
+    align-items: center; 
     margin-bottom: 20px;
     line-height: 40px;
 }
-ul li.itens-menu:hover{
+
+ul li.itens-menu:hover {
     background: #063970;
-    
 }
-ul li.itens-menu{
-    transition: .2s;
+
+ul li.itens-menu {
+    transition: background-color 0.2s;
 }
+
+a {
+    color: white;
+}
+
+
 .txt-link{
     margin-left: 40px;
 }

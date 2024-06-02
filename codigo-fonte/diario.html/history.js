@@ -1,12 +1,34 @@
 let indiceEdicao = null;
 
-        function exibirUltimosDados() {
+// Função para selecionar item do menu
+var menuItem = document.querySelectorAll('.itens-menu');
+
+function selecionar() {
+    menuItem.forEach((item) =>
+        item.classList.remove('ativo')
+    );
+    this.classList.add('ativo');
+}
+
+menuItem.forEach((item) =>
+    item.addEventListener('click', selecionar)
+);
+
+// Expandir menu
+var expandir = document.querySelector('.btn-expandir');
+var menuLateral = document.querySelector('.menu-lateral');
+
+expandir.addEventListener('click', function(){
+    menuLateral.classList.toggle('expandir'); 
+});
+       
+function exibirUltimosDados() {
             let dadosSalvos = localStorage.getItem('dados') ? JSON.parse(localStorage.getItem('dados')) : [];
             const lista = document.getElementById('historico');
     
             lista.innerHTML = '';
     
-            let dadosParaExibir = dadosSalvos.slice(-5); // Pega os 5 últimos itens
+            let dadosParaExibir = dadosSalvos.slice(-5); 
     
             dadosParaExibir.forEach((data, index) => {
                 const item = document.createElement('li');
