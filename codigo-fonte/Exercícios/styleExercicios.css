@@ -107,11 +107,12 @@ iframe {
 
 /*comentarios*/
 
-.comentarios {
+.container-comentarios {
     background-color: aliceblue;
     margin: 2%;
     margin-top: 0;
     padding: 2%;
+    padding-top: 0;
     padding-bottom: 1%;
     border: solid black;
     border-radius: 0px 0px 10px 10px;
@@ -121,4 +122,11 @@ iframe {
 .btn-comentar{
     display: flex;
     margin-left: auto;
+}
+
+.comentario-exibido{
+    background-color: lightblue;
+    padding: 1%;
+    border: 1px solid black;
+    border-radius: 10px;
 }
