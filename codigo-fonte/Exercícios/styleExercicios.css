@@ -105,6 +105,14 @@ iframe {
     float: left;
 }
 
+/* boão mostrar comentários*/
+
+.ativar-comentarios{
+    display: flex;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
 /*comentarios*/
 
 .container-comentarios {
@@ -117,6 +125,7 @@ iframe {
     border: solid black;
     border-radius: 0px 0px 10px 10px;
     border-width: 0px 1px 1px 1px;
+    display: none;
 }
 
 .btn-comentar{
@@ -130,3 +139,4 @@ iframe {
     border: 1px solid black;
     border-radius: 10px;
 }
+
