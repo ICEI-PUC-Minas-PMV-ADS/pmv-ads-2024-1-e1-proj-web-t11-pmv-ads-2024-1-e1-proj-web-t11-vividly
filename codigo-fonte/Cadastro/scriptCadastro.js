@@ -66,6 +66,8 @@ function passwordValidate () {
 
 cadForm.addEventListener("submit", (e) => {
 
+    localStorage.clear();
+
     e.preventDefault();
 
     var nome = document.getElementById('nome').value;

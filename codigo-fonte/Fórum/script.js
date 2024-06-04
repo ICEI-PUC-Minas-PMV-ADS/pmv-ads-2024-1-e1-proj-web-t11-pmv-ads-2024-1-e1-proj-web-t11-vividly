@@ -1,4 +1,4 @@
-// start: Sidebar
+// Inicio barra lateral
 document.querySelector('.chat-sidebar-profile-toggle').addEventListener('click', function(e) {
     e.preventDefault()
     this.parentElement.classList.toggle('active')
@@ -9,11 +9,11 @@ document.addEventListener('click', function(e) {
         document.querySelector('.chat-sidebar-profile').classList.remove('active')
     }
 })
-// end: Sidebar
+// fim barra lateral
 
 
 
-// start: Coversation
+// Inicio da conversa
 document.querySelectorAll('.conversation-item-dropdown-toggle').forEach(function(item) {
     item.addEventListener('click', function(e) {
         e.preventDefault()
@@ -59,4 +59,9 @@ document.querySelectorAll('.conversation-back').forEach(function(item) {
         document.querySelector('.conversation-default').classList.add('active')
     })
 })
-// end: Coversation
+// fim conversa
+
+
+
+
+    
