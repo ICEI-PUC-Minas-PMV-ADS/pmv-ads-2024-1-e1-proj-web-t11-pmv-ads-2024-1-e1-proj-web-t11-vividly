@@ -40,22 +40,13 @@ function loadUserData() {
         localStorage.setItem('password', '12345');
     }
 }
-function selectAvatar(avatar) {
-  
-    const selectedAvatar = avatar.getAttribute('data-avatar');
-    document.querySelectorAll('.avatar').forEach(input => {
-        input.removeAttribute('data-selected');
-    });
-
-    avatar.setAttribute('data-selected', 'true');
-    document.getElementById('selectedAvatarImg').src = `../Imagens/Configuração/${selectedAvatar}`;
-
-    
-    localStorage.setItem('avatar', selectedAvatar);
+function selectAvatar(element) {
+    const selectedAvatarImg = document.getElementById('selectedAvatarImg');
+    const selectedAvatarInput = document.getElementById('selectedAvatar');
+    selectedAvatarImg.src = element.src;
+    selectedAvatarInput.value = element.src;
 }
-if (selectedAvatar !== null) {
-    document.getElementById('selectedAvatarImg').src = `../Imagens/Configuração/${selectedAvatar}`;
-}
+
 // Função para validar email
 function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
