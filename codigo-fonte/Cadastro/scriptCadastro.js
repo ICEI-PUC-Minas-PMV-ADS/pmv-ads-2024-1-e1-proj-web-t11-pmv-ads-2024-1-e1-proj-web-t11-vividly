@@ -66,7 +66,7 @@ function passwordValidate () {
 
 cadForm.addEventListener("submit", (e) => {
 
-    localStorage.clear();
+    localStorage.removeItem("usuarios");
 
     e.preventDefault();
 
