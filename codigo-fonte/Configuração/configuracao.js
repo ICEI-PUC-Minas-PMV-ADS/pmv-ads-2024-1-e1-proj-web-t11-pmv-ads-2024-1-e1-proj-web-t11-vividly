@@ -122,3 +122,89 @@ function changePassword() {
 
 
 document.addEventListener('DOMContentLoaded', loadUserData);
+
+function loadUserData() {
+    const usuario = JSON.parse(localStorage.getItem('usuario'));
+    document.getElementById('username').value = usuario.nome;
+    document.getElementById('email').value = usuario.email;
+    document.getElementById('selectedAvatarImg').src = usuario.avatar;
+}
+
+function updateData() {
+    const username = document.getElementById('username').value;
+    const email = document.getElementById('email').value;
+
+    let isValid = true;
+    const usernameError = document.getElementById('usernameError');
+    const emailError = document.getElementById('emailError');
+
+    usernameError.textContent = '';
+    emailError.textContent = '';
+
+    if (!username) {
+        usernameError.textContent = 'O nome de usuário não pode estar vazio.';
+        isValid = false;
+    }
+
+    if (!email) {
+        emailError.textContent = 'O email não pode estar vazio.';
+        isValid = false;
+    } else if (!validateEmail(email)) {
+        emailError.textContent = 'Por favor, insira um email válido.';
+        isValid = false;
+    }
+
+    if (isValid) {
+        localStorage.setItem('username', username);
+        localStorage.setItem('email', email);
+        alert('Dados atualizados com sucesso!');
+    }
+
+    return isValid;
+}
+
+function changePassword() {
+    const currentPassword = document.getElementById('currentPassword').value;
+    const newPassword = document.getElementById('newPassword').value;
+    const confirmPassword = document.getElementById('confirmPassword').value;
+
+    let isValid = true;
+    const currentPasswordError = document.getElementById('currentPasswordError');
+    const newPasswordError = document.getElementById('newPasswordError');
+    const confirmPasswordError = document.getElementById('confirmPasswordError');
+
+    currentPasswordError.textContent = '';
+    newPasswordError.textContent = '';
+    confirmPasswordError.textContent = '';
+
+    const savedPassword = localStorage.getItem('password');
+    if (currentPassword !== savedPassword) {
+        currentPasswordError.textContent = 'Senha atual incorreta.';
+        isValid = false;
+    }
+
+    if (!newPassword) {
+        newPasswordError.textContent = 'A nova senha não pode estar vazia.';
+        isValid = false;
+    } else if (newPassword !== confirmPassword) {
+        confirmPasswordError.textContent = 'As senhas diferentes.';
+        isValid = false;
+    }
+
+    if (isValid) {
+        localStorage.setItem('password', newPassword);
+        alert('Senha alterada com sucesso!');
+    }
+
+    return isValid;
+}
+
+function validateEmail(email) {
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(String(email).toLowerCase());
+}
+
+
+document.addEventListener('DOMContentLoaded', loadUserData);
+
+
