@@ -40,7 +40,22 @@ function enviar() {
         return false;
     }
 }
+document.addEventListener('DOMContentLoaded', function() {
+    const avatarImg = document.getElementById('avatarImg');
+    const usuario = JSON.parse(localStorage.getItem('usuario'));
 
+    if (usuario && usuario.avatar) {
+        avatarImg.src = usuario.avatar;
+    } else {
+        avatarImg.alt = 'Nenhum avatar selecionado';
+    }
+});
+window.onload = function() {
+    var username = localStorage.getItem('username');
+    if (username) {
+        document.getElementById('avatarName').innerText = username;
+    }
+};
 function dataEscolhida() {
     var dataEscolhidaTexto = document.getElementById("calender");
     var dataPreechida = dataEscolhidaTexto.value != "";

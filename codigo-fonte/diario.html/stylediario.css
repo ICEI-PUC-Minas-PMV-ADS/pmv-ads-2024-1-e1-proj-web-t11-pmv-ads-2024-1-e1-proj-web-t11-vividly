@@ -102,8 +102,8 @@ input:focus {
     }
 /* Menu lateral */
 .menu-lateral {
-    width: 60px;
-    height: 90%;
+    width: 63px;
+    height: 100%;
     background-color: #0A6DC9;
     padding: 35px 0 35px 1%;
     box-shadow: 3px 0 0 #063970;
@@ -113,6 +113,7 @@ input:focus {
     overflow: hidden;
     transition: width 0.5s;
     margin: 1px; 
+    margin-top: -2%;
 }
 
 nav.menu-lateral.expandir {
@@ -237,3 +238,16 @@ select {
     width: 25%;
 }
 
+#avatarImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: -1px;
+}
+#avatarName{
+color: antiquewhite;
+font-size: 16px;
+font-style: italic;
+font-family: 'Inria Sans';
+
+}
