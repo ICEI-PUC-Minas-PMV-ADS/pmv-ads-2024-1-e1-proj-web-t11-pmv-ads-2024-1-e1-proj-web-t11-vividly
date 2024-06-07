@@ -198,3 +198,32 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
    
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>  
+ </tr>
+<tr>
+  <td>CT-07: Exibição de Anotações / bloco de notas</td>
+  <td>
+   <ul>
+    <li>RF-009:A aplicação deve oferecerum bloco de notas para cada usuário,no qual, somente ele tenha acesso  </li>
+   </ul>
+  </td>
+  <td>Garantir que as anotações do usuário sejam exibidas corretamente nos cartões.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Navegar até a seção "Suas anotações"</li>
+   </ol>
+   </td>
+  <td> Todas as anotações são exibidas conforme esperado. </td>
+  <td></td>
+ </tr>
+</table>
