@@ -1,5 +1,9 @@
 const userName = JSON.parse(localStorage.getItem("usuarios"));
 const usuario = userName[0].usuario;
+const INPUT_BUSCA = document.getElementById('input-busca');
+const topic = document.getElementById('topic-title');
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
     loadTopics();
@@ -34,11 +38,12 @@ function addTopic() {
 
     const topics = getStoredTopics();
     const newTopic = { title: topicTitle, messages: [] };
+    
     topics.push(newTopic);
     saveTopics(topics);
 
     const topicContainer = document.getElementById('topic-container');
-    const topicElement = createTopicElement(newTopic.title, newTopic.messages);
+    const topicElement = createTopicElement(newTopic.title, newTopic.messages,);
     topicContainer.appendChild(topicElement);
 
     document.getElementById('topic-title').value = '';
@@ -106,3 +111,19 @@ function addMessage(messagesContainer, messageText, topicTitle) {
         saveTopics(topics);
     }
 }
+
+// barra pesquisa
+
+
+let boxBuscar = document.querySelector('.buscar-box');
+let lupa = document.querySelector('.lupa-buscar');
+let btnFechar = document.querySelector('.btn-fechar');
+
+lupa.addEventListener('click', ()=> {
+    boxBuscar.classList.add('ativar')
+})
+
+btnFechar.addEventListener('click', ()=> {
+    boxBuscar.classList.remove('ativar')
+})
+

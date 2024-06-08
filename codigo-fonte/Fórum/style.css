@@ -65,19 +65,15 @@ a {
 }
  
 
-  #shearchbox{
-    padding: 10px 20px;
-    font-size:16px;
-    border: 1px solid  #ffffff;
-    background-color: #ffffff;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    border-radius: 20px;
-    width: 300px;
-    margin-right: 100px;
+  .search-box{  
     
+    border-radius: 20px;
+    width: 350px;
+    cursor: pointer;
     
  }
+
+ 
   
   .forum2{
     width: 70%;
@@ -250,3 +246,53 @@ input{
 }
 
 
+
+
+
+.buscar-box{
+  width: 80px;
+  height: 80px;
+ 
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  transition: .5s;
+  margin-right: 30px;
+}
+
+.buscar-box.ativar{
+  width: 400px;
+}
+
+.buscar-box .lupa-buscar, .buscar-box .btn-fechar{
+  min-width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buscar-box .btn-fechar i{
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.buscar-box .lupa-buscar i{
+  font-size: 35px;
+}
+
+.buscar-box .input-buscar{
+  position: absolute;
+  left: 80px;
+  width: calc(100% - 120px);
+  height: 100%;
+  line-height: 80px;
+}
+
+.buscar-box .input-buscar input{
+  border: 0;
+  outline: 0;
+  font-size: 20px;
+}
