@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Configurações da Conta</title>
     <link rel="stylesheet" href="configuracao.css">
+    <script defer src="configuracao.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
@@ -13,8 +14,9 @@
             <i class="bi bi-list" id="expandir"></i>
         </div>
         <ul>
+                       
             <li class="itens-menu">
-                <a href="../Configuração/configuração.html">
+                <a href="../Configuracao/configuracao.html">
                     <span class="icon"><i class="bi bi-person-square"></i></span>
                     <span class="txt-link"><strong>Conta</strong></span>
                 </a>
@@ -26,19 +28,19 @@
                 </a>
             </li>
             <li class="itens-menu">
-                <a href="../Exercícios/exercicios.html">
+                <a href="../Exercicios/exercicios.html">
                     <span class="icon"><i class="bi bi-clipboard-check-fill"></i></span>
                     <span class="txt-link"><strong>Exercícios</strong></span>
                 </a>
             </li>
             <li class="itens-menu">
-                <a href="../diario.html/diario.html">
+                <a href="../Diario/diario.html">
                     <span class="icon"><i class="bi bi-calendar3"></i></span>
                     <span class="txt-link"><strong>Diário</strong></span>
                 </a>
             </li>
             <li class="itens-menu">
-                <a href="../Fórum/forum.html">
+                <a href="../Forum/forum.html">
                     <span class="icon"><i class="bi bi-chat-square-text-fill"></i></span>
                     <span class="txt-link"><strong>Fórum</strong></span>
                 </a>
@@ -57,8 +59,8 @@
             <h2>Escolha seu Avatar</h2>
             <div class="avatar-options">
                 <img src="../Imagens/Configuração/feminino-morena.svg" alt="Avatar 1" class="avatar" onclick="selectAvatar(this)">
-                <img src="../Imagens/Configuração/feminino2.jpg" alt="Avatar 2" class="avatar" onclick="selectAvatar(this)">
-              <img src="../Imagens/Configuração/feminino-ruiva.jpg" alt="Avatar 3" class="avatar" onclick="selectAvatar(this)">
+                <img src="../Imagens/Configuração/feminino-ruiva.jpg" alt="Avatar 2" class="avatar" onclick="selectAvatar(this)">
+                <img src="../Imagens/Configuração/feminino2.jpg" alt="Avatar 3" class="avatar" onclick="selectAvatar(this)">
                 <img src="../Imagens/Configuração/feninino-morenaClaro.jpg" alt="Avatar 4" class="avatar" onclick="selectAvatar(this)">
                 <img src="../Imagens/Configuração/profissional da saudefeminino.jpg" alt="Avatar 5" class="avatar" onclick="selectAvatar(this)">
                 <img src="../Imagens/Configuração/masculino1.jpg" alt="Avatar 6" class="avatar" onclick="selectAvatar(this)">
@@ -68,7 +70,7 @@
             </div>
             <div class="selected-avatar">
                 <h3>Avatar Selecionado:</h3>
-                <img id="selectedAvatarImg" src="" alt="AvatarSelecionado">
+                <img id="selectedAvatarImg" src="" alt="Avatar Selecionado">
             </div>
         </div>
 
@@ -87,7 +89,6 @@
             </form>
         </div>
 
-        <!-- Seção de Alteração de Senha -->
         <div class="password-section">
             <h2>Mudar Senha</h2>
             <form id="passwordForm">
@@ -107,7 +108,5 @@
             </form>
         </div>
     </div>
-
-    <script defer src="configuracao.js"></script>
 </body>
 </html>
