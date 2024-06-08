@@ -36,3 +36,11 @@ window.onload = function() {
         document.getElementById('avatarName').innerText = username;
     }
 };
+document.addEventListener('DOMContentLoaded', () => {
+    const btnExpandir = document.querySelector('.btn-expandir');
+    const menuLateral = document.querySelector('.menu-lateral');
+
+    btnExpandir.addEventListener('click', () => {
+        menuLateral.classList.toggle('expandido');
+    });
+});
