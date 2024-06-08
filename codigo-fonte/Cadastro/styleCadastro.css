@@ -72,7 +72,7 @@
 
 .return-login > a {
     text-decoration: none;
-    color: #063970;
+    color: #056BC9;
     border-style: solid;
     border-radius: 10px;
     font-weight: 800;
@@ -100,6 +100,11 @@
     font-weight: 800;
 }
 
+#camposObrigatorios {
+    margin-left: 3vw;
+    font-style: italic;
+}
+
 .textfield {
     width: 100%;
     display: flex;
@@ -114,6 +119,7 @@
     padding: 10px;
     outline: none;
     box-sizing: border-box;
+    margin-top: 1%;
 }
 
 .span {
@@ -121,7 +127,7 @@
     margin-right: auto;
     margin-left: 20%;
     color: red;
-    display: none;
+    visibility: hidden;
 }
 
 .btn-cadastro {
