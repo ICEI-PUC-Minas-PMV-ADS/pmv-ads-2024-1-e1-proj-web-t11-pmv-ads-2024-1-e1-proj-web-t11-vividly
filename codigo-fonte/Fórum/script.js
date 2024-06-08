@@ -1,67 +1,107 @@
-// Inicio barra lateral
-document.querySelector('.chat-sidebar-profile-toggle').addEventListener('click', function(e) {
-    e.preventDefault()
-    this.parentElement.classList.toggle('active')
-})
+const userName = JSON.parse(localStorage.getItem("usuarios"));
+const usuario = userName[0].usuario;
 
-document.addEventListener('click', function(e) {
-    if(!e.target.matches('.chat-sidebar-profile, .chat-sidebar-profile *')) {
-        document.querySelector('.chat-sidebar-profile').classList.remove('active')
+document.addEventListener('DOMContentLoaded', () => {
+    loadTopics();
+});
+
+
+function loadTopics() {
+    const topics = JSON.parse(localStorage.getItem('forumTopics')) || [];
+    const topicContainer = document.getElementById('topic-container');
+    topicContainer.innerHTML = '';
+
+    topics.forEach(topic => {
+        const topicElement = createTopicElement(topic.title, topic.messages);
+        topicContainer.appendChild(topicElement);
+    });
+}
+
+function saveTopics(topics) {
+    localStorage.setItem('forumTopics', JSON.stringify(topics));
+}
+
+function getStoredTopics() {
+    return JSON.parse(localStorage.getItem('forumTopics')) || [];
+}
+
+function addTopic() {
+    const topicTitle = document.getElementById('topic-title').value;
+    if (topicTitle.trim() === '') {
+        alert('Por favor, insira um título para o tópico.');
+        return;
     }
-})
-// fim barra lateral
 
+    const topics = getStoredTopics();
+    const newTopic = { title: topicTitle, messages: [] };
+    topics.push(newTopic);
+    saveTopics(topics);
 
+    const topicContainer = document.getElementById('topic-container');
+    const topicElement = createTopicElement(newTopic.title, newTopic.messages);
+    topicContainer.appendChild(topicElement);
 
-// Inicio da conversa
-document.querySelectorAll('.conversation-item-dropdown-toggle').forEach(function(item) {
-    item.addEventListener('click', function(e) {
-        e.preventDefault()
-        if(this.parentElement.classList.contains('active')) {
-            this.parentElement.classList.remove('active')
-        } else {
-            document.querySelectorAll('.conversation-item-dropdown').forEach(function(i) {
-                i.classList.remove('active')
-            })
-            this.parentElement.classList.add('active')
-        }
-    })
-})
+    document.getElementById('topic-title').value = '';
+}
 
-document.addEventListener('click', function(e) {
-    if(!e.target.matches('.conversation-item-dropdown, .conversation-item-dropdown *')) {
-        document.querySelectorAll('.conversation-item-dropdown').forEach(function(i) {
-            i.classList.remove('active')
-        })
-    }
-})
+function createTopicElement(title, messages) {
+    const topicElement = document.createElement('div');
+    topicElement.className = 'topic';
 
-document.querySelectorAll('.conversation-form-input').forEach(function(item) {
-    item.addEventListener('input', function() {
-        this.rows = this.value.split('\n').length
-    })
-})
+    const topicTitleElement = document.createElement('div');
+    topicTitleElement.className = 'topic-title';
+    topicTitleElement.innerText = title;
 
-document.querySelectorAll('[data-conversation]').forEach(function(item) {
-    item.addEventListener('click', function(e) {
-        e.preventDefault()
-        document.querySelectorAll('.conversation').forEach(function(i) {
-            i.classList.remove('active')
-        })
-        document.querySelector(this.dataset.conversation).classList.add('active')
-    })
-})
+    const messagesContainer = document.createElement('div');
+    messagesContainer.className = 'messages';
 
-document.querySelectorAll('.conversation-back').forEach(function(item) {
-    item.addEventListener('click', function(e) {
-        e.preventDefault()
-        this.closest('.conversation').classList.remove('active')
-        document.querySelector('.conversation-default').classList.add('active')
-    })
-})
-// fim conversa
+    messages.forEach(messageText => {
+        const messageElement = document.createElement('div');
+        p.innerHTML = `<strong>${usuario}: </strong>` + textComment.value;
+        messageElement.className = 'message';
+        messageElement.innerText = messageText;
+        messagesContainer.appendChild(messageElement);
+    });
 
+    const newMessageContainer = document.createElement('div');
+    newMessageContainer.className = 'new-message';
 
-
-
+    const messageInput = document.createElement('input');
+    messageInput.type = 'text';
+    messageInput.placeholder = 'Escreva uma mensagem';
     
+    const sendMessageButton = document.createElement('button');
+    sendMessageButton.innerText = 'Enviar';
+    sendMessageButton.onclick = function() {
+        addMessage(messagesContainer, messageInput.value, title);
+        messageInput.value = '';
+    };
+
+    newMessageContainer.appendChild(messageInput);
+    newMessageContainer.appendChild(sendMessageButton);
+
+    topicElement.appendChild(topicTitleElement);
+    topicElement.appendChild(messagesContainer);
+    topicElement.appendChild(newMessageContainer);
+
+    return topicElement;
+}
+
+function addMessage(messagesContainer, messageText, topicTitle) {
+    if (messageText.trim() === '') {
+        alert('Por favor, insira uma mensagem.');
+        return;
+    }
+
+    const messageElement = document.createElement('div');
+    messageElement.className = 'message';
+    messagesContainer.appendChild(usuario+messageElement);
+    messageElement.innerText = messageText;
+    messagesContainer.appendChild(messageElement);
+    const topics = getStoredTopics();
+    const topic = topics.find(t => t.title === topicTitle);
+    if (topic) {
+        topic.messages.push(messageText);
+        saveTopics(topics);
+    }
+}
