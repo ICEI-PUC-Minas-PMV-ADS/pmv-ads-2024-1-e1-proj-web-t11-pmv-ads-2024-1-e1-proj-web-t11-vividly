@@ -21,6 +21,7 @@
             </div>
             <div class="card-cadastro">
                 <h1>CADASTRAR</h1>
+                <p id="camposObrigatorios">Campos obrigatórios (*)</p>
                 <br>
                 <form id="cadastra-usuario">
                     <div class="textfield">
@@ -28,19 +29,19 @@
                         <input type="text" placeholder="DIGITE SEU NOME COMPLETO" id="nome" class="required" oninput="nameValidate()" minlength="3" maxlength="50">
                         <span class="span">O nome deve possuir pelo menos 3 caracteres</span>
                     </div>
-                    <br>
+
                     <div class="textfield">
                         <label for="usuario"></label>
                         <input type="text" placeholder="DIGITE SEU USUÁRIO *" id="usuario" class="required" oninput="userValidate()" required minlength="3" maxlength="15">
                         <span class="span">O usuário deve possuir pelo menos 3 caracteres</span>
                     </div>
-                    <br>
+
                     <div class="textfield">
                         <label for="email"></label>
                         <input type="text" placeholder="DIGITE SEU E-MAIL" id="email" class="required" oninput="emailValidate()" maxlength="50">
                         <span class="span">O email deve ser válido</span>
                     </div>
-                    <br>
+
                     <div class="textfield">
                         <label for="telefone"></label>
                         <input type="number" placeholder="DIGITE SEU TELEFONE" id="telefone" maxlength="10">
