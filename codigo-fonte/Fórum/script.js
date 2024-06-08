@@ -42,6 +42,7 @@ function addTopic() {
     topicContainer.appendChild(topicElement);
 
     document.getElementById('topic-title').value = '';
+    
 }
 
 function createTopicElement(title, messages) {
@@ -95,8 +96,8 @@ function addMessage(messagesContainer, messageText, topicTitle) {
 
     const messageElement = document.createElement('div');
     messageElement.className = 'message';
-    messagesContainer.appendChild(usuario+messageElement);
     messageElement.innerText = messageText;
+    messageElement.innerHTML = `<strong>${usuario}: </strong>` + messageText
     messagesContainer.appendChild(messageElement);
     const topics = getStoredTopics();
     const topic = topics.find(t => t.title === topicTitle);
