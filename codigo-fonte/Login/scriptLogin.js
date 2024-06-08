@@ -17,7 +17,7 @@ function logar () {
     else{
 
         listaUser.forEach((item) => {
-            if(login.value == item.usuario || login.value == item.email && senha.value == item.senha) {
+            if((login.value == item.usuario || login.value == item.email) && senha.value == item.senha) {
 
                 userValid = {
                     usuario: item.usuario,

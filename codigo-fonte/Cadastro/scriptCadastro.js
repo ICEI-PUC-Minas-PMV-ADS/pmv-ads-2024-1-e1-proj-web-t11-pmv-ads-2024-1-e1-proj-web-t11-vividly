@@ -12,11 +12,11 @@ cadForm.addEventListener('submit', (event) => {
 });
 
 function setError (index) {
-    span[index].style.display = 'block';
+    span[index].style.visibility = 'visible';
 }
 
 function removeError (index) {
-    span[index].style.display = 'none';
+    span[index].style.visibility = 'hidden';
 }
 
 function nameValidate () {
@@ -67,8 +67,6 @@ function passwordValidate () {
 cadForm.addEventListener("submit", (e) => {
 
     localStorage.removeItem("usuarios");
-
-    e.preventDefault();
 
     var nome = document.getElementById('nome').value;
     var usuario = document.getElementById('usuario').value;
