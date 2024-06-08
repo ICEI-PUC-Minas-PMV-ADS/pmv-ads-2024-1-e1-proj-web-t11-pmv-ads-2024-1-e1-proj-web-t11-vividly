@@ -36,6 +36,23 @@ function ativarComentarios() {
 
 //Video2
 
+const textComment2 = document.getElementById('comentario2');
+const form2 = document.getElementById('formulario2');
+const commentPost2 = document.getElementById('mostrar-comentarios2');
+
+form2.addEventListener('submit', (event) =>{
+
+    event.preventDefault();
+
+    let p = document.createElement('p');
+    p.classList = 'comentario-exibido';
+    p.innerHTML = `<strong>${usuario}: </strong>` + textComment2.value;
+    commentPost2.appendChild(p);
+    textComment2.value = '';
+    textComment2.focus();
+});
+
+
 var ativarComentario2 = document.getElementById('container-comentarios2');
 var display2 = 1;
 
@@ -53,6 +70,22 @@ function ativarComentarios2() {
 
 //Video3
 
+const textComment3 = document.getElementById('comentario3');
+const form3 = document.getElementById('formulario3');
+const commentPost3 = document.getElementById('mostrar-comentarios3');
+
+form3.addEventListener('submit', (event) =>{
+
+    event.preventDefault();
+
+    let p = document.createElement('p');
+    p.classList = 'comentario-exibido';
+    p.innerHTML = `<strong>${usuario}: </strong>` + textComment3.value;
+    commentPost3.appendChild(p);
+    textComment3.value = '';
+    textComment3.focus();
+});
+
 var ativarComentario3 = document.getElementById('container-comentarios3');
 var display3 = 1;
 
@@ -69,6 +102,22 @@ function ativarComentarios3() {
 
 //Video4
 
+const textComment4 = document.getElementById('comentario4');
+const form4 = document.getElementById('formulario4');
+const commentPost4 = document.getElementById('mostrar-comentarios4');
+
+form4.addEventListener('submit', (event) =>{
+
+    event.preventDefault();
+
+    let p = document.createElement('p');
+    p.classList = 'comentario-exibido';
+    p.innerHTML = `<strong>${usuario}: </strong>` + textComment4.value;
+    commentPost4.appendChild(p);
+    textComment4.value = '';
+    textComment4.focus();
+});
+
 var ativarComentario4 = document.getElementById('container-comentarios4');
 var display4 = 1;
 
@@ -83,7 +132,23 @@ function ativarComentarios4() {
     }
 }; 
 
-//Video4
+//Video5
+
+const textComment5 = document.getElementById('comentario5');
+const form5 = document.getElementById('formulario5');
+const commentPost5 = document.getElementById('mostrar-comentarios5');
+
+form5.addEventListener('submit', (event) =>{
+
+    event.preventDefault();
+
+    let p = document.createElement('p');
+    p.classList = 'comentario-exibido';
+    p.innerHTML = `<strong>${usuario}: </strong>` + textComment5.value;
+    commentPost5.appendChild(p);
+    textComment5.value = '';
+    textComment5.focus();
+});
 
 var ativarComentario5 = document.getElementById('container-comentarios5');
 var display5 = 1;
