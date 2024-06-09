@@ -227,4 +227,34 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <td>Grazielle</td>
    </tr>
 </table>
-   
+   <table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-08: Exibição do Gráfico de Sentimentos</td>
+  <td>
+   <ul>
+    <li>RF-000:O sistema deve gerar e exibir um gráfico de sentimentos com base nas entradas no diário.</li>
+   </ul>
+  </td>
+  <td>Verificar se o gráfico de sentimentos é exibido corretamente na página do diário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página "Diário".</li>
+    <li>Verificar se o gráfico de sentimentos está presente na seção designada e seus rótulos.</li>
+    <li>Analisar visualmente o gráfico para garantir que os dados sejam representados corretamente.</li>
+    <li>Verificar se o gráfico é atualizado dinamicamente conforme novas entradas são adicionadas.</li>
+   </ol>
+   </td>
+  <td>O gráfico de sentimentos é exibido corretamente na página do diário, os dados no gráfico e a legenda dos sentimentos são representados de forma clara e legível</td>
+  <td></td>
+ </tr>
+</table>
