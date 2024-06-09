@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="../Imagens/ICO/Multimidia.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="menu-lateral">
+        <ul>
+            <li class="itens-menu">
+                <a href="../../Configuração/configuração.html">
+                    <span class="icon"><i class="bi bi-person-square"></i></span>
+                    <span class="txt-link"><strong>Conta</strong></span>
+                </a>
+            </li>
+            <li class="itens-menu">
+                <a href="../../DASHBOARD/dashboard.html">
+                    <span class="icon"><i class="bi bi-house-door-fill"></i></span>
+                    <span class="txt-link"><strong>Home</strong></span>
+                </a>
+            </li>
+            <li class="itens-menu">
+                <a href="../../Exercícios/exercicios.html">
+                    <span class="icon"><i class="bi bi-clipboard-check-fill"></i></span>
+                    <span class="txt-link"><strong>Exercícios</strong></span>
+                </a>
+            </li>
+            <li class="itens-menu">
+                <a href="../../diario.html/diario.html">
+                    <span class="icon"><i class="bi bi-calendar3"></i></span>
+                    <span class="txt-link"> <strong>Diário</strong></span>
+                </a>
+            </li>
+            <li class="itens-menu">
+                <a href="../../Fórum/forum.html">
+                    <span class="icon"><i class="bi bi-chat-square-text-fill"></i></span>
+                    <span class="txt-link"><strong>Fórum</strong></span>
+                </a>
+            </li>
+            <li class="itens-menu">
+                <a href="../../../index.html">
+                    <span class="icon"><i class="bi bi-x-square-fill"></i></span>
+                    <span class="txt-link"><strong>Sair</strong></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main-exercicios">
+        <!-- Video 1 -->
+        <div class="container-videos">
+            <iframe src="https://www.youtube.com/embed/NtXHMBISX_U" title="Alongamento Relaxante p/ TODO CORPO - Alivio da tensão, ansiedade e stresse" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            <div class="descricao">
+                <h2>Alongamento Relaxante p/ TODO CORPO </h2>
+                <p>Que tal uma sequência de exercícios para relaxar, aliviar a tensão e o stresse. 
+                    Segue essa serie de alongamentos para o corpo todo e com musica calma muito bonita para você curtir</p>
+                <button class="ativar-comentarios" onclick="ativarComentarios('container-comentarios-1')">Mostrar comentários</button>
+            </div>
+            <div class="container-comentarios" id="container-comentarios-1">
+                <div class="mostrar-comentarios" id="mostrar-comentarios-1">
+                    <h3>Comentários</h3>
+                </div>
+                <form class="formulario" id="formulario-1">
+                    <textarea name="comentario" class="comentario" id="comentario-1" cols="150" rows="2" placeholder="Digite seu comentário"></textarea>
+                    <input class="btn-comentar" type="submit" value="Comentar">
+                </form>
+            </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="container-videos">
+            <iframe src="https://www.youtube.com/embed/We44qc_6Gj4" title="RELAXA o CORPO e ALIVIA TENSÕES | Nível 3 | Alongamento Fácil para Iniciantes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            <div class="descricao">
+                <h2>RELAXA o CORPO e ALIVIA TENSÕES</h2>
+                <p>Aula completa de alongamento Fácil para Iniciantes e sedentários
+                    Ótimo para aliviar tensões e relaxar todo o corpo
+                    Exercícios para alongar todo o corpo em casa
+                    Ótimo para prevenir dor nas costas e dor na coluna</p>
+                <button class="ativar-comentarios" onclick="ativarComentarios('container-comentarios-2')">Mostrar comentários</button>
+            </div>
+            <div class="container-comentarios" id="container-comentarios-2">
+                <div class="mostrar-comentarios" id="mostrar-comentarios-2">
+                    <h3>Comentários</h3>
+                </div>
+                <form class="formulario" id="formulario-2">
+                    <textarea name="comentario" class="comentario" id="comentario-2" cols="150" rows="2" placeholder="Digite seu comentário"></textarea>
+                    <input class="btn-comentar" type="submit" value="Comentar">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scriptExercicios.js"></script>
+</body>
+
+</html>
