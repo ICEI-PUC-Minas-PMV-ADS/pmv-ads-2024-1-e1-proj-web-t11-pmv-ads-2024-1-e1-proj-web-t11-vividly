@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="../Imagens/ICO/Multimidia.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="menu-lateral">
+        <ul>
+            <li class="itens-menu">
+                <a href="../../Configuração/configuração.html">
+                    <span class="icon"><i class="bi bi-person-square"></i></span>
+                    <span class="txt-link"><strong>Conta</strong></span>
+                </a>
+            </li>
+            <li class="itens-menu">
+                <a href="../../DASHBOARD/dashboard.html">
+                    <span class="icon"><i class="bi bi-house-door-fill"></i></span>
+                    <span class="txt-link"><strong>Home</strong></span>
+                </a>
+            </li>
+            <li class="itens-menu">
+                <a href="../../Exercícios/exercicios.html">
+                    <span class="icon"><i class="bi bi-clipboard-check-fill"></i></span>
+                    <span class="txt-link"><strong>Exercícios</strong></span>
+                </a>
+            </li>
+            <li class="itens-menu">
+                <a href="../../diario.html/diario.html">
+                    <span class="icon"><i class="bi bi-calendar3"></i></span>
+                    <span class="txt-link"> <strong>Diário</strong></span>
+                </a>
+            </li>
+            <li class="itens-menu">
+                <a href="../../Fórum/forum.html">
+                    <span class="icon"><i class="bi bi-chat-square-text-fill"></i></span>
+                    <span class="txt-link"><strong>Fórum</strong></span>
+                </a>
+            </li>
+            <li class="itens-menu">
+                <a href="../../../index.html">
+                    <span class="icon"><i class="bi bi-x-square-fill"></i></span>
+                    <span class="txt-link"><strong>Sair</strong></span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="main-exercicios">
+        <!-- Video 1 -->
+        <div class="container-videos">
+            <iframe width="681" height="383" src="https://www.youtube.com/embed/Gl7Xc6QqHU4" title="TRANSTORNO DE ANSIEDADE GENERALIZADA (TAG)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="descricao">
+                <h2>TRANSTORNO DE ANSIEDADE GENERALIZADA (TAG)</h2>
+                <p>Todo mundo tem preocupações, mas nem todo mundo tem preocupações excessivas. Hoje falaremos sobre uma condição na qual essas preocupações excessivas saem do controle da pessoa e prejudicam muito a sua vida: o  transtorno de ansiedade generalizada.</p>
+                <button class="ativar-comentarios" onclick="ativarComentarios('container-comentarios-1')">Mostrar comentários</button>
+            </div>
+            <div class="container-comentarios" id="container-comentarios-1">
+                <div class="mostrar-comentarios" id="mostrar-comentarios-1">
+                    <h3>Comentários</h3>
+                </div>
+                <form class="formulario" id="formulario-1">
+                    <textarea name="comentario" class="comentario" id="comentario-1" cols="150" rows="2" placeholder="Digite seu comentário"></textarea>
+                    <input class="btn-comentar" type="submit" value="Comentar">
+                </form>
+            </div>
+        </div>
+
+        <!-- Video 2 -->
+        
+        <div class="container-videos">
+            <iframe width="681" height="383" src="https://www.youtube.com/embed/KZTKzXWBcNk" title="O QUE É O TRANSTORNO DE ANSIEDADE GENERALIZADA?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="descricao">
+                <h2>O QUE É O TRANSTORNO DE ANSIEDADE GENERALIZADA?</h2>
+                <p>Consideramos que um paciente tem transtorno de ansiedade generalizada quando ele apresenta um quadro de preocupação persistente, intensa e tão incontrolável, que chega a atrapalhar as suas atividades pessoais, familiares e profissionais. Frequentemente, essas crises de ansiedade surgem sem uma causa aparente ou justificável.</p>
+                <button class="ativar-comentarios" onclick="ativarComentarios('container-comentarios-2')">Mostrar comentários</button>
+            </div>
+            <div class="container-comentarios" id="container-comentarios-2">
+                <div class="mostrar-comentarios" id="mostrar-comentarios-2">
+                    <h3>Comentários</h3>
+                </div>
+                <form class="formulario" id="formulario-2">
+                    <textarea name="comentario" class="comentario" id="comentario-2" cols="150" rows="2" placeholder="Digite seu comentário"></textarea>
+                    <input class="btn-comentar" type="submit" value="Comentar">
+                </form>
+            </div>
+        </div>
+
+
+    <script src="./scriptExercicios.js"></script>
+</body>
+
+</html>

@@ -17,6 +17,7 @@ body {
     transition: .2s;
     margin: 1;
     font-family: "Inria Sans", sans-serif;
+    z-index: 9999;
 }
 
 .menu-lateral:hover {
@@ -59,7 +60,6 @@ ul li.itens-menu a {
 
 ul li.itens-menu:hover {
     background: #063970;
-
 }
 
 ul li.itens-menu {
@@ -74,7 +74,6 @@ a {
 
 .content-topo {
     display: flex;
-
     align-items: center;
     margin: auto;
     background-image: url(../Imagens/DASHBOARD/vetor-topo-sejabemvindo.svg);
@@ -104,7 +103,6 @@ a {
     font-size: 45px;
     margin: 0;
     font-weight: 400;
-   
 }
 
 .text-container h1 {
@@ -145,6 +143,10 @@ a {
     text-decoration: none;
     width: 20%;
 }
+.card{
+    border: 3px solid black;
+}
+
 
 .card {
     border-radius: 10px;
@@ -160,6 +162,8 @@ a {
     align-items: center;
     transition: 0.5s ease-in-out;
     cursor: pointer;
+    text-align: center;
+    padding: 10px
 
 }
 
@@ -185,33 +189,27 @@ a {
     margin-top: 5%;
 }
 
-.annotation-cards {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    margin-top: 2%;
-    font-family: "Inria Sans", sans-serif;
-    font-size: 13px;
-    padding-bottom: 100px;
-   
-}
-
-.annotation-card {
+#btnAddAnotacao{
+    width: 15%;
+    height: 50px;
     border-radius: 10px;
-    border: 2px solid #0A6DC9;
-    width: 100%;
-    height: 500px;
-    background-color: #0A6DC9;
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    font-weight: 500;
-    font-size: 18pt;
-    margin-right: 5%;
-    padding-left: 1%;
-    letter-spacing: 2pt;
+    background: #0A6DC9;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
 
+    color: #fff;
+    font-weight: 700;
+    font-size: 10pt;
 }
+
+#btnAddAnotacao:hover {
+    /* background-color: #9cc4e9; */
+    /* color: #063970; */
+    transition: 0,5s ease;
+    transform: scale(1.1)
+}
+
 
 .bg-yellow {
     background-color: #fed728e3;
@@ -221,4 +219,74 @@ a {
 .bg-purple {
     background-color: #744FC4;
     border: 2px solid #744FC4;
+}
+
+
+.annotation-card p{
+    font-family: "Inria Sans", sans-serif;
+    font-size: 16px;
+    /* padding-bottom: 100px; */
+}
+.annotation-card {
+    margin: 20px;
+    position: relative;
+    width: 250px;
+    height: 300px;
+    border-radius: 12px;
+    padding: 10px;
+    font-family: "Inria Sans", sans-serif;
+    color: #fff;
+    /* overflow-y: auto; */
+    /* border: 2px solid #1a1a1a; */
+    box-shadow: 0px 0px 17px 4px rgba(0,0,0,0.75);
+
+    padding-bottom: 35px; /* Adicionando padding na parte inferior para acomodar os botões */
+
+}
+
+
+
+
+.btnEditarAnotacao,
+.btnApagarAnotacao {
+    border-radius: 7px;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    z-index: 2;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: rgb(206, 206, 206);
+}
+
+
+.btnApagarAnotacao:hover {
+    /* background-color: #9cc4e9; */
+    /* color: #063970; */
+    transition: 0,5s ease;
+    transform: scale(1.1);
+    background-color: white;
+}
+.btnEditarAnotacao:hover {
+    /* background-color: #9cc4e9; */
+    /* color: #063970; */
+    transition: 0,5s ease;
+    transform: scale(1.1);
+    background-color: white;
+}
+
+.btnApagarAnotacao {
+    right: 55px;
+    z-index: 1;
+    
+}
+
+.annotation-cards {
+    padding: 10px;
+    /* border: 1px solid black; */
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+    /* cursor: pointer; */
 }
