@@ -49,7 +49,8 @@ Artefatos da funcionalidade:
 
 
 Estrutura de Dados:
-●login.html
+
+●[login.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/blob/main/codigo-fonte/Login/scriptLogin.js)
 
 ### Tela Home (RF-07)
 
@@ -75,7 +76,7 @@ Artefatos da funcionalidade:
 
 Estrutura de Dados:
 
-●dashboard.html;
+●[dashboard.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/blob/main/codigo-fonte/DASHBOARD/script.js)
 
 
 ### Tela Exercício (RF-10)
@@ -98,7 +99,7 @@ Artefatos da funcionalidade:
 
 Estrutura de Dados:
 
-●exercicios.html
+●[exercicios.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/blob/main/codigo-fonte/Exerc%C3%ADcios/scriptExercicios.js)
 
 ### Tela Diário (RF-08)
 
@@ -123,7 +124,7 @@ Artefatos da funcionalidade:
 
 Estrutura de Dados:
 
-●diario.html
+●[diario.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/blob/main/codigo-fonte/diario.html/diario.html)
 
 ### Tela Histórico (RF-11)
 
@@ -148,7 +149,8 @@ Artefatos da funcionalidade:
 
 Estrutura de Dados:
 
-●history.html
+●[history.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/blob/main/codigo-fonte/diario.html/history.js)
+
 ### Tela Forum (RF-05)
 
 Responsável: Deuslano Veloso de Oliveira Júnior
@@ -173,7 +175,7 @@ Artefatos da funcionalidade:
 
 Estrutura de Dados:
 
-●forum.html;
+●[forum.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/blob/main/codigo-fonte/F%C3%B3rum/script.js)
 
 
 
