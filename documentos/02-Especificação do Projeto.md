@@ -154,7 +154,7 @@
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
 | RF-01 |  A aplicação deve permitir ao usuário cadastrar uma conta.                                                 | ALTA  | 
-| RF-02 |  A aplicação deve permitir notificações aos usuários.                                                      | MÉDIA |
+| RF-02 |  A aplicação deve permitir ao usuário criar tópicos no fórum.                                                      | MÉDIA |
 | RF-03 |  A aplicação deve permitir ao usuário fazer o login da sua conta.                                          | ALTA  | 
 | RF-04 |  A aplicação deve conter sugestões de atividades de autocuidado e relaxamento.                             | ALTA  |
 | RF-05 |  A aplicação deve conter um fórum para discussões e compartilhamento de experiências e informações entre os usuários.                    | MÉDIA   | 
