@@ -1,24 +1,15 @@
 # Registro de Testes de Software
-
-<span style="color:red">Pré-requisitos: <a href=""> Plano de Testes de Software</a>
-
 Os testes funcionais realizados na aplicação web são descritos a seguir.
+  <li> CT-08: Verificar o funcionamento de addicionar comentário a um video 
 
-<ol>
-  <li> CT-01: Verificar o funcionamento dos links da página Home.
+  Responsável: Grazielle
 
-  Responsável: 
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164579007/9d8e201e-e1ce-4b40-8aed-3cc19acbd857
 
-video
-  
-</li>
-<hr>
-  
-  <li> CT-04: Verificar o cadastro de usuários.
-   
-  Responsável:  
-   
+ <li>CT-07: Exibição de Anotações / bloco de notas
 
-  
-  </li>
-  <hr>
+
+  Responsável: Grazielle
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164579007/76ccca04-7b86-4447-9cb7-cc6f67845962
+
