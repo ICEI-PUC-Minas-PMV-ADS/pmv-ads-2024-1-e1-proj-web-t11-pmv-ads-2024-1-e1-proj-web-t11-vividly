@@ -20,45 +20,37 @@ function removeError (index) {
 }
 
 function nameValidate () {
-    if(campos[0].value.length < 3)
-        {
+    if(campos[0].value.length < 3){
             setError(0);
         }
-    else 
-        {
+    else {
             removeError(0);
         }
 }
 
 function userValidate () {
-    if(campos[1].value.length < 3)
-        {
+    if(campos[1].value.length < 3){
             setError(1);
         }
-    else 
-        {
+    else {
             removeError(1);
         }
 }
 
 function emailValidate () {
-    if(emailRegex.test(campos[2].value))
-        {
+    if(emailRegex.test(campos[2].value)){
             removeError(2);
         }
-    else 
-        {
+    else {
             setError(2);
         }
 }
 
 function passwordValidate () {
-    if(campos[3].value.length < 4)
-        {
+    if(campos[3].value.length < 4){
             setError(3);
         }
-    else 
-        {
+    else {
             removeError(3);
         }
 }

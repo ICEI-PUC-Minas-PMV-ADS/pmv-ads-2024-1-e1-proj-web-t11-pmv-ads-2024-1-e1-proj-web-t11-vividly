@@ -54,7 +54,7 @@ function addComment() {
 
 // Exibir comentário salvo
 
-window.onload = function showComment(){
+window. onload = function showComment(){
     
     if(localStorage.comentarios){
         comentarioSalvo = JSON.parse(localStorage.getItem('comentarios'));
@@ -67,7 +67,6 @@ window.onload = function showComment(){
         commentPost.append(p);
     }
 }
-
 
 //Video2
 // Criar comentário
@@ -105,6 +104,39 @@ function ativarComentarios2() {
 
 }; 
 
+// Salvar comentario no localStorage 
+
+var comentarioSalvo2 = [];
+
+function addComment2() {
+    if(localStorage.comentarios2){
+        comentarioSalvo2 = JSON.parse(localStorage.getItem('comentarios2'));
+    }
+
+    let novoComentario2 = textComment2.value;
+    comentarioSalvo2.push({usuario, novoComentario2});
+    localStorage.comentarios2 = JSON.stringify(comentarioSalvo2);
+}
+
+// Exibir comentário salvo
+
+function showComment2(){
+    
+    if(localStorage.comentarios2){
+        comentarioSalvo2 = JSON.parse(localStorage.getItem('comentarios2'));
+    } 
+
+    for(var i in comentarioSalvo2){
+        let p = document.createElement('p');
+        p.classList = 'comentario-exibido';
+        p.innerHTML = `<strong>${comentarioSalvo2[i].usuario}: </strong>${comentarioSalvo2[i].novoComentario2}`;
+        commentPost2.append(p);
+    }
+}
+
+btn2.addEventListener("click", showComment2);
+
+
 //Video3
 // Criar comentário
 
@@ -139,6 +171,39 @@ function ativarComentarios3() {
         display3 = 1;
     }
 }; 
+
+// Salvar comentario no localStorage 
+
+var comentarioSalvo3 = [];
+
+function addComment3() {
+    if(localStorage.comentarios3){
+        comentarioSalvo3 = JSON.parse(localStorage.getItem('comentarios3'));
+    }
+
+    let novoComentario3 = textComment3.value;
+    comentarioSalvo3.push({usuario, novoComentario3});
+    localStorage.comentarios3 = JSON.stringify(comentarioSalvo3);
+}
+
+// Exibir comentário salvo
+
+function showComment3(){
+    
+    if(localStorage.comentarios3){
+        comentarioSalvo3 = JSON.parse(localStorage.getItem('comentarios3'));
+    } 
+
+    for(var i in comentarioSalvo3){
+        let p = document.createElement('p');
+        p.classList = 'comentario-exibido';
+        p.innerHTML = `<strong>${comentarioSalvo3[i].usuario}: </strong>${comentarioSalvo3[i].novoComentario3}`;
+        commentPost3.append(p);
+    }
+}
+
+btn3.addEventListener("click", showComment3);
+
 
 //Video4
 // Criar comentário
@@ -175,6 +240,38 @@ function ativarComentarios4() {
     }
 }; 
 
+// Salvar comentario no localStorage 
+
+var comentarioSalvo4 = [];
+
+function addComment4() {
+    if(localStorage.comentarios4){
+        comentarioSalvo4 = JSON.parse(localStorage.getItem('comentarios4'));
+    }
+
+    let novoComentario4 = textComment4.value;
+    comentarioSalvo4.push({usuario, novoComentario4});
+    localStorage.comentarios4 = JSON.stringify(comentarioSalvo4);
+}
+
+// Exibir comentário salvo
+
+function showComment4(){
+    
+    if(localStorage.comentarios4){
+        comentarioSalvo4 = JSON.parse(localStorage.getItem('comentarios4'));
+    } 
+
+    for(var i in comentarioSalvo4){
+        let p = document.createElement('p');
+        p.classList = 'comentario-exibido';
+        p.innerHTML = `<strong>${comentarioSalvo4[i].usuario}: </strong>${comentarioSalvo4[i].novoComentario4}`;
+        commentPost4.append(p);
+    }
+}
+
+btn4.addEventListener("click", showComment4);
+
 //Video5
 // Criar comentário
 
@@ -209,6 +306,38 @@ function ativarComentarios5() {
         display5 = 1;
     }
 }; 
+
+// Salvar comentario no localStorage 
+
+var comentarioSalvo5 = [];
+
+function addComment5() {
+    if(localStorage.comentarios5){
+        comentarioSalvo5 = JSON.parse(localStorage.getItem('comentarios5'));
+    }
+
+    let novoComentario5 = textComment5.value;
+    comentarioSalvo5.push({usuario, novoComentario5});
+    localStorage.comentarios5 = JSON.stringify(comentarioSalvo5);
+}
+
+// Exibir comentário salvo
+
+function showComment5(){
+    
+    if(localStorage.comentarios5){
+        comentarioSalvo5 = JSON.parse(localStorage.getItem('comentarios5'));
+    } 
+
+    for(var i in comentarioSalvo5){
+        let p = document.createElement('p');
+        p.classList = 'comentario-exibido';
+        p.innerHTML = `<strong>${comentarioSalvo5[i].usuario}: </strong>${comentarioSalvo5[i].novoComentario5}`;
+        commentPost5.append(p);
+    }
+}
+
+btn5.addEventListener("click", showComment5);
 
 
 
