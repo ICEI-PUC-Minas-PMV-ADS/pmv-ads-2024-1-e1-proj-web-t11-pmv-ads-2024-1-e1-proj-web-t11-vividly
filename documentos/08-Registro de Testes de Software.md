@@ -193,4 +193,38 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td></td>
  </tr>
 </table>
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-07: Verificar o funcionamento de addicionar comentário a um video </td>
+  <td>
+   <ul>
+    <li>RF-014:	 O sistema deve permitir que os usuários adicionem comentários a cada vídeo individualmente .</li>
+   </ul>
+  </td>
+  <td>Verificar se o sistema permite que os usuários adicionem comentários a um vídeo e se esses comentários são corretamente armazenados e exibidos.
+</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página Home.</li>
+    <li>Clicar nos links da "Exercícios".</li>
+ <li>Localize o primeiro vídeo na lista de vídeos, e clique no botão "Mostrar comentários" abaixo do primeiro vídeo.</li>
+<li>No campo de texto "Digite seu comentário", insira o comentário, depois clique no botão "Comentar" </li>
+<li>Verifique  se o comentário está presente na lista de comentários abaixo do vídeo.</li>
+   </ol>
+   </td>
+  <td>O botão "Mostrar comentários" deve exibir a seção de comentários quando clicado.
+  O comentário feito deve aparecer na lista de comentários após ser adicionado e permanecer após a página ser carregada.</td>
+<td>Grazielle</td>
+   </tr>
+</table>
    
