@@ -22,7 +22,8 @@ Artefatos da funcionalidade
 ●scriptCadastro.js;
 
 Estrutura de Dados:
-●cadastro.html;
+
+●[cadastro.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/blob/main/codigo-fonte/Cadastro/scriptCadastro.js)
 
 ### Tela login (RF-003)
 
