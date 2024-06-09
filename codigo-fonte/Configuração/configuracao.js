@@ -2,132 +2,137 @@
 var menuItem = document.querySelectorAll('.itens-menu');
 
 function selecionar() {
-    menuItem.forEach((item) =>
-        item.classList.remove('ativo')
-    );
+    menuItem.forEach((item) => item.classList.remove('ativo'));
     this.classList.add('ativo');
 }
 
-menuItem.forEach((item) =>
-    item.addEventListener('click', selecionar)
-);
+menuItem.forEach((item) => item.addEventListener('click', selecionar));
 
 // Expandir menu
 var expandir = document.querySelector('.btn-expandir');
 var menuLateral = document.querySelector('.menu-lateral');
 
-expandir.addEventListener('click', function(){
+expandir.addEventListener('click', function() {
     menuLateral.classList.toggle('expandir'); 
 });
 
-
+// Função para carregar os dados do usuário
 function loadUserData() {
-    const avatar = localStorage.getItem('avatar');
-    const username = localStorage.getItem('username');
-    const email = localStorage.getItem('email');
-    const password = localStorage.getItem('password');
+    const usuario = JSON.parse(localStorage.getItem('usuario'));
 
-    if (avatar) {
-        document.getElementById('selectedAvatarImg').src = `../Imagens/Configuração/${avatar}`;
-    }
-    if (username) {
-        document.getElementById('username').value = username;
-    }
-    if (email) {
-        document.getElementById('email').value = email;
-    }
-    if (!password) {
-        localStorage.setItem('password', '12345');
+    if (usuario) {
+        document.getElementById('username').value = usuario.nome;
+        document.getElementById('email').value = usuario.email;
+        document.getElementById('selectedAvatarImg').src = usuario.avatar;
     }
 }
-function selectAvatar(avatar) {
-  
-    const selectedAvatar = avatar.getAttribute('data-avatar');
-    document.querySelectorAll('.avatar').forEach(input => {
-        input.removeAttribute('data-selected');
-    });
 
-    avatar.setAttribute('data-selected', 'true');
-    document.getElementById('selectedAvatarImg').src = `../Imagens/Configuração/${selectedAvatar}`;
+// Função para selecionar avatar
+function selectAvatar(imgElement) {
+    const selectedAvatarImg = document.getElementById('selectedAvatarImg');
+    const avatarSrc = imgElement.src;
+    selectedAvatarImg.src = avatarSrc;
 
-    
-    localStorage.setItem('avatar', selectedAvatar);
+    // Armazena o avatar selecionado no localStorage
+    const usuario = JSON.parse(localStorage.getItem('usuario')) || {};
+    usuario.avatar = avatarSrc;
+    localStorage.setItem('usuario', JSON.stringify(usuario));
 }
-if (selectedAvatar !== null) {
-    document.getElementById('selectedAvatarImg').src = `../Imagens/Configuração/${selectedAvatar}`;
-}
+
 // Função para validar email
 function validateEmail(email) {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(String(email).toLowerCase());
 }
 
-
+// Função para atualizar dados do usuário
 function updateData() {
     const username = document.getElementById('username').value;
     const email = document.getElementById('email').value;
 
     let isValid = true;
+    const usernameError = document.getElementById('usernameError');
+    const emailError = document.getElementById('emailError');
 
-
-    document.getElementById('usernameError').textContent = '';
-    document.getElementById('emailError').textContent = '';
+    usernameError.textContent = '';
+    emailError.textContent = '';
 
     if (!username) {
-        document.getElementById('usernameError').textContent = 'O nome de usuário não pode estar vazio.';
+        usernameError.textContent = 'O nome de usuário não pode estar vazio.';
         isValid = false;
     }
 
- 
     if (!email) {
-        document.getElementById('emailError').textContent = 'O email não pode estar vazio.';
+        emailError.textContent = 'O email não pode estar vazio.';
         isValid = false;
     } else if (!validateEmail(email)) {
-        document.getElementById('emailError').textContent = 'Por favor, insira um email válido.';
+        emailError.textContent = 'Por favor, insira um email válido.';
         isValid = false;
     }
 
     if (isValid) {
-        localStorage.setItem('username', username);
-        localStorage.setItem('email', email);
+        const usuario = JSON.parse(localStorage.getItem('usuario')) || {};
+        usuario.nome = username;
+        usuario.email = email;
+        localStorage.setItem('usuario', JSON.stringify(usuario));
         alert('Dados atualizados com sucesso!');
     }
 }
 
-
+// Função para mudar senha
 function changePassword() {
     const currentPassword = document.getElementById('currentPassword').value;
     const newPassword = document.getElementById('newPassword').value;
     const confirmPassword = document.getElementById('confirmPassword').value;
 
     let isValid = true;
+    const currentPasswordError = document.getElementById('currentPasswordError');
+    const newPasswordError = document.getElementById('newPasswordError');
+    const confirmPasswordError = document.getElementById('confirmPasswordError');
 
+    currentPasswordError.textContent = '';
+    newPasswordError.textContent = '';
+    confirmPasswordError.textContent = '';
 
-    document.getElementById('currentPasswordError').textContent = '';
-    document.getElementById('newPasswordError').textContent = '';
-    document.getElementById('confirmPasswordError').textContent = '';
+    const usuario = JSON.parse(localStorage.getItem('usuario')) || {};
+    const savedPassword = usuario.password;
 
-
-    const savedPassword = localStorage.getItem('password');
     if (currentPassword !== savedPassword) {
-        document.getElementById('currentPasswordError').textContent = 'Senha atual incorreta.';
+        currentPasswordError.textContent = 'Senha atual incorreta.';
         isValid = false;
     }
 
-  
     if (!newPassword) {
-        document.getElementById('newPasswordError').textContent = 'A nova senha não pode estar vazia.';
+        newPasswordError.textContent = 'A nova senha não pode estar vazia.';
         isValid = false;
     } else if (newPassword !== confirmPassword) {
-        document.getElementById('confirmPasswordError').textContent = 'As senhas não coincidem.';
+        confirmPasswordError.textContent = 'As senhas não coincidem.';
         isValid = false;
     }
 
     if (isValid) {
-        localStorage.setItem('password', newPassword);
+        usuario.password = newPassword;
+        localStorage.setItem('usuario', JSON.stringify(usuario));
         alert('Senha alterada com sucesso!');
     }
 }
 
-
 document.addEventListener('DOMContentLoaded', loadUserData);
+
+ // avatar no menu 
+ document.addEventListener('DOMContentLoaded', function() {
+    const avatarImg = document.getElementById('avatarImg');
+    const usuario = JSON.parse(localStorage.getItem('usuario'));
+
+    if (usuario && usuario.avatar) {
+        avatarImg.src = usuario.avatar;
+    } else {
+        avatarImg.alt = 'Nenhum avatar selecionado';
+    }
+});
+window.onload = function() {
+    var username = localStorage.getItem('username');
+    if (username) {
+        document.getElementById('avatarName').innerText = username;
+    }
+};

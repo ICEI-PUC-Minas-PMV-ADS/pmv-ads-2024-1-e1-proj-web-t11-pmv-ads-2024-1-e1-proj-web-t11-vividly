@@ -6,8 +6,8 @@
 
 /* Menu lateral */
 
-.menu-lateral{
-    width: 100px;
+.menu-lateral {
+    width: 60px;
     height: 90%;
     background-color: #0A6DC9;
     padding: 35px 0 35px 1%;
@@ -16,57 +16,85 @@
     top: 0;
     left: 0;
     overflow: hidden;
-    transition: .2s;
-    margin: 1;
-    font-family: "Inria Sans", sans-serif;
+    transition: width 0.5s;
+    margin: 1px; 
 }
 
-.menu-lateral:hover{
-    width: 300px;
+nav.menu-lateral.expandir {
+    width:230px;
 }
 
-.btn-expandir{
+.btn-expandir {
     width: 100%;
     padding: 10px;
 }
 
-.btn-expandir > i{
+.btn-expandir > i {
     color: white;
     font-size: 24px;
     cursor: pointer;
 }
 
-.icon{
+.icon {
     font-size: 30px;
     margin-left: 10px;
 }
 
-.txt-link{
+.txt-link {
     margin-left: 40px;
 }
 
-ul{
+ul {
     list-style-type: none;
+    padding: 0;
 }
-ul li.itens-menu a{
+
+ul li.itens-menu:hover {
+    transition: background-color 0.2s;
+}
+
+ul li.ativo {
+    background-color: #0056b3;
+}
+
+ul li.itens-menu a {
     color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 20px 4%;
     display: flex;
+    align-items: center; 
     margin-bottom: 20px;
     line-height: 40px;
 }
-ul li.itens-menu:hover{
+
+ul li.itens-menu:hover {
     background: #063970;
-    
 }
-ul li.itens-menu{
-    transition: .2s;
+
+ul li.itens-menu {
+    transition: background-color 0.2s;
 }
 
 a {
     color: white;
+}
+#avatarImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: -1px;
+}
+#avatarName{
+color: white;
+font-size: 25px;
+font-style: italic;
+font-family: 'Inria Sans';
+display: none;
+
+}
+.menu-lateral.expandido #avatarName {
+    display: inline;
 }
 
 /* Página Exrecícios */
@@ -111,6 +139,15 @@ iframe {
     display: flex;
     margin-left: auto;
     margin-right: 2%;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.ativar-comentarios:hover {
+    background-color: aliceblue;
+    cursor: pointer;
 }
 
 /*comentarios*/
@@ -126,11 +163,21 @@ iframe {
     border-radius: 0px 0px 10px 10px;
     border-width: 0px 1px 1px 1px;
     display: none;
+    box-sizing: border-box;
 }
 
 .btn-comentar{
     display: flex;
     margin-left: auto;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.btn-comentar:hover{
+    background-color: aliceblue;
+    cursor: pointer;
 }
 
 .comentario-exibido{
@@ -138,5 +185,12 @@ iframe {
     padding: 1%;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+.taComentario {
+    width: 97.8%;
+    border-radius: 10px;
+    resize: none;
+    padding: 1%;
 }
 

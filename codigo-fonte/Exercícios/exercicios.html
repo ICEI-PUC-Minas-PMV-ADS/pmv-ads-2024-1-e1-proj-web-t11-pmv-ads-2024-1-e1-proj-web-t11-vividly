@@ -12,9 +12,14 @@
 
 <body>
     <nav class="menu-lateral">
+        <div class="btn-expandir"><br>
+            <i class="bi bi-list"></i>
+        </div>
         <ul>
+            <li><img id="avatarImg" src="" alt="Seu Avatar">
+                <p id="avatarName"><strong>Nome do Usuário</strong></p></li>
             <li class="itens-menu">
-                <a href="#">
+                <a href="../Configuração/configuração.html">
                     <span class="icon"><i class="bi bi-person-square"></i></span>
                     <span class="txt-link"><strong>Conta</strong></span>
                 </a>
@@ -34,7 +39,7 @@
             <li class="itens-menu">
                 <a href="../diario.html/diario.html">
                     <span class="icon"><i class="bi bi-calendar3"></i></span>
-                    <span class="txt-link"> <strong>Diário</strong></span>
+                    <span class="txt-link"><strong>Diário</strong></span>
                 </a>
             </li>
             <li class="itens-menu">
@@ -49,8 +54,8 @@
                     <span class="txt-link"><strong>Sair</strong></span>
                 </a>
             </li>
+        </ul>
     </nav>
-
     <div class="main-exercicios">
 
         <!-- Video 1 -->
@@ -59,8 +64,8 @@
             <iframe src="https://www.youtube.com/embed/Ghbhtri8em4?si=laacdbxvf8g8JBj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="descricao">
                 <h2>Exercício de Respiração</h2>
-                <p>Quantas vezes no seu dia você se dá conta de estar fazendo a imprescindível fução de respirar? Neste vídeo trazemos um pouco mais de atenção para esta função vital que tanto é negligenciada e que é capaz de nos trazer diversos benefícios.</p>
-                <button class="ativar-comentarios" onclick="ativarComentarios()"> Mostrar comentários</button>
+                <p>Quantas vezes no seu dia você se dá conta de estar fazendo a imprescindível fução de respirar? Neste vídeo trazemos um pouco mais de atenção para esta função vital que é capaz de nos trazer diversos benefícios.</p>
+                <button class="ativar-comentarios" onclick="ativarComentarios()" id="btn"> Mostrar comentários</button>
             </div>
             <br>
 
@@ -72,8 +77,8 @@
             
             <form id="formulario">
                 <label for="input"></label>   
-                <textarea name="comentario" id="comentario" cols="150" rows="2" placeholder="Digite seu comentario"></textarea>
-                <input class="btn-comentar" type="submit" value="Comentar">
+                <textarea name="comentario" class="taComentario" id="comentario" rows="2" placeholder="Digite seu comentario" maxlength="240"></textarea>
+                <input class="btn-comentar" type="submit" value="Comentar" onclick="addComment()">
             </form>
         </div>
 
@@ -83,20 +88,20 @@
             <iframe  src="https://www.youtube.com/embed/RylLBe8yAwc?si=Gg5SJXJK1QZDDF7O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="descricao">
                 <h2>Meditação guiada rápida</h2>
-                <p>Ainda que varie de pessoa para pessoa, a meditaçãos traz vários de benefícios para a saúde mental. Podemos citar por exemplo o controle da ansiedade.</p>
-                <button class="ativar-comentarios" onclick="ativarComentarios2()"> Mostrar comentários2</button>
+                <p>Ainda que varie de pessoa para pessoa, a meditação pode trazer vários de benefícios para a saúde mental de quem pratica. Podemos citar por exemplo o controle da ansiedade e o autoconhecimento da própria mente.</p>
+                <button class="ativar-comentarios" onclick="ativarComentarios2()" id="btn2"> Mostrar comentários</button>
             </div>
         </div> 
         
         <div class="container-comentarios" id="container-comentarios2">
-            <div id="mostrar-comentarios">
+            <div id="mostrar-comentarios2">
                 <h3>Comentarios</h3>
             </div>
             
-            <form id="formulario">
+            <form id="formulario2">
                 <label for="input"></label>   
-                <textarea name="comentario" id="comentario" cols="150" rows="2" placeholder="Digite seu comentario"></textarea>
-                <input class="btn-comentar" type="submit" value="Comentar">
+                <textarea name="comentario2" class="taComentario" id="comentario2" rows="2" placeholder="Digite seu comentario"></textarea>
+                <input class="btn-comentar" type="submit" value="Comentar" onclick="addComment2()">
             </form>
         </div>
 
@@ -106,20 +111,20 @@
             <iframe src="https://www.youtube.com/embed/dkg1N8-cFV8?si=42bkvXmerWLsqQZu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="descricao">
                 <h2>Meditação guiada relaxamento profundo</h2>
-                <p>Complementando o tema meditação, trazemos aqui outro vídeo para que você possa relaxar com mais calma em um momento oportuno.</p>
-                <button class="ativar-comentarios" onclick="ativarComentarios3()"> Mostrar comentários3</button>
+                <p>Dando continuidade no tema meditação, trazemos aqui um vídeo de meditação guiada para realxamento profundo. Desta forma, você poderá relaxar com mais calma em um momento oportuno.</p>
+                <button class="ativar-comentarios" onclick="ativarComentarios3()" id="btn3"> Mostrar comentários</button>
             </div>
         </div>
 
         <div class="container-comentarios" id="container-comentarios3">
-            <div id="mostrar-comentarios">
+            <div id="mostrar-comentarios3">
                 <h3>Comentarios</h3>
             </div>
             
-            <form id="formulario">
+            <form id="formulario3">
                 <label for="input"></label>   
-                <textarea name="comentario" id="comentario" cols="150" rows="2" placeholder="Digite seu comentario"></textarea>
-                <input class="btn-comentar" type="submit" value="Comentar">
+                <textarea name="comentario" class="taComentario" id="comentario3" rows="2" placeholder="Digite seu comentario"></textarea>
+                <input class="btn-comentar" type="submit" value="Comentar" onclick="addComment3()">
             </form>
         </div>
 
@@ -130,19 +135,19 @@
             <div class="descricao">
                 <h2> Audio para relaxar - Pássaros na natureza</h2>
                 <p>Assim como musicas alegres podem facilmente melhorar o nosso humor, um bom audio também consegue te fazer relaxar! Neste vídeo trazemos sons de pássoros na natureza para acalmar o o seu dia.</p>
-                <button class="ativar-comentarios" onclick="ativarComentarios4()"> Mostrar comentários4</button>
+                <button class="ativar-comentarios" onclick="ativarComentarios4()" id="btn4"> Mostrar comentários</button>
             </div>
         </div>
 
         <div class="container-comentarios" id="container-comentarios4">
-            <div id="mostrar-comentarios">
+            <div id="mostrar-comentarios4">
                 <h3>Comentarios</h3>
             </div>
             
-            <form id="formulario">
+            <form id="formulario4">
                 <label for="input"></label>   
-                <textarea name="comentario" id="comentario" cols="150" rows="2" placeholder="Digite seu comentario"></textarea>
-                <input class="btn-comentar" type="submit" value="Comentar">
+                <textarea name="comentario" class="taComentario" id="comentario4" rows="2" placeholder="Digite seu comentario"></textarea>
+                <input class="btn-comentar" type="submit" value="Comentar" onclick="addComment4()">
             </form>
         </div>
 
@@ -152,20 +157,20 @@
             <iframe src="https://www.youtube.com/embed/thV2k1Ws3x0?si=EjL5-dPa7onpZbPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <div class="descricao">
                 <h2>Audio para relaxar - Sons do mar e da floresta</h2>
-                <p>Neste vídeo, trazemos até você as ondas do mar e o frescor da floresta em formato de áudio para que seu dia seja mais vivo!</p>
-                <button class="ativar-comentarios" onclick="ativarComentarios5()"> Mostrar comentários5</button>
+                <p>Não há nada melhor para relaxar que a natureza, não é mesmo? Neste vídeo, trazemos até você as ondas do mar e o frescor da floresta em formato de áudio para que seu dia seja mais vivo!</p>
+                <button class="ativar-comentarios" onclick="ativarComentarios5()" id="btn5"> Mostrar comentários</button>
             </div>      
         </div>
         
         <div class="container-comentarios" id="container-comentarios5">
-            <div id="mostrar-comentarios">
+            <div id="mostrar-comentarios5">
                 <h3>Comentarios</h3>
             </div>
             
-            <form id="formulario">
+            <form id="formulario5">
                 <label for="input"></label>   
-                <textarea name="comentario" id="comentario" cols="150" rows="2" placeholder="Digite seu comentario"></textarea>
-                <input class="btn-comentar" type="submit" value="Comentar">
+                <textarea name="comentario" class="taComentario" id="comentario5" rows="2" placeholder="Digite seu comentario"></textarea>
+                <input class="btn-comentar" type="submit" value="Comentar" onclick="addComment5()">
             </form>
         </div>
 
