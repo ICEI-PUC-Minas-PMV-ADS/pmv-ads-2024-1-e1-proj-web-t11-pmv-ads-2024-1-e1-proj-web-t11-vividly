@@ -146,6 +146,7 @@ a {
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ced4da;
+    resize: none;
 }
 
 .btn-comentar {
