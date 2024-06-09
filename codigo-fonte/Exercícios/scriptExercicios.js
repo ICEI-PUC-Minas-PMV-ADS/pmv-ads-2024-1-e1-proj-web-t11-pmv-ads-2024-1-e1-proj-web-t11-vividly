@@ -54,7 +54,7 @@ function addComment() {
 
 // Exibir comentário salvo
 
-window. onload = function showComment(){
+function showComment(){
     
     if(localStorage.comentarios){
         comentarioSalvo = JSON.parse(localStorage.getItem('comentarios'));
@@ -67,6 +67,8 @@ window. onload = function showComment(){
         commentPost.append(p);
     }
 }
+
+btn.addEventListener("click", showComment);
 
 //Video2
 // Criar comentário

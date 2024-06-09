@@ -163,6 +163,7 @@ iframe {
     border-radius: 0px 0px 10px 10px;
     border-width: 0px 1px 1px 1px;
     display: none;
+    box-sizing: border-box;
 }
 
 .btn-comentar{
@@ -184,5 +185,12 @@ iframe {
     padding: 1%;
     border: 1px solid black;
     border-radius: 10px;
+}
+
+.taComentario {
+    width: 97.8%;
+    border-radius: 10px;
+    resize: none;
+    padding: 1%;
 }
 
