@@ -1,6 +1,6 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 body {
-    font-family:Inria Sans, sans-serif;
+    font-family:'Inria Sans';
     margin: 0;
     padding: 0;
     text-align: center;
@@ -25,7 +25,6 @@ body {
 .filter {
     margin-bottom: 20px;
 }
-/* Menu lateral */
 .menu-lateral {
     width: 60px;
     height: 90%;
@@ -41,7 +40,7 @@ body {
 }
 
 nav.menu-lateral.expandir {
-    width: 320px;
+    width:230px;
 }
 
 .btn-expandir {
@@ -99,6 +98,23 @@ ul li.itens-menu {
 a {
     color: white;
 }
+#avatarImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: -1px;
+}
+#avatarName{
+color: white;
+font-size: 25px;
+font-style: italic;
+font-family: 'Inria Sans';
+display: none;
+
+}
+.menu-lateral.expandido #avatarName {
+    display: inline;
+}
 img{
     width: 22%;
     text-align: center;
@@ -128,7 +144,7 @@ input[type="date" i]{
 }
 li {
     text-align: justify;
-    font-family: monospace;
+    font-family: 'Inria Sans';
     font-size: 15px;
 }
 button{
@@ -149,7 +165,7 @@ button{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
-    font-family: system-ui;
+    font-family:'Inria Sans';
     text-align: left;
 
     }
@@ -195,7 +211,7 @@ button{
         margin: 0;
         transition: opacity 0.5s ease-in-out;
         font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Inria Sans';
     }
 
     .mensagem a {
@@ -221,15 +237,4 @@ button{
         text-align: center;
         border-radius: 13%;
     }
-    #avatarImg{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin: -1px;
-    }
-    #avatarName{
-    color: antiquewhite;
-    font-size: 16px;
-    font-style: italic;
-    font-family: 'Inria Sans';
-    }
+    
