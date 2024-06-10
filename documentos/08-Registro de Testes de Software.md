@@ -5,9 +5,21 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
   Responsável: Grazielle
   
-    
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164579007/a1d41db2-669f-4b49-ba22-2285bd81803e
+
+
+<li> CT-05: Verifica o envio de Dados do Diário.
+
+  Responsável: Ana. 
+  
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164564511/3dbe8190-a272-49a5-b8cf-d3ec205008b9
+
+ <li> CT-05: Verifica o envio de Dados do Diário.
+
+  Responsável: Ana.
+  
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164564511/80cd8ea2-3aa6-4f73-8f5e-a16b72bb805b
 
 
   <li> CT-08: Verificar o funcionamento de addicionar comentário a um video 
