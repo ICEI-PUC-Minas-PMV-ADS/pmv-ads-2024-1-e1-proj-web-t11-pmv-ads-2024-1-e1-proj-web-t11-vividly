@@ -80,5 +80,12 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/165354711/116f08ef-c829-44f1-94d5-364bd9343e7c
 
+<li>CT-11: Verificar o funcionamento de adicionar comentário a um video na página home
+
+
+  Responsável: Deuslano
+
+  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/166177284/b612e322-b094-436b-8e5c-0649287da5b3
+
 
 
