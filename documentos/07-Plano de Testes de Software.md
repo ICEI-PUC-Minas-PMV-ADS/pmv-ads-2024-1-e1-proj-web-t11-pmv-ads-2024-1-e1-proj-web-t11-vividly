@@ -272,7 +272,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-10: Vrificar a criação dos tópicos do fórum</td>
+  <td>CT-09: Verificar a criação dos tópicos do fórum</td>
   <td>
    <ul>
     <li>RF-002:	A aplicação deve permitir ao usuário criar tópicos no fórum..</li>
@@ -289,6 +289,37 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>Os tócos foram criados e armazenados no local storage. Além disso, ainda são exibidos ao recarregar a página.</td>
+  <td>Eduardo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-10: Testar o mecanismo de busca do fórum</td>
+  <td>
+   <ul>
+    <li>RF-06: O fórum deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar informações úteis..</li>
+   </ul>
+  </td>
+  <td>Verificar a busca de informações dentro dos tópicos</td>
+  <td>
+   <ol>
+    <li>Acessar a aba fórum.</li>
+    <li>Verificar se existem itens a serem buscados.</li>
+    <li>Realizar buscas por temas dos tópicos.</li>
+    <li>Recarregar a página.</li>
+    <li>Testar a busca novamente</li>
+   </ol>
+   </td>
+  <td>A busca foi realizada com sucesso exibindo apenas o que foi solicitado nos campos devidos.</td>
   <td>Eduardo</td>
  </tr>
 </table>
