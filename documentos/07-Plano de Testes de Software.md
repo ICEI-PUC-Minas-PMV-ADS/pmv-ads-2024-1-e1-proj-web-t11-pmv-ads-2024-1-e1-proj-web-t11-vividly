@@ -237,7 +237,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-08: Verificar o funcionamento de addicionar comentário a um video </td>
+  <td>CT-08: Verificar o funcionamento de adicionar comentário a um video </td>
   <td>
    <ul>
     <li>RF-000:	 O sistema deve permitir que os usuários adicionem comentários a cada vídeo individualmente .</li>
