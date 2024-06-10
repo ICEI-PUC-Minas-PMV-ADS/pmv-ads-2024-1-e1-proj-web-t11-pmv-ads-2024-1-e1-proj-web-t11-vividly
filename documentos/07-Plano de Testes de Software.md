@@ -261,3 +261,34 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 <td>Grazielle</td>
    </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-10: Vrificar a criação dos tópicos do fórum</td>
+  <td>
+   <ul>
+    <li>RF-002:	A aplicação deve permitir ao usuário criar tópicos no fórum..</li>
+   </ul>
+  </td>
+  <td>Verificar se os tópicos estão sendo criados e salvos corretamente</td>
+  <td>
+   <ol>
+    <li>Acessar a aba fórum.</li>
+    <li>Criar tópicos.</li>
+    <li>Verificar se os dados foram salvos no local storage.</li>
+    <li>Recarregar a página.</li>
+    <li>Verificar se os tópicos ainda estão sendo exibidos</li>
+   </ol>
+   </td>
+  <td>Os tócos foram criados e armazenados no local storage. Além disso, ainda são exibidos ao recarregar a página.</td>
+  <td>Eduardo</td>
+ </tr>
+</table>
