@@ -36,7 +36,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
-  <td></td>
+  <td>Grazielle</td>
  </tr>
 </table>
 
@@ -67,7 +67,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>Deve ocorrer uma validação das informações fornecidas pelo usuário, e ao clicar em "Cadastrar", deve aparecer a mensagem "Usuário cadastrado com sucesso você será redirecionado para página login". </td>
-  <td>Grazielle</td>
+  <td>Ana Lívia</td>
  </tr>
 </table>
 
