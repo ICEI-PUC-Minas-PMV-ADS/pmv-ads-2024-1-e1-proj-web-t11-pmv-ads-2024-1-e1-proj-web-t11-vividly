@@ -13,8 +13,6 @@ As páginas terão como elementos padrões o menu de navegação, o header e o f
 O código utilizado para a construção dos elementos citados, incluindo a responsividade, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/tree/main/codigo-fonte">aqui</a>.
 As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/tree/main/codigo-fonte/Imagens">aqui</a>.
 
-Para a criação do logotipo do site foi utilizada a cor azul e branco , pois esta cor remete  calma, tranquilidade e comunicação clara.
-
 ## Logotipo
 
 <figure>
