@@ -163,7 +163,7 @@
 | RF-08 |  A aplicação deve oferecer um espaço onde os usuários possam registrar suas emoções diárias.               | MÉDIA |
 | RF-09 |  A aplicação deve oferecer um bloco de notas para cada usuário, no qual, somente ele tenha acesso.         | MÉDIA | 
 | RF-10 |  A aplicação deve apresentar um campo para recomendações de filmes, livros, séries, documentários e aplicativos relacionados à saúde mental.                      | MÉDIA   |
-| RF-11 |  A aplicação deve permitir que os questionários apresentados disponibilizem uma função que o possibilite ser utilizado em outros meios.                       | MÉDIA   | 
+| RF-11 |  O fórum deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar informações úteis                       | MÉDIA   | 
 | RF-12 |  A aplicação deve disponibilizar uma aba sobre questionários para recolher dados gerais relacionados à saúde mental                       | ALTA    |
 | RF-13 |  A aplicação deve ter um a capacidade de visualizar o histórico de entradas do diário.| ALTA    |
 | RF-14 |  A aplicação deve permitir que os usuários adicionem comentários a cada vídeo individualmente.  | ALTA    |
