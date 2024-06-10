@@ -323,3 +323,31 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Eduardo</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-11: Adição de comentário a um video na página home.</td>
+  <td>
+   <ul>
+    <li>RF-13	A aplicação deve permitir que os usuários adicionem comentários a cada vídeo individualmente.</li>
+   </ul>
+  </td>
+  <td>Verificar se os comentários foram postados e salvos.</td>
+  <td>
+   <ol>
+    <li>Acessar a aba home</li>
+    <li>Acessar os videos.</li>
+   </ol>
+   </td>
+  <td>O comentário ser realizado com sucesso</td>
+  <td>Deuslano</td>
+ </tr>
+</table>
