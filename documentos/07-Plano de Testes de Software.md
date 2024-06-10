@@ -130,7 +130,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
        </ol>
    </td>
   <td>Após o login, o usuário deverá ser redirecionado para a sua página de perfil. </td>
-  <td></td>
+  <td>Ana Lívia</td>
  </tr>
 </table>
 
