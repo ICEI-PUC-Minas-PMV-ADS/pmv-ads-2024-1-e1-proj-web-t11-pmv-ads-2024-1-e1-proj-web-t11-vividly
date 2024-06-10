@@ -51,4 +51,12 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/165354711/94cf1d55-a9ed-4639-b70a-6d01088f1d96
 
+<li>CT-10: Testar o mecanismo de busca do fórum
+
+
+  Responsável: Eduardo
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/165354711/116f08ef-c829-44f1-94d5-364bd9343e7c
+
+
 
