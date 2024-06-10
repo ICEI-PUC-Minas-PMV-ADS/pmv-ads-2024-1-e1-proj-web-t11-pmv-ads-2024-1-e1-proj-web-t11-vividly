@@ -44,7 +44,11 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164579007/76ccca04-7b86-4447-9cb7-cc6f67845962
 
-<li>CT-10: Verificar a criação dos tópicos no fórum
+<li>CT-09: Verificar a criação dos tópicos no fórum
 
 
   Responsável: Eduardo
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/165354711/94cf1d55-a9ed-4639-b70a-6d01088f1d96
+
+
