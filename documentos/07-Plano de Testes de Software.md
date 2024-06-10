@@ -224,7 +224,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td> Todas as anotações são exibidas conforme esperado. </td>
-  <td></td>
+  <td>Grazielle</td>
  </tr>
 </table>
 <table>
