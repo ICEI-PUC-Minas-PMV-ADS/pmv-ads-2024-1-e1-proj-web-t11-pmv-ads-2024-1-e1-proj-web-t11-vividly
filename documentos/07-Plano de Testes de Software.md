@@ -99,7 +99,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    </ol>
    </td>
   <td>A data inseridos no filtro de pesquisa devem mostrar ao usuario o que aconteceu nesse dia </td>
-  <td></td>
+  <td>Ana Lívia</td>
  </tr>
 </table>
 
@@ -162,7 +162,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
        </ol>
    </td>
   <td> O envio é realizado sem erros e os dados dem ser  processados e armazenados corretamente pelo sistema. </td>
-  <td></td>
+  <td>Ana Lívia</td>
  </tr>
 </table>
   
@@ -194,7 +194,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
        </ol>
    </td>
   <td> O histórico é exibido corretamente, mostrando todas as entradas anteriores. Cada entrada do histórico exibe a data, o sentimento, o aprendizado e a descrição do dia correspondentes. </td>
-  <td></td>
+  <td>Ana Lívia</td>
  </tr>
 </table>
    
