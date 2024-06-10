@@ -9,6 +9,16 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164579007/a1d41db2-669f-4b49-ba22-2285bd81803e
 
 
+<li> CT-02:Verificar o cadastro de usuários.
+
+  Responsável: Ana. 
+  
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164564511/04effbf1-5d0a-4da7-97c0-77cde54c908d
+
+
+
+
 <li> CT-03: Verificar o funcionamento do filtro de pesquisa.
 
   Responsável: Ana. 
