@@ -28,6 +28,18 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads
 
 
 
+<li> CT-04: Verificar o login de usuários.
+
+  Responsável: Ana. 
+
+  
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164564511/898d2d69-547f-463c-95f4-b95cd4e0d220
+
+
+
+
+
 <li> CT-05: Verifica o envio de Dados do Diário.
 
   Responsável: Ana. 
