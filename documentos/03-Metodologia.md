@@ -2,7 +2,7 @@
 # Metodologia
 
 ## Gerenciamento de Projeto
-A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois ele é capaz de auxiliar na organização  e definição de nossas prioridades, inspecionar o projeto contantantemente visando melhorias e também nos adaptar a novos desafios e possibilidades que surgem ao longo do projeto.
+A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, pois ele é capaz de auxiliar na organização  e definição de nossas prioridades, inspecionar o projeto contantantemente visando melhorias e também ajuda na adaptação de novos desafios e possibilidades que surgem ao longo do projeto.
 
 ### Divisão de Papéis
 
