@@ -162,7 +162,7 @@
 | RF-07 |  A aplicação deve fornecer informações úteis e precisas sobre ansiedade, bem como estratégias eficazes para lidar com ela.                         | ALTA    | 
 | RF-08 |  A aplicação deve oferecer um espaço onde os usuários possam registrar suas emoções diárias.               | MÉDIA |
 | RF-09 |  A aplicação deve oferecer um bloco de notas para cada usuário, no qual, somente ele tenha acesso.         | MÉDIA | 
-| RF-10 |  A aplicação deve apresentar um campo para recomendações de filmes, livros, séries, documentários e aplicativos relacionados à saúde mental.                      | MÉDIA   |
+| RF-10 |  A aplicação deve apresentar um campo para recomendações relacionados à saúde mental.                      | MÉDIA   |
 | RF-11 |  O fórum deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar informações úteis                       | MÉDIA   | 
 | RF-12 |  A aplicação deve ter um a capacidade de visualizar o histórico de entradas do diário.| ALTA    |
 | RF-13 |  A aplicação deve permitir que os usuários adicionem comentários a cada vídeo individualmente.  | ALTA    |
