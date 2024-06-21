@@ -15,12 +15,12 @@ body {
     left: 0;
     overflow: hidden;
     transition: width 0.5s;
-    margin: 1px; 
+    margin: 1px;
     line-height: 0.5;
 }
 
 nav.menu-lateral.expandir {
-    width:230px;
+    width: 200px;
 }
 
 .btn-expandir {
@@ -59,34 +59,37 @@ ul li.ativo {
 ul li.itens-menu a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
-    padding: 20px 4%;
+    font-size: 16px;
+    padding: 10px 2%;
     display: flex;
-    align-items: center; 
-    margin-bottom: 20px;
-    line-height: 40px;
+    align-items: center;
+    margin-bottom: 10px;
+    line-height: 20px;
 }
 
 ul li.itens-menu:hover {
     background: #063970;
 }
 
-ul li.itens-menu {
-    transition: background-color 0.2s;
-}
-
-a {
-    color: white;
-}
-#avatarImg{
+#avatarImg {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     margin: -1px;
 }
+
+#avatarName {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    display: none;
+}
+
 .menu-lateral.expandido #avatarName {
     display: inline;
 }
+
+
 
 /* Página ---- */
 

@@ -275,3 +275,19 @@ document.addEventListener('DOMContentLoaded', () => {
         menuLateral.classList.toggle('expandido');
     });
 });
+function selectAvatar(imgElement) {
+    const selectedAvatarImg = document.getElementById('selectedAvatarImg');
+    let avatarSrc = imgElement.src;
+
+    // Verifica se o src da imagem é vazio
+    if (!avatarSrc) {
+        avatarSrc = '../Imagens/Configuração/padrao.jpg'; // Caminho do avatar padrão
+    }
+
+    selectedAvatarImg.src = avatarSrc;
+
+    // Armazena o avatar selecionado no localStorage
+    const usuario = JSON.parse(localStorage.getItem('usuario')) || {};
+    usuario.avatar = avatarSrc;
+    localStorage.setItem('usuario', JSON.stringify(usuario));
+}

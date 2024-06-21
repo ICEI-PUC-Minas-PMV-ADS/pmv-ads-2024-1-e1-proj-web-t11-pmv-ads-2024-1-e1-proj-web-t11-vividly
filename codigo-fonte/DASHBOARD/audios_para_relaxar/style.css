@@ -6,8 +6,8 @@
 
 /* Menu lateral */
 
-.menu-lateral{
-    width: 100px;
+.menu-lateral {
+    width: 60px;
     height: 90%;
     background-color: #0A6DC9;
     padding: 35px 0 35px 1%;
@@ -16,58 +16,81 @@
     top: 0;
     left: 0;
     overflow: hidden;
-    transition: .2s;
-    margin: 1;
-    font-family: "Inria Sans", sans-serif;
+    transition: width 0.5s;
+    margin: 1px;
+    line-height: 0.5;
 }
 
-.menu-lateral:hover{
-    width: 300px;
+nav.menu-lateral.expandir {
+    width: 200px;
 }
 
-.btn-expandir{
+.btn-expandir {
     width: 100%;
     padding: 10px;
 }
 
-.btn-expandir > i{
+.btn-expandir > i {
     color: white;
     font-size: 24px;
     cursor: pointer;
 }
 
-.icon{
+.icon {
     font-size: 30px;
     margin-left: 10px;
 }
 
-.txt-link{
+.txt-link {
     margin-left: 40px;
 }
 
-ul{
+ul {
     list-style-type: none;
-}
-ul li.itens-menu a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px 4%;
-    display: flex;
-    margin-bottom: 20px;
-    line-height: 40px;
-}
-ul li.itens-menu:hover{
-    background: #063970;
-    
-}
-ul li.itens-menu{
-    transition: .2s;
+    padding: 0;
 }
 
-a {
-    color: white;
+ul li.itens-menu:hover {
+    transition: background-color 0.2s;
 }
+
+ul li.ativo {
+    background-color: #0056b3;
+}
+
+ul li.itens-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 2%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+
+ul li.itens-menu:hover {
+    background: #063970;
+}
+
+#avatarImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: -1px;
+}
+
+#avatarName {
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    display: none;
+}
+
+.menu-lateral.expandido #avatarName {
+    display: inline;
+}
+
 
 
 
