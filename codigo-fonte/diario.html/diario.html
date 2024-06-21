@@ -59,21 +59,22 @@
         <div class="coluna1">
             <p><a href="history.html" autocapitalize="characters"class="link-history">Histórico</a></p><br><br><br>
             <div id="areaGrafico" class="grafico-esquerda">
-                <h1>Sentimentos</h1><img src="../Imagens/diario/divertidamente.jpg">
+                <h1>Sentimentos</h1><img class="divertidamente" src="../Imagens/diario/divertidamente.jpg">
                 <canvas id="grafico"></canvas>
             </div>
         </div>
         <div>
-            <div style="display: flex;">
-                <img src="../Imagens/diario/escrevendodiario.png">
+            <div class="title">
+                <img src="../Imagens/diario/freelancer-not-css.svg">
                 <p class="tittle">Diário</p>
                 <br><br>
             </div>
             <div class="question">
                 <form id="formulario">
-                    <input class="calender" type="date" id="calender" name="calender" onchange="dataEscolhida()" required><br><br><br><br>
+                    <label class="quiz" for="date">Escolha uma data.</label>
+                    <input class="calender" type="date" id="calender" name="calender" onchange="dataEscolhida()" required>
                     <p id="validacao"></p>
-                    <label class="quiz" for="good">Como você está se sentindo hoje?</label><br><br>
+                    <label class="quiz" for="good">Como você está se sentindo hoje?</label>
                     <select class="cor-azul" id="feelingsForm" name="feelingsForm" required>
                         <option value="1">Feliz 😃</option>
                         <option value="2">Triste 😢</option>
@@ -86,12 +87,12 @@
                         <option value="9">Sonolento 😴</option>
                         <option value="10">Doente 🤧</option>
                     </select>
-                    <br><br>
-                    <label class="quiz" for="learn">O que você aprendeu hoje?</label><br><br>
-                    <input class="cor-azul" type="text" id="learn" name="learn" required><br><br>
-                    <label class="quiz" for="day">Como foi o seu dia?</label><br><br>
-                    <textarea class="cor-azul" id="day" name="day" cols="30" rows="8" required></textarea><br><br>
-                    <input type="submit" value="Enviar" id="submit"><br><br><br><br>
+                    
+                    <label class="quiz" for="learn">O que você aprendeu hoje?</label>
+                    <input class="cor-azul" type="text" id="learn" name="learn" required>
+                    <label class="quiz" for="day">Como foi o seu dia?</label>
+                    <textarea class="cor-azul" id="day" name="day" cols="30" rows="8" required></textarea><br>
+                    <input type="submit" value="Enviar" id="submit"><br>
                 </form>
                 <img class="logo-azul" src="../Imagens/LOGO/LOGO AZUL.png">
             </div>

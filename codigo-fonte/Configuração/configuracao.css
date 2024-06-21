@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 .menu-lateral {
     width: 60px;
     height: 90%;
@@ -14,7 +15,7 @@
 }
 
 nav.menu-lateral.expandir {
-    width:230px;
+    width:200px;
 }
 
 .btn-expandir {
@@ -53,12 +54,12 @@ ul li.ativo {
 ul li.itens-menu a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
-    padding: 20px 4%;
+    font-size: 16px;
+    padding: 10px 2%;
     display: flex;
     align-items: center; 
-    margin-bottom: 20px;
-    line-height: 40px;
+    margin-bottom: 10px;
+    line-height: 20px;
 }
 
 ul li.itens-menu:hover {
@@ -80,7 +81,7 @@ a {
 }
 #avatarName{
 color: white;
-font-size: 25px;
+font-size: 16px;
 font-style: italic;
 font-family: 'Inria Sans';
 display: none;
@@ -92,7 +93,7 @@ display: none;
 
 /* Página ---- */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inria Sans';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +104,8 @@ body {
 
 .container {
     background-color: #8eccdf24; 
-    padding: 20px;
+    width: 90%;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 80%;
@@ -123,17 +125,18 @@ h1, h2 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .avatar {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     cursor: pointer;
     transition: transform 0.3s;
     float: left;
     border: thin solid;
-    padding: 25px;
+    padding: 15px;
     margin: 0px 20px 10px 0;
 }
 
@@ -148,28 +151,39 @@ h1, h2 {
     margin-top: 10px;
     margin:17px;
 }
-
+@media (max-width: 480px) {
+    .menu-lateral {
+        width: 60px;
+    }
+}
 form {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    align-items: center;
 }
 
 label {
-    text-align: left;
+    text-align: end;
     font-weight: bold;
+    width: 100%;
 }
 input#avatar {
     width: 15%;
 }
 .avatar-options{
     width: 16%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
 }
 input {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 40%;
+    width: 100%;
+    max-width: 300px;
 }
 
 button {
@@ -180,9 +194,13 @@ button {
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
-    width: 25%;
+    width: 100%;
+    max-width: 300px;
 }
-
+.error-message {
+    color: red;
+    font-size: 0.875em;
+}
 button:hover {
     background-color: #0056b3;
 }
@@ -197,4 +215,8 @@ color: antiquewhite;
 font-size: 16px;
 font-style: italic;
 font-family: 'Inria Sans';
+display: none;
+}
+.menu-lateral.expandido #avatarName {
+    display: inline;
 }

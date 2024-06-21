@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
-body {
-    font-family:'Inria Sans';
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    text-align: center;
-    
+    font-family: 'Inria Sans', sans-serif;
+    background: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container {
-    max-width: 800px;
-    margin: 20px auto;
+    margin: auto;
     padding: 20px;
-    border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #8eccdf24;
-    width: 1000px;
-   }
+    text-align: center
+    }
 .message {
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid;
     border-radius: 5px;
-    background-color: #fff;
+   
 }
 .filter {
     margin-bottom: 20px;
@@ -36,12 +36,12 @@ body {
     left: 0;
     overflow: hidden;
     transition: width 0.5s;
-    margin: 1px; 
-    line-height: 0.5;
+    margin: 1px;
+    line-height: 0.5; 
 }
 
 nav.menu-lateral.expandir {
-    width:230px;
+    width:200px;
 }
 
 .btn-expandir {
@@ -80,12 +80,12 @@ ul li.ativo {
 ul li.itens-menu a {
     color: white;
     text-decoration: none;
-    font-size: 20px;
-    padding: 20px 4%;
+    font-size: 16px;
+    padding: 10px 2%;
     display: flex;
     align-items: center; 
-    margin-bottom: 20px;
-    line-height: 40px;
+    margin-bottom: 10px;
+    line-height: 20px;
 }
 
 ul li.itens-menu:hover {
@@ -107,7 +107,7 @@ a {
 }
 #avatarName{
 color: white;
-font-size: 25px;
+font-size: 16px;
 font-style: italic;
 font-family: 'Inria Sans';
 display: none;
@@ -161,11 +161,10 @@ button{
 }
 #formulario {
     display: none;
-    background: #7bafdd8c;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 100px;
     font-family:'Inria Sans';
     text-align: left;
 
@@ -186,8 +185,8 @@ button{
         position: fixed;
         right: 0;
         top: 0;
-        width: 300px;
-        height: 100vh;
+        width: 250px;
+        height: 100%;
         background: linear-gradient(135deg,  #0639706c 0%, #2575fc 100%);
         padding: 20px;
         box-shadow: -4px 0 8px rgba(0,0,0,0.1);

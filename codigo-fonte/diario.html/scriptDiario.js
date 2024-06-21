@@ -65,6 +65,14 @@ function enviar() {
         return false;
     }
 }
+document.getElementById('formulario').addEventListener('submit', function (event) {
+    event.preventDefault();
+    if (enviar()) {
+        document.getElementById('formulario').reset(); 
+    }
+});
+window.addEventListener('load', atualizarGrafico);
+
 document.addEventListener('DOMContentLoaded', function() {
     const avatarImg = document.getElementById('avatarImg');
     const usuario = JSON.parse(localStorage.getItem('usuario'));
@@ -116,20 +124,7 @@ function salvarDados(fazBem) {
     atualizarGrafico();
 }
 
-document.getElementById('formulario').addEventListener('submit', function (event) {
-    event.preventDefault();
-    if (enviar()) {
-        salvarDados(document.getElementById("feelingsForm").value);
-    }
-});
-document.getElementById('formulario').addEventListener('submit', function (event) {
-    event.preventDefault();
-    if (enviar()) {
-        salvarDados(document.getElementById("feelingsForm").value);
-        document.getElementById('formulario').reset(); 
-    }
-});
-window.addEventListener('load', atualizarGrafico);
+
 
 
 let dadosGraficos = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
