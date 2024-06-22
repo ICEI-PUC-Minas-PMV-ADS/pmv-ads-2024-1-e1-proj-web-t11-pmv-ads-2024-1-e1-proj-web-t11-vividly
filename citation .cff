@@ -1,0 +1,22 @@
+message: Please cite this software using these metadata.
+title:Vividly
+authors:
+  - family-names: Villaça De Araújo
+    given-names: Ana Lívia
+  - family-names: Veloso de Oliveira Júnior 
+    given-names: Deuslano
+  - family-names:Soares da Silva 
+    given-names: Eduardo
+  - family-names: Araújo Mendes
+    given-names: Grazielle
+   - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names:Soares Vieira de Vasconcelos 
+    given-names: Amália
+ 
+keywords:
+  - Ansiedade
+  - 
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly
+version: 1.0.0
+date-released: 2023-06-23
