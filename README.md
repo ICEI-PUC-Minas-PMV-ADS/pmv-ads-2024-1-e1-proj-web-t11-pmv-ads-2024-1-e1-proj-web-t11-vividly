@@ -11,7 +11,6 @@ O objetivo geral deste projeto é a criação de uma aplicação web que, de for
 ## Integrantes
 
 * Ana Lívia Villaça De Araújo
-* Charles Gonçalves Esteves
 * Deuslano Veloso de Oliveira Júnior
 * Eduardo Soares da Silva
 * Grazielle Araújo Mendes
