@@ -167,7 +167,7 @@
 | RF-12 |  A aplicação deve ter um a capacidade de visualizar o histórico de entradas do diário.| ALTA    |
 | RF-13 |  A aplicação deve permitir que os usuários adicionem comentários a cada vídeo individualmente.  | ALTA    |
 | RF-14 |  A aplicação deve gerar e exibir um gráfico de sentimentos com base nas entradas no diário.  | BAIXA |
-
+| RF-15 |  A aplicação deve permitir o usuários escolher um avatar a partir de uma lista de opções disponíveis. | BAIXA |
 
 
 **Prioridade: Alta / Média / Baixa. 
