@@ -311,30 +311,59 @@ input[type="submit"]:hover {
     }
     
     .menu-lateral {
-        width: 100%;
-        height: auto;
-        position: static;
-        box-shadow: none;
-        margin-bottom: 20px;
+        width: 50px; 
+        padding: 25px 0 25px 0; 
     }
-    
-    .menu-lateral ul {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 0;
+
+    .menu-lateral .btn-expandir {
+        padding: 5px;
     }
-    
-    .menu-lateral ul li {
-        margin: 5px;
-    }
-    
+
     .menu-lateral ul li a {
-        padding: 10px;
+        font-size: 12px;
+        padding: 5px 0;
+        margin-bottom: 5px; 
     }
-    
-    .btn-expandir {
-        display: none;
+
+    .container {
+        padding: 10px; 
+        width: 50%;
+    }
+}
+@media (max-width: 480px) {
+    .avatar-options {
+        flex-direction: column;
+    }
+
+    .avatar {
+        width: 50px;
+        height: 50px;
+    }
+
+    .selected-avatar img {
+        width: 60px;
+        height: 60px;
+    }
+
+    input, select, textarea {
+        width: 100%;
+    }
+
+    .question {
+        width: 100%;
+    }
+
+    .menu-lateral ul li a {
+        font-size: 16px;
+    }
+
+    .txt-link {
+        margin-left: 10px;
+    }
+
+    .icon {
+        font-size: 20px;
+        margin-left: 5px;
     }
 }
 

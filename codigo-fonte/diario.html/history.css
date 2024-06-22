@@ -237,4 +237,134 @@ button{
         text-align: center;
         border-radius: 13%;
     }
+    @media only screen and (max-width: 700px) {
+        .container {
+            padding: 20px;
+        }
     
+        .logo-azul {
+            width: 70%;
+            margin: 0 auto;
+        }
+    
+        .history {
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+        .filter {
+            text-align: center;
+            margin-top: 20px;
+        }
+    
+        .buttonFiltro {
+            margin-top: 10px;
+        }
+    
+        #formulario {
+            margin-top: 20px;
+        }
+    
+        #formulario label,
+        #formulario input,
+        #formulario button {
+            display: block;
+            margin-bottom: 10px;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        #formulario button {
+            width: 45%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        #historico {
+            margin-top: 20px;
+        }
+    
+        .painel {
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        .alegre {
+            width: 70%;
+            margin: 0 auto;
+        }
+    
+        .mensagem {
+            margin-top: 20px;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .menu-lateral {
+            width: 50px; 
+            padding: 25px 0 25px 0; 
+        }
+    
+        .menu-lateral .btn-expandir {
+            padding: 5px;
+        }
+    
+        .menu-lateral ul li a {
+            font-size: 12px;
+            padding: 5px 0;
+            margin-bottom: 5px; 
+        }
+    
+        .container {
+            padding: 10px; 
+            width: 50%;
+        }
+    
+        .logo-azul {
+            width: 50%;
+        }
+    
+        .history {
+            font-size: 25px; 
+            margin-top: 10px; 
+        }
+    
+        .filter {
+            margin-top: 10px; 
+        }
+    
+        .buttonFiltro {
+            margin-top: 5px; 
+        }
+    
+        #formulario {
+            margin-top: 10px; 
+        }
+    
+        #formulario label,
+        #formulario input,
+        #formulario button {
+            width: 90%; 
+            margin: 5px auto; 
+        }
+    
+        #formulario button {
+            width: 45%; 
+        }
+        #historico {
+            margin-top: 10px; 
+        }
+    
+        .painel {
+            margin-top: 10px; 
+            width: 20%;
+        }
+    
+        .alegre {
+            width: 70%; 
+        }
+    
+        .mensagem {
+            margin-top: 10px; 
+        }
+    }
