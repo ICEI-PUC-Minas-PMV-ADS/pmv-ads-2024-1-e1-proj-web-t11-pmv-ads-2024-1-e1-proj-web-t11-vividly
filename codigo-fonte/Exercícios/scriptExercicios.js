@@ -387,5 +387,3 @@ document.addEventListener('DOMContentLoaded', () => {
         menuLateral.classList.toggle('expandido');
     });
 });
-
-
