@@ -275,6 +275,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-09: Verificar a criação dos tópicos do fórum</td>
   <td>
    <ul>
+    <li>RF-005: A aplicação deve conter um fórum para discussões e compartilhamento de experiências e informações entre os usuários.</li>
     <li>RF-002:	A aplicação deve permitir ao usuário criar tópicos no fórum.</li>
    </ul>
   </td>
