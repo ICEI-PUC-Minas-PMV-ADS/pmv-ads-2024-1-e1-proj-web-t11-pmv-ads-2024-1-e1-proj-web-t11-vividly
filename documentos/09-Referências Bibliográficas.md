@@ -2,13 +2,13 @@
 
 <!-- [Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.] -->
 
- DEPRESSION and Other Common Mental Disorders: Global Health Estimates. **World Health Organization**, 2017. Disponível em: http://apps.who.int/iris/bitstream/10665/254610/1/WHO- MSDMER-2017. Acesso em: 05/04/2024.
+ DEPRESSION and Other Common Mental Disorders: Global Health Estimates. **Organização Mundial da Saúde (OMS)**, 2017. Disponível em: http://apps.who.int/iris/bitstream/10665/254610/1/WHO- MSDMER-2017. Acesso em: 05/04/2024.
 
- ALMEIDA, W. R. S. *et al*. Sintomas de ansiedade em adultos jovens:a atuação do profissional de psicologia na atenção básica. **Revistardp.org**, 2022. Disponível em https://revistardp.org.br/revista/article/view/314/348. Acesso em: 05/04/2024.
+ ALMEIDA, Wilma Rodrigues Santos et al. Sintomas de ansiedade em adultos jovens: a atuação do profissional de psicologia na atenção básica. **Debates em Psiquiatria**, v. 12, p. 1-22, 2022. Disponível em https://revistardp.org.br/revista/article/view/314/348. Acesso em: 05/04/2024.
 
- OMS destaca necessidade urgente de transformar saúde mental e atenção. **PAHO: Pan American Health Organization**, 17 jun. 2022. Disponível em: https://www.paho.org/pt/noticias/17-6-2022-oms-destaca-necessidade-urgente-transformar-saude-mental-e-atencao. Acesso em: 05/04/2024.
+ ORGANIZAÇÃO PAN-AMERICANA DA SAÚDE. OMS destaca necessidade urgente de transformar saúde mental e atenção. **OPAS: Organização Pan-Americana da Saúde**, 17 jun. 2022. Disponível em: https://www.paho.org/pt/noticias/17-6-2022-oms-destaca-necessidade-urgente-transformar-saude-mental-e-atencao. Acesso em: 05/04/2024.
 
- BRAZIL: world leader in anxiety and depression rates. **Sci Elo**, dez. 2017. Disponível em: https://www.scielo.br/j/rbp/a/jjM7cWBqDBZQpwwcyyGG8tJ. Acesso em: 05/04/2024.
+SOUZA, Ildebrando Moraes; MACHADO-DE-SOUSA, Joao Paulo. Brazil: world leader in anxiety and depression rates. **Brazilian Journal of Psychiatry**, v. 39, p. 384-384, 2017. Disponível em: https://www.scielo.br/j/rbp/a/jjM7cWBqDBZQpwwcyyGG8tJ. Acesso em: 05/04/2024.
 
  OLIVEIRA, Isabela. Brasil é vice-líder mundial em tempo de uso de internet. **gizmodo**, 22 set. 2023. Disponível em: https://gizmodo.uol.com.br/brasil-e-vice-lider-mundial-em-tempo-de-uso-de-internet-veja-o-ranking/#:~:text=O%20Brasil%20%C3%A9%20o%20segundo,m%C3%ADdia%20social%20de%2045%20pa%C3%ADses. Acesso em: 05/04/2024.
 
