@@ -152,3 +152,26 @@ window.onload = function() {
         document.getElementById('avatarName').innerText = username;
     }
 };
+// Função para atualizar dados do usuário
+function updateData() {
+    const username = document.getElementById('username').value;
+
+    let isValid = true;
+    const usernameError = document.getElementById('usernameError');
+    const emailError = document.getElementById('emailError');
+
+    usernameError.textContent = '';
+    emailError.textContent = '';
+
+    if (!username) {
+        usernameError.textContent = 'O nome de usuário não pode estar vazio.';
+        isValid = false;
+    }
+
+    if (isValid) {
+        const usuario = JSON.parse(localStorage.getItem('usuario')) || {};
+        usuario.nome = username;
+        localStorage.setItem('usuario', JSON.stringify(usuario));
+        alert('Nome de usuário atualizado com sucesso!');
+    }
+}
