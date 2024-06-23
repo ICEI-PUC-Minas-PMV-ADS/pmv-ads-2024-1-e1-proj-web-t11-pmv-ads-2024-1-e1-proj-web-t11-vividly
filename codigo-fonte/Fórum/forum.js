@@ -1,3 +1,4 @@
+
 // Função para selecionar item do menu
 var menuItem = document.querySelectorAll('.itens-menu');
 
