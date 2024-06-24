@@ -53,7 +53,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/164564511/80cd8ea2-3aa6-4f73-8f5e-a16b72bb805b
 
 
-  <li> CT-08: Verificar o funcionamento de addicionar comentário a um video 
+  <li> CT-08: Verificar o funcionamento de adicionar comentário a um video 
 
   Responsável: Grazielle
 
@@ -87,5 +87,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads
 
   https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/166177284/b612e322-b094-436b-8e5c-0649287da5b3
 
+<li>CT-12: Teste de avatares
 
+
+  Responsável: Eduardo
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t11-pmv-ads-2024-1-e1-proj-web-t11-vividly/assets/165354711/c2907ccb-5733-44ec-9b4a-404de37a058f
 
