@@ -214,6 +214,20 @@ main {
   color: var(--gray);
 }
 
+button {
+  padding: 10px 20px;
+  background-color: cornflowerblue;
+  color: white;
+  border: white;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--dark-blue);
+}
+
 /* Responsividade */
 @media (max-width: 768px) {
   .menu-lateral {
