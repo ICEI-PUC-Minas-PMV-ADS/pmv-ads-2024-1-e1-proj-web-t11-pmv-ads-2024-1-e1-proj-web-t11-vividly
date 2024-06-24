@@ -156,18 +156,15 @@
 | RF-01 |  A aplicação deve permitir ao usuário cadastrar uma conta.                                                 | ALTA  | 
 | RF-02 |  A aplicação deve permitir ao usuário criar tópicos no fórum.                                                      | MÉDIA |
 | RF-03 |  A aplicação deve permitir ao usuário fazer o login da sua conta.                                          | ALTA  | 
-| RF-04 |  A aplicação deve conter sugestões de atividades de autocuidado e relaxamento.                             | ALTA  |
-| RF-05 |  A aplicação deve conter um fórum para discussões e compartilhamento de experiências e informações entre os usuários.                    | MÉDIA   | 
-| RF-06 |  A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar informações úteis.                       | MÉDIA   |
-| RF-07 |  A aplicação deve fornecer informações úteis e precisas sobre ansiedade, bem como estratégias eficazes para lidar com ela.                         | ALTA    | 
-| RF-08 |  A aplicação deve oferecer um espaço onde os usuários possam registrar suas emoções diárias.               | MÉDIA |
-| RF-09 |  A aplicação deve oferecer um bloco de notas para cada usuário, no qual, somente ele tenha acesso.         | MÉDIA | 
-| RF-10 |  A aplicação deve apresentar um campo para recomendações relacionados à saúde mental.                      | MÉDIA   |
-| RF-11 |  O fórum deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar informações úteis                       | MÉDIA   | 
-| RF-12 |  A aplicação deve ter um a capacidade de visualizar o histórico de entradas do diário.| ALTA    |
-| RF-13 |  A aplicação deve permitir que os usuários adicionem comentários a cada vídeo individualmente.  | ALTA    |
-| RF-14 |  A aplicação deve gerar e exibir um gráfico de sentimentos com base nas entradas no diário.  | BAIXA |
-| RF-15 |  A aplicação deve permitir o usuários escolher um avatar a partir de uma lista de opções disponíveis. | BAIXA |
+| RF-04 |  A aplicação deve conter um fórum para discussões e compartilhamento de experiências e informações entre os usuários.                    | MÉDIA   | 
+| RF-05 |  A aplicação deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar informações úteis.                       | MÉDIA   |
+| RF-06 |  A aplicação deve fornecer informações úteis e precisas sobre ansiedade, bem como estratégias eficazes para lidar com ela.                         | ALTA    | 
+| RF-07 |  A aplicação deve oferecer um espaço onde os usuários possam registrar suas emoções diárias.               | MÉDIA |
+| RF-08 |  A aplicação deve oferecer um bloco de notas para cada usuário, no qual, somente ele tenha acesso.         | MÉDIA | 
+| RF-09 |  O fórum deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar informações úteis                       | MÉDIA   | 
+| RF-10 |  A aplicação deve ter um a capacidade de visualizar o histórico de entradas do diário.| ALTA    |
+| RF-11 |  A aplicação deve permitir que os usuários adicionem comentários a cada vídeo individualmente.  | ALTA    |
+| RF-12 |  A aplicação deve permitir o usuários escolher um avatar a partir de uma lista de opções disponíveis. | BAIXA |
 
 
 **Prioridade: Alta / Média / Baixa. 
