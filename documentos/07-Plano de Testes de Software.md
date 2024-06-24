@@ -147,7 +147,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-05: Envio de Dados do Diário</td>
   <td>
    <ul>
-    <li>RF-007:A aplicação deve oferecer um espaço onde os usuários possam registrar suas emoções diárias.  </li>
+    <li>RF-006:A aplicação deve oferecer um espaço onde os usuários possam registrar suas emoções diárias.  </li>
    </ul>
   </td>
   <td>Verificar se o sistema permite ao usuário enviar os dados do diário corretamente.</td>
@@ -179,7 +179,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-06: Visualização do Histórico</td>
   <td>
    <ul>
-    <li>RF-010:A aplicação deve ter um a capacidade de visualizar o histórico de entradas do diário.  </li>
+    <li>RF-009:A aplicação deve ter um a capacidade de visualizar o histórico de entradas do diário.  </li>
    </ul>
   </td>
   <td>Verificar se o sistema exibe corretamente o histórico de entradas do diário.</td>
@@ -211,7 +211,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-07: Exibição de Anotações / bloco de notas</td>
   <td>
    <ul>
-    <li>RF-008:A aplicação deve oferecerum bloco de notas para cada usuário,no qual, somente ele tenha acesso  </li>
+    <li>RF-007:A aplicação deve oferecerum bloco de notas para cada usuário,no qual, somente ele tenha acesso  </li>
    </ul>
   </td>
   <td>Garantir que as anotações do usuário sejam exibidas corretamente nos cartões.</td>
@@ -240,7 +240,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-08: Verificar o funcionamento de adicionar comentário a um video </td>
   <td>
    <ul>
-    <li>RF-011:	 O sistema deve permitir que os usuários adicionem comentários a cada vídeo individualmente .</li>
+    <li>RF-010:	 O sistema deve permitir que os usuários adicionem comentários a cada vídeo individualmente .</li>
    </ul>
   </td>
   <td>Verificar se o sistema permite que os usuários adicionem comentários a um vídeo e se esses comentários são corretamente armazenados e exibidos.
@@ -307,7 +307,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-10: Testar o mecanismo de busca do fórum</td>
   <td>
    <ul>
-    <li>RF-009: O fórum deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar informações úteis.</li>
+    <li>RF-008: O fórum deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar informações úteis.</li>
    </ul>
   </td>
   <td>Verificar a busca de informações dentro dos tópicos</td>
@@ -338,7 +338,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-11: Adição de comentário a um video na página home.</td>
   <td>
    <ul>
-    <li>RF-011	A aplicação deve permitir que os usuários adicionem comentários a cada vídeo individualmente.</li>
+    <li>RF-010	A aplicação deve permitir que os usuários adicionem comentários a cada vídeo individualmente.</li>
    </ul>
   </td>
   <td>Verificar se os comentários foram postados e salvos.</td>
