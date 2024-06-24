@@ -352,3 +352,35 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Deuslano</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-12: Teste de avatares.</td>
+  <td>
+   <ul>
+    <li>RF-011	A aplicação deve permitir o usuários escolher um avatar a partir de uma lista de opções disponíveis.</li>
+   </ul>
+  </td>
+  <td>Verificar se os avatares estão sendo selecionados e mantidos corretamente.</td>
+  <td>
+   <ol>
+    <li>Acessar a aba conta</li>
+    <li>Trocar de avatar.</li>
+    <li>Recarregar a página.</li>
+    <li>Verificar se o avatar foi mantido</li>
+    <li>Acessar outra página.</li>
+    <li>Verificar se o avatar foi mantido</li>
+   </ol>
+   </td>
+  <td>O avatar foi alterado e está sendo mantido corretamente</td>
+  <td>Eduardo</td>
+ </tr>
+</table>
